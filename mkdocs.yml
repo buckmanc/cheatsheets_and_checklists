@@ -2,6 +2,7 @@ site_name: Cheatsheets and Checklists
 
 markdown_extensions:
   - footnotes
+  - pymdownx.tilde
 exclude_docs: |
     index_template.md
 site_url: https://cheatsheets-and-checklists.pages.dev/

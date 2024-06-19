@@ -17,4 +17,4 @@ Starbucks Bottled Cold Brew|16.4
 Califia Farms Cold Brew Coffee|22.5
 Death Wish Coffee|60.7
 
-from https://www.caffeineinformer.com/the-caffeine-database
+from [Caffeine Informer](https://www.caffeineinformer.com/the-caffeine-database)
