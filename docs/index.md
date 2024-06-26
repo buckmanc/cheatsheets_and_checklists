@@ -2,12 +2,12 @@
 make sure you're editing the template, doofus
 --->
 
-## Chuck's
+Chuck's
 # Cheatsheets and Checklists
 
 A simple repo of personal reference material written in Markdown. Peruse at your leisure, preferably with a cup of bean water in a cozy tavern run by an orc.
 
-Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists) or the [site](https://cheatsheets-and-checklists.pages.dev), should you so desire.
+Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), the [site](https://cheatsheets-and-checklists.pages.dev), or maybe even [local dev](http://herschel.local:232/), if you're in the right place.
 
 ## Table of Contents
 
@@ -15,6 +15,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists) or 
     - <a href="cheatsheets/ascii">ascii</a><br>
     - <a href="cheatsheets/caffeine">caffeine</a><br>
     - <a href="cheatsheets/nato_alphabet">nato_alphabet</a><br>
+    - <a href="cheatsheets/ten_commandments">ten_commandments</a><br>
     - <a href="cheatsheets/world_history_timeline">world_history_timeline</a><br>
 - checklists<br>
     - <a href="checklists/bucket_list_games">bucket_list_games</a><br>
@@ -22,4 +23,6 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists) or 
 - links<br>
     - <a href="links/bookmarks">bookmarks</a><br>
     - <a href="links/browser_extensions">browser_extensions</a><br>
-    - <a href="links/new_tab_page">new_tab_page</a><br>
+    - <a href="links/new_tab_page">new_tab_page</a> (<a href="html/new_tab_page_simple.html">simple</a>)<br>
+- other<br>
+    - [pdfs](pdfs/pdfs.md)<br>

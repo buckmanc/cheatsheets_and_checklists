@@ -18,4 +18,8 @@ fi
 
 "$gitRoot/update_index.sh"
 # "$gitRoot/spotify_generate.sh"
-mkdocs build
+
+mkdir -p "$gitRoot/docs/html"
+
+pandoc --from gfm --to html --standalone --metadata title="" --metadata pagetitle="new tab" "$gitRoot/docs/links/new_tab_page.md" --output "$gitRoot/docs/html/new_tab_page_simple.html"
+mkdocs build --config-file "$gitRoot/mkdocs.yml"

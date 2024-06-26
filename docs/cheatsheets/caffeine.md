@@ -1,3 +1,5 @@
+<!-- pdfzoom -->
+
 # Caffeine
 
 Drink|mg/floz
