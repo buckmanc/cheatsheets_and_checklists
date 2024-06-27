@@ -62,7 +62,10 @@ make_header()
 make_header "$sourceDir/caffeine_wikipedia.svg" "caffeine.png"
 make_header "$sourceDir/hourglass-svgrepo-com.svg" "world_history_timeline.png"
 make_header "$sourceDir/walkie-talkie-svgrepo-com.svg" "nato_alphabet.png"
-
+make_header "$sourceDir/bucket_thicc.png" "bucket_list_games.png"
+make_header "$sourceDir/Hard-drive_wikimedia.svg" "linux_new_drive_steps.png"
+make_header "$sourceDir/Printable_ASCII_characters_wikimedia.svg" "ascii.png"
+make_header "$sourceDir/ten_commandments.png" "ten_commandments.png"
 if [[ -f "$tempPath" ]]
 then
 	rm "$tempPath"
