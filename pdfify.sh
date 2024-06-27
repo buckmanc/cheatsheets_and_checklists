@@ -6,7 +6,7 @@ imageDir="$gitRoot/docs/images"
 
 set -e
 
-files="$(find "$gitRoot/docs/cheatsheets" -type f -iname '*.md')"
+files="$(find "$gitRoot/docs/cheatsheets" "$gitRoot/docs/checklists" -type f -iname '*.md')"
 
 mkdir -p "$destDir"
 
@@ -18,6 +18,13 @@ do
 	filename="$(basename "$src")"
 	filename="${filename%%.*}"
 	outPath="$destDir/$filename.pdf"
+	imageName="$(echo "$filename" | sed 's/_print_version//g')"
+	imagePath="$imageDir/$imageName.png"
+
+	if [[ ! ( "$src" -nt "$outPath" || "$imagePath" -nt "$outPath" ) ]]
+	then
+		continue
+	fi
 
 	# don't make pdfs of files that *also* have a print version
 	if echo "$files" | grep -Fiq "${filename}_print_version.md"
@@ -30,10 +37,9 @@ do
 	docString="$(echo "$docString" | perl -pe 's/<!-- (!\[header\].+?) -->/$1/g')"
 
 	# add the header to the doc string if the file exists and it doesn't already contain one
-	imgPath="$imageDir/$filename.png"
-	if [[ -f "$imgPath" ]] && ! echo "$docString" | grep -Fiq '![header]'
+	if [[ -f "$imagePath" ]] && ! echo "$docString" | grep -Fiq '![header]'
 	then
-		headerString="![header]($imgPath)\ "
+		headerString="![header]($imagePath)\ "
 		docString="$headerString"$'\n\n'"$docString"
 	fi
 
@@ -41,13 +47,10 @@ do
  	fontsize="10pt"
 	if echo "$docString" | grep -iq "pdfzoom"
 	then
-		fontsize="20pt"
+		fontsize="17pt"
 		echo "big font: $filename"
 	fi
 
-	# could use papersize to scale stuff
-	# little things look better as A5, dense things like history timeline look better in A5
-	# is there a better way to do this?
 	echo "$docString" | pandoc -f markdown+link_attributes+footnotes -t latex -o "$outPath" --pdf-engine=lualatex \
 		   -V documentclass=extarticle -V fontsize="$fontsize" \
 		   -V pagestyle=empty \

@@ -2,6 +2,7 @@
 
 gitRoot="$(git rev-parse --show-toplevel)"
 destDir="$gitRoot/docs/images"
+sourceDir="$gitRoot/source_images"
 tempPath="$destDir/temp.png"
 basePath="$destDir/base.png"
 width=2000
@@ -21,10 +22,17 @@ convert -alpha on -background none -size "${width}x$height" -define gradient:ang
 
 make_header()
 {
-	# TODO how to handle changes? we don't want to recommit all images every time
-
 	inPath="$1"
 	outPath="$2"
+
+	if [[ ! -f "$inPath" ]]
+	then
+		echo "source image missing: $(basename "$inPath")"
+		exit 1
+	elif [[ -f "$destDir/$outPath" ]]
+	then
+		return
+	fi
 	inPathExt="${inPath##*.}"
 	inPathExt="${inPathExt,,}"
 	if [[ "$inPathExt" == "svg" ]]
@@ -51,8 +59,9 @@ make_header()
 	convert -background none -alpha on "$basePath" \( "$tempPath" -alpha on -background none -resize "x$designHeight" -geometry +$designMargin+$designMargin \) -composite "PNG64:$destDir/$outPath"
 }
 
-make_header "/media/content/Dropbox/terminal_wallpapers/vectors/caffeine.svg.png" "caffeine.png"
-make_header "/media/content/Dropbox/terminal_wallpapers/vectors/hourglass-svgrepo-com.svg" "world_history_timeline.png"
+make_header "$sourceDir/caffeine_wikipedia.svg" "caffeine.png"
+make_header "$sourceDir/hourglass-svgrepo-com.svg" "world_history_timeline.png"
+make_header "$sourceDir/walkie-talkie-svgrepo-com.svg" "nato_alphabet.png"
 
 if [[ -f "$tempPath" ]]
 then

@@ -77,6 +77,7 @@ year|event
 1886|Carl Benz makes the first gasoline powered modern car
 1889|Nintendo founded
 1897|Dracula published
+1898|Puerto Rico and Guam aquired by US after Spanish-American War
 1903|the first airplane flight, by the Wright brothers
 1905|Einstein's Theory of Special Relativity published
 1914-1918|WWI
