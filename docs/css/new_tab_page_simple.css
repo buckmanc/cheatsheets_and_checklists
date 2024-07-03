@@ -10,7 +10,7 @@ html {
 	background-color: #202020;
 	color: #c1c3c4;
 	background-image: url("../images/triforce-stabby_wingaling.png");
-	background-size: contain;
+	background-size: cover;
 	background-position: center; /*Positioning*/
 	background-repeat: no-repeat; /*Prevent showing multiple background images*/
 	background-attachment: fixed;
@@ -20,7 +20,7 @@ body {
 	background-color: #202020;
 	color: #c1c3c4;
 	background-image: url("../images/triforce-stabby_wingaling.png");
-	background-size: contain;
+	background-size: cover;
 	background-position: center; /*Positioning*/
 	background-repeat: no-repeat; /*Prevent showing multiple background images*/
 	background-attachment: fixed;
