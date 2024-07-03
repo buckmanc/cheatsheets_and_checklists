@@ -1,0 +1,41 @@
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+
+/* html and body duplicated to make the page behave with dark reader */
+html {
+	background-color: #202020;
+	color: #c1c3c4;
+	background-image: url("../images/triforce-stabby_wingaling.png");
+	background-size: contain;
+	background-position: center; /*Positioning*/
+	background-repeat: no-repeat; /*Prevent showing multiple background images*/
+	background-attachment: fixed;
+}
+
+body {
+	background-color: #202020;
+	color: #c1c3c4;
+	background-image: url("../images/triforce-stabby_wingaling.png");
+	background-size: contain;
+	background-position: center; /*Positioning*/
+	background-repeat: no-repeat; /*Prevent showing multiple background images*/
+	background-attachment: fixed;
+}
+
+a {
+	/* color: #0089F9; */
+	color: #c1c3c4;
+}
+
+/* @media (max-width: 1000px) and (max-height: 1000px) { */
+/* 	html { */
+/* 		background-size: cover; */
+/* 	} */
+/* 	body { */
+/* 		background-size: cover; */
+/* 	} */
+/* } */

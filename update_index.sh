@@ -14,7 +14,7 @@ perl -pe 's/&nbsp;/ /g' | \
 sed 's/^\t    //g' | \
 grep -Piv 'index(_template)?\.md' | \
 grep -Piv '_print_version.md' | \
-grep -Piv '/(images|pdfs|drafts|html)/' | \
+grep -Piv '/(images|pdfs|drafts|html|css)/' | \
 grep -Piv '^\s*$' | \
 tail -n +2 | \
 perl -pe 's/^( *)/$1- /g' | \

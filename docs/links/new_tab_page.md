@@ -4,7 +4,6 @@ welcome to new tab
 ## shopping
 - [amazon](https://amazon.com) - [orders](https://amazon.com/your-orders) [cart](https://www.amazon.com/gp/aw/c)
 - [etsy](https://etsy.com) - [orders](https://www.etsy.com/your/purchases) [cart](https://www.etsy.com/cart)
-<!-- - [amazon gc](https://www.amazon.com/gp/feature.html/?ie=UTF8&docId=1000296831&gcIsProcess=0) -->
 
 ## personal
 - [bookmarks](bookmarks.md)
@@ -16,5 +15,7 @@ welcome to new tab
 ## misc
 - [google news](https://news.google.com)
 
-## spotify
-
+## webcams
+- [KMTV](https://www.3newsnow.com/weather/weather-cams)
+- [KETV](https://www.ketv.com/article/skycams/8071873)
+- [WOWT](https://www.wowt.com/weather/cams/)

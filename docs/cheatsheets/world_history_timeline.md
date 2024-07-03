@@ -12,7 +12,10 @@ year|event
 1.5B BCE|fungi
 450M BCE|sharks
 385M BCE|trees
+243-233 BCE|dinosaurs
 66M BCE|Chicxulub Impact, end of dinosaurs
+3.6M BCE|megalodon goes extinct
+0.3M BCE|modern humans
 
 ## Before Common Era
 
@@ -31,6 +34,7 @@ year|event
 ~563–483 BCE|lifetime of Siddhartha Gautama,aka the Buddha, founder of Buddhism
 ~300 BCE|compass invented in China[^fourgreat]
 196 BCE|creation of the Rosetta Stone
+71 BCE|death of Sparticus
 51-30 BCE|Reign of Cleopatra
 45 BCE|Julius Caesar starts the Julian Calendar
 
@@ -39,7 +43,10 @@ year|event
 year|event
 ---|-------
 ~30-36|Jesus crucified
+79|eruption of Mount Vesuvius / destruction of Pompeii
 105|papermaking invented in China[^fourgreat]
+434-453|Attila the Hun rules the Huns
+476|fall of the Western Roman Empire
 593|earliest reference to printing, in China[^fourgreat]
 610|first revelation of Islam
 ~800|gunpowered invented in China[^fourgreat]
@@ -52,11 +59,13 @@ year|event
 ~1400|Water Margin[^sixnovels]
 ~1400|gunpowder use spreads to Eurasia
 1450|invention of the Gutenberg printing press
+1450-1572|Machu Picchu founded and inhabited
 1492|Christopher Columbus "discovers" the Americas
 ~1500|Jin Ping Mei (The Plum in the Golden Vase)[^sixnovels]
 1582|Pope Gregory XIII starts the Gregorian calendar
 1592|Journey to the West[^sixnovels]
 1620|the Mayflower lands in New England
+1662|last sightings of the dodo
 1692-1693|Salem witch trials
 1760-1840|the Industrial Revolution
 1750|The Scholars[^sixnovels]
@@ -65,14 +74,17 @@ year|event
 1776|USA is founded
 1789-1799|the French Revolution
 1813|Pride and Prejudice published
+1816|Year Without a Summer, aka Eighteen Hundred and Froze To Death
 1818|Frankenstein published
 1829|Joseph Smith completes the Book of Mormon
 ~1833|John Nelson Darby invents the rapture
 1838|Samuel Morse invents clicky telegraphs and Morse Code
+1843|Ada Lovelace writes the first computer algorithm
 1844|Joseph Smith shot and killed
 1861-1865|US Civil War
 1863|the Emancipation Proclamation frees enslaved African Americans
 1865|Juneteenth, the final enforcement of the Emancipation Proclamation
+1870|Leon Gambetta escapes the Siege of Paris in a hot air balloon
 1885|AT&T founded
 1886|Carl Benz makes the first gasoline powered modern car
 1889|Nintendo founded
@@ -81,19 +93,31 @@ year|event
 1903|the first airplane flight, by the Wright brothers
 1905|Einstein's Theory of Special Relativity published
 1914-1918|WWI
+1918–1920|the Great Influenza epidemic, aka the "Spanish flu"
+1922-1991|the USSR
 1928|discovery of penicillin
+1929–1939|the Great Depression
 1937|Amelia Earhart disappears
 1939-1945|WWII
+1945|flu vaccine becomes widely available
+1947-1991|the Cold War
 1951|Henrietta Lacks' cells begin the HeLa cell line
 1961|Yuri Gagarin conducts the first human space flight
+1962|the Cuban Missle Crisis
 1963|JFK assassinated
 1965|Alexei Arkhipovich Leonov conducts the first space walk
 1954-1968|American civil rights movement
 1966-1969|Star Trek: TOS
 1968|Martin Luther King Jr. is assassinated
+1969|the first message over Arpanet, the early internet
 1969|Apollo 11, the first human moon landing
+1971|release of Computer Space, the first arcade game
+1974|Nixon resigns following the Watergate scandal
+1979-1989|Jerry Falwell's "Moral Majority"
 1980-2000|Satanic Panic
 1985|Alexey Pajitnov creates Tetris
+1989|Berlin Wall falls
+1992-1996|Star Trek: Khan Noonien Singh rules a quarter of Earth
 2001|9/11
 2020|COVID pandemic, est 18M deaths in 4.5 years
 2024|1st commercial moon landing
