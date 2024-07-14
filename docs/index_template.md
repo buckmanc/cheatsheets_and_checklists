@@ -12,5 +12,3 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
 ## Table of Contents
 
 {table_of_contents}
-- other<br>
-    - [pdfs](pdfs/pdfs.md)<br>

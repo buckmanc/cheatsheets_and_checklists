@@ -6,10 +6,10 @@ welcome to new tab
 - [etsy](https://etsy.com) - [orders](https://www.etsy.com/your/purchases) [cart](https://www.etsy.com/cart)
 
 ## personal
-- [bookmarks](bookmarks.md)
+- [bookmarks](../links/bookmarks.md)
 - [dotfiles](https://github.com/buckmanc/dotfiles)
 - [wallpapers](https://github.com/buckmanc/wallpapers)
-- [cheatsheets and checklists](https://cheatsheets-and-checklists.pages.dev)
+- [cheatsheets and checklists](../index.md)
 - [herschel](http://herschel.local)
 
 ## misc

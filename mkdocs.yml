@@ -3,7 +3,20 @@ site_name: Cheatsheets and Checklists
 markdown_extensions:
   - footnotes
   - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
   # - link_attributes
+# minify plugin breaks search and tables
+# plugins:
+#   - minify:
+#       minify_html: true
+#       minify_js: true
+#       minify_css: true
+#       htmlmin_opts:
+#           remove_comments: true
+#       cache_safe: true
+#       css_files:
+#           - docs/css/*
 exclude_docs: |
     *_template.md
     *_print_version.md

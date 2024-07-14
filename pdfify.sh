@@ -17,9 +17,20 @@ do
 
 	filename="$(basename "$src")"
 	filename="${filename%%.*}"
+	dirName="$(dirname "$src")"
+	dirName="$(basename "$dirName")"
 	outPath="$destDir/$filename.pdf"
 	imageName="$(echo "$filename" | sed 's/_print_version//g')"
 	imagePath="$imageDir/$imageName.png"
+	dirImagePath="$imageDir/$dirName.png"
+	if [[ ! -f "$imagePath" && -f "$dirImagePath" ]]
+	then
+		imagePath="$dirImagePath"
+	fi
+
+	# echo "imagePath: $imagePath"
+	# echo "dirImagePath: $dirImagePath"
+
 
 	if [[ ! ( "$src" -nt "$outPath" || "$imagePath" -nt "$outPath" ) ]]
 	then
@@ -33,8 +44,23 @@ do
 	fi
 
 	docString="$(cat "$src")"
-	docString="${docString/..\/images\//$imageDir\/}"
+	# docString="${docString//..\/images\//$imageDir\/}"
+	docString="$(echo "$docString" | perl -pe "s|(?<=\()(\.\./?)*?/images/|$imageDir/|g")"
 	docString="$(echo "$docString" | perl -pe 's/<!-- (!\[header\].+?) -->/$1/g')"
+
+	# determine what to use for newline replacement
+	# guess whether or not we're replacing in a table and try to force line wrap instead
+	# since regular newline will break a markdown table
+	nl="\n"
+	if echo "$docString" | grep -Fiq -- '---|---'
+	then
+		nl="                             "
+	fi
+
+	docString="$(echo "$docString" | perl -pe "s|<br ?/?>|$nl|g")"
+
+	# hide spoilers
+	docString="$(echo "$docString" | perl -pe "s|<details>.*?<summary>|[|g" | perl -pe 's|</summary>.+?</details>|]|g')"
 
 	# add the header to the doc string if the file exists and it doesn't already contain one
 	if [[ -f "$imagePath" ]] && ! echo "$docString" | grep -Fiq '![header]'
@@ -43,20 +69,30 @@ do
 		docString="$headerString"$'\n\n'"$docString"
 	fi
 
-	# can't got bigger than 20pt
+	# can't go bigger than 20pt
  	fontsize="10pt"
 	if echo "$docString" | grep -iq "pdfzoom"
 	then
 		fontsize="17pt"
 		echo "big font: $filename"
 	fi
+	orientation="portrait"
+	if echo "$docString" | grep -iq "pdflandscape"
+	then
+		orientation="landscape"
+		echo "landscape: $filename"
+	fi
 
 	echo "$docString" | pandoc -f markdown+link_attributes+footnotes -t latex -o "$outPath" --pdf-engine=lualatex \
 		   -V documentclass=extarticle -V fontsize="$fontsize" \
 		   -V pagestyle=empty \
 		   -V papersize=A4 \
-		   -V geometry:top=1cm -V geometry:bottom=2cm \
+		   -V geometry:top=1cm -V geometry:bottom=1.5cm \
+		   -V geometry:top=1cm -V geometry:left=1.5cm \
+		   -V geometry:top=1cm -V geometry:right=1.5cm \
+		   -V geometry:"$orientation" \
 		   -M lang=en
+
 		   # -V geometry:mag=2000 \ # literally just defaults to zoomed in
 		   # -V geometry:top=1cm -V geometry:bottom=2cm -V geometry:left=1cm -V geometry:right=1cm\
 

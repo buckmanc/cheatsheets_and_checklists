@@ -7,8 +7,8 @@
 - [x] Aria of Sorrow
 - [x] Dawn of Sorrow
 - [x] Portrait of Ruin 
-- [x] Order of Ecclesia
-- [x] Bloodstained 100% map, shards, demons
+- [x] Order of Ecclesia (good ending, 100% glyphs)
+- [x] Bloodstained (good ending, 100% map, shards, demons)
 
 ## Mainline Zeldas
 - [ ] The Legend of Zelda (1986)
@@ -24,7 +24,8 @@
 
 ## Zelda Mobile Games
 - [x] Link's Awakening (1993)
-- [ ] Oracle x2 (2001)
+- [ ] Oracle of Ages (2001)
+- [ ] Oracle of Seasons (2001)
 - [ ] Minish Cap (2004)
 - [ ] Phantom Hourglass (2007)
 - [ ] Spirit Tracks (2009)

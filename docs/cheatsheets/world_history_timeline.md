@@ -25,6 +25,7 @@ year|event
 5000-3300 BCE|Copper Age
 ~3500 BCE|the Kish Tablet, oldest written document
 3300-1200 BCE|Bronze Age
+2584–2561 BCE|the Great Pyramid of Giza is built
 ~2100–1200 BCE|the Epic of Gilgamesh
 ~1750 BCE|Complaint tablet to Ea-nāṣir
 1332–1323 BCE|reign of Tutankhamun
@@ -64,6 +65,7 @@ year|event
 ~1500|Jin Ping Mei (The Plum in the Golden Vase)[^sixnovels]
 1582|Pope Gregory XIII starts the Gregorian calendar
 1592|Journey to the West[^sixnovels]
+1611|the King James Bible is published, using already archaic language from 75-85 years earlier
 1620|the Mayflower lands in New England
 1662|last sightings of the dodo
 1692-1693|Salem witch trials
@@ -85,6 +87,7 @@ year|event
 1863|the Emancipation Proclamation frees enslaved African Americans
 1865|Juneteenth, the final enforcement of the Emancipation Proclamation
 1870|Leon Gambetta escapes the Siege of Paris in a hot air balloon
+1885|setting of Back to the Future III
 1885|AT&T founded
 1886|Carl Benz makes the first gasoline powered modern car
 1889|Nintendo founded
@@ -102,6 +105,7 @@ year|event
 1945|flu vaccine becomes widely available
 1947-1991|the Cold War
 1951|Henrietta Lacks' cells begin the HeLa cell line
+1955|setting of Back to the Future I
 1961|Yuri Gagarin conducts the first human space flight
 1962|the Cuban Missle Crisis
 1963|JFK assassinated
@@ -119,8 +123,10 @@ year|event
 1989|Berlin Wall falls
 1992-1996|Star Trek: Khan Noonien Singh rules a quarter of Earth
 2001|9/11
+2015|setting of Back to the Future II
 2020|COVID pandemic, est 18M deaths in 4.5 years
 2024|1st commercial moon landing
+2024|Star Trek: Irish reunification
 
 [^fourgreat]: One of the Four Great Inventions of ancient China.
 [^sixnovels]: One of the six Classic Chinese Novels.

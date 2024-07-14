@@ -7,29 +7,29 @@ indexTemplateString="$(cat "$gitRoot/docs/index_template.md")"
 pdfTemplateString="$(cat "$gitRoot/docs/pdfs/pdfs_template.md")"
 
 # populate tables of contents
-baseToc="$(tree "$gitRoot/docs/" --prune --noreport -H 'docs/' | \
+baseToc="$(tree "$gitRoot/docs/" -P '*.md' --filesfirst --prune --noreport -H 'docs/' | \
 perl -00pe 's/(^.+<\/h1><p>|<hr>.+$)//sg' | \
 sed 's/[└─├│ ]/ /g' | \
 perl -pe 's/&nbsp;/ /g' | \
 sed 's/^\t    //g' | \
-grep -Piv 'index(_template)?\.md' | \
-grep -Piv '_print_version.md' | \
-grep -Piv '/(images|pdfs|drafts|html|css)/' | \
+grep -Piv 'index.md' | \
+grep -Piv '_(template|print_version).md' | \
+grep -Piv '/(drafts)/' | \
 grep -Piv '^\s*$' | \
 tail -n +2 | \
 perl -pe 's/^( *)/$1- /g' | \
 perl -pe 's|/+|/|g' | \
 perl -pe 's|\.[a-zA-Z]{2,4}(</a>)|$1|g' | \
-perl -pe 's|<a href.+?/">([^<]+)</a>|$1|g' \
+perl -pe 's|<a href.+?/">([^<]+)</a>|$1|g' | \
+perl -pe 's|(?<=^- )pdfs|other|g' \
 )"
 
-pdfToc="$(tree "$gitRoot/docs/pdfs/" --prune --noreport -H '/pdfs/' | \
+pdfToc="$(tree "$gitRoot/docs/pdfs/" -P '*.pdf' --filesfirst --prune --noreport -H '/pdfs/' | \
 perl -00pe 's/(^.+<\/h1><p>|<hr>.+$)//sg' | \
 sed 's/[└─├│ ]/ /g' | \
 perl -pe 's/&nbsp;/ /g' | \
 sed 's/^\t    //g' | \
 grep -Piv '^\s*$' | \
-grep -Piv '\.md"' | \
 tail -n +2 | \
 perl -pe 's/^( *)/$1- /g' | \
 perl -pe 's|\.[a-zA-Z]{2,4}(</a>)|$1|g' | \
