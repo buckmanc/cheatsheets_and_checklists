@@ -45,7 +45,7 @@ do
 		id="$(echo "$url" | grep -iPo "(?<=/)[a-zA-Z0-9]+(?=(\?|\s|$))")"
 		appLink="spotify:playlist:$id"
 
-		echo "$source" > source.html
+		# echo "$source" > source.html
 		thumbnailPathLocal="$imageDestDir/$id.png"
 
 		thumbnailUrl="$(echo "$source" | grep -iPo '[^"]+(mosaic|image-cdn)[^"]+/[^"]+' | head -n 1)"
