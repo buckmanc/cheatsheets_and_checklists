@@ -32,10 +32,25 @@
   			"the imperishable kingdom of ", "the eternal realm of ", "the woodland realm of ", "the ancient domain of ", "the hidden forest of "
   		];
 
-  	function init(){
+  	function updateSuffix(){
   			document.getElementById("suffix").textContent=choose(suffixes);
-  			if (Math.random() < 0.3){
-  				document.getElementById("prefix").textContent=choose(prefixes);
+  		}
+
+  	function updatePrefix(){
+  			document.getElementById("prefix").textContent=choose(prefixes);
+  		}
+
+  	function init(){
+  			var rando = Math.random();
+  			if (rando < 0.08){
+  					updateSuffix();
+  					updatePrefix();
+  				}
+  			else if (rando < 0.25){
+  					updatePrefix();
+  				}
+  			else if (rando < 0.60){
+  					updateSuffix();
   				}
   		}
 
