@@ -8,6 +8,8 @@ markdown_extensions:
   # - link_attributes
 # minify plugin breaks search and tables
 # plugins:
+  # - social
+  # - search
 #   - minify:
 #       minify_html: true
 #       minify_js: true
@@ -27,9 +29,15 @@ site_description: A simple repo of personal reference material written in Markdo
 not_in_nav: |
   /pdfs/
   /html/
+validation:
+  links:
+    absolute_links: relative_to_docs
 
 theme:
   name: mkdocs
   color_mode: auto
   user_color_mode_toggle: true
   nav_style: dark
+  # name: material
+  # features:
+  #   - toc.integrate

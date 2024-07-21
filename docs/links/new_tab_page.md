@@ -1,5 +1,5 @@
 <!-- ## new tab -->
-welcome to new tab
+welcome to <span id="prefix"></span>new tab<span id="suffix"></span>
 
 ## shopping
 - [amazon](https://amazon.com) - [orders](https://amazon.com/your-orders) [cart](https://www.amazon.com/gp/aw/c)
@@ -13,7 +13,9 @@ welcome to new tab
 - [herschel](http://herschel.local)
 
 ## misc
+- [spotify playlists](../links/spotify_playlists.md)
 - [google news](https://news.google.com)
+- [gmail](https://mail.google.com/mail/u/0/#all)
 
 ## webcams
 - [KMTV](https://www.3newsnow.com/weather/weather-cams)

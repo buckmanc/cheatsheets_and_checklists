@@ -1,7 +1,6 @@
 # Mistborn: Table of Allomantic Metals
 <!-- pdflandscape -->
 
-
 PHYSICAL|Pushing|Pulling|Pulling|Pushing|MENTAL
 ---|---|---|---|---|---
 <b>External</b>|Steel (Coinshot)<br>Pushes on Nearby Metals|Iron (Lurcher)<br>Pulls on Nearby Metals|Zinc (Rioter)<br>Enflames (riots) Emotions|Brass (Soother)<br>Dampens (soothes) Emotions|<b>External</b>

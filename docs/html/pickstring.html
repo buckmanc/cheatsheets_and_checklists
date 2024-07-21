@@ -1,0 +1,26 @@
+<script>
+	function choose(choices) {
+			var index = Math.floor(Math.random() * choices.length);
+			return choices[index];
+		}
+
+	const suffixes = [
+			" town", " township", " city", " island", " isles", " republic", " kingdom", " queendom", " gardens",
+			"burg", "enstein", "ville", "land", "lands", "istan", "ia", "mark", "entina", "sby", "sley", "swick", "wich", "bington", "berton", "chester", "bendell", "sbrook", "shire"
+		];
+	const prefixes = [
+			"united ", "old ", "greater ", 
+			"the republic of ", "the democratic republic of ", "the soviet republic of ", "the people's republic of ",
+			"the imperium of ", "imperial ",
+			"the imperishable kingdom of ", "the eternal realm of ", "the woodland realm of ", "the ancient domain of ", "the hidden forest of "
+		];
+
+	function init(){
+			document.getElementById("suffix").textContent=choose(suffixes);
+			if (Math.random() < 0.3){
+				document.getElementById("prefix").textContent=choose(prefixes);
+				}
+		}
+
+	window.onload = init;
+</script>

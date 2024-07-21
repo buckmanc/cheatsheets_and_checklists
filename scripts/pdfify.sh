@@ -7,6 +7,7 @@ imageDir="$gitRoot/docs/images"
 set -e
 
 files="$(find "$gitRoot/docs/cheatsheets" "$gitRoot/docs/checklists" -type f -iname '*.md')"
+files="$(echo "$files" | grep -Piv '_template\.md$')"
 
 mkdir -p "$destDir"
 

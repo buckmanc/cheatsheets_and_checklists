@@ -5,7 +5,7 @@
 year|event
 ---|-------
 14B BCE|the Big Bang
-13.61 BCE|enter the Milky Way
+13.61B BCE|enter the Milky Way
 4.5B BCE|enter Earth
 3.7B BCE|earliest evidence of life
 3.6B BCE|LUCA
@@ -37,6 +37,7 @@ year|event
 196 BCE|creation of the Rosetta Stone
 71 BCE|death of Sparticus
 51-30 BCE|Reign of Cleopatra
+49 BCE|Julius Caesar crosses the Rubicon
 45 BCE|Julius Caesar starts the Julian Calendar
 
 ## Common Era
@@ -63,6 +64,7 @@ year|event
 1450-1572|Machu Picchu founded and inhabited
 1492|Christopher Columbus "discovers" the Americas
 ~1500|Jin Ping Mei (The Plum in the Golden Vase)[^sixnovels]
+1535|the Coverdale Bible, the first English Bible
 1582|Pope Gregory XIII starts the Gregorian calendar
 1592|Journey to the West[^sixnovels]
 1611|the King James Bible is published, using already archaic language from 75-85 years earlier

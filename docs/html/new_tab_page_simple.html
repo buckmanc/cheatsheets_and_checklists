@@ -14,11 +14,37 @@
     ul.task-list{list-style: none;}
   </style>
   <link rel="stylesheet" href="../css/new_tab_page_simple.css" />
+  <script>
+  	function choose(choices) {
+  			var index = Math.floor(Math.random() * choices.length);
+  			return choices[index];
+  		}
+
+  	const suffixes = [
+  			" town", " township", " city", " island", " isles", " republic", " kingdom", " queendom", " gardens",
+  			"burg", "enstein", "ville", "land", "lands", "istan", "ia", "mark", "entina", "sby", "sley", "swick", "wich", "bington", "berton", "chester", "bendell", "sbrook", "shire"
+  		];
+  	const prefixes = [
+  			"united ", "old ", "greater ", 
+  			"the republic of ", "the democratic republic of ", "the soviet republic of ", "the people's republic of ",
+  			"the imperium of ", "imperial ",
+  			"the imperishable kingdom of ", "the eternal realm of ", "the woodland realm of ", "the ancient domain of ", "the hidden forest of "
+  		];
+
+  	function init(){
+  			document.getElementById("suffix").textContent=choose(suffixes);
+  			if (Math.random() < 0.3){
+  				document.getElementById("prefix").textContent=choose(prefixes);
+  				}
+  		}
+
+  	window.onload = init;
+  </script>
 </head>
 <body>
 <!-- ## new tab -->
 
-<p>welcome to new tab</p>
+<p>welcome to <span id="prefix"></span>new tab<span id="suffix"></span></p>
 <h2 id="shopping">shopping</h2>
 <ul>
 <li><a href="https://amazon.com">amazon</a> - <a href="https://amazon.com/your-orders">orders</a> <a href="https://www.amazon.com/gp/aw/c">cart</a></li>
@@ -34,7 +60,9 @@
 </ul>
 <h2 id="misc">misc</h2>
 <ul>
+<li><a href="../links/spotify_playlists">spotify playlists</a></li>
 <li><a href="https://news.google.com">google news</a></li>
+<li><a href="https://mail.google.com/mail/u/0/#all">gmail</a></li>
 </ul>
 <h2 id="webcams">webcams</h2>
 <ul>

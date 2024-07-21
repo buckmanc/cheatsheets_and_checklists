@@ -19,16 +19,24 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="cheatsheets/poker_hands">poker_hands</a><br>
     - <a href="cheatsheets/ten_commandments">ten_commandments</a><br>
     - <a href="cheatsheets/world_history_timeline">world_history_timeline</a><br>
-    - mistborn<br>
-        - <a href="cheatsheets/mistborn/allomantic_metals">allomantic_metals</a><br>
-    - stormlight<br>
-        - <a href="cheatsheets/stormlight/radiant_orders">radiant_orders</a><br>
+    - cosmere<br>
+        - mistborn<br>
+            - metallic_arts<br>
+                - <a href="cheatsheets/cosmere/mistborn/metallic_arts/allomantic_metals">allomantic_metals</a><br>
+                - <a href="cheatsheets/cosmere/mistborn/metallic_arts/feruchemic_table">feruchemic_table</a><br>
+                - <a href="cheatsheets/cosmere/mistborn/metallic_arts/hemalurgic_table">hemalurgic_table</a><br>
+                - <a href="cheatsheets/cosmere/mistborn/metallic_arts/metallic_arts">metallic_arts</a><br>
+        - stormlight<br>
+            - <a href="cheatsheets/cosmere/stormlight/radiant_orders">radiant_orders</a><br>
+            - <a href="cheatsheets/cosmere/stormlight/ten_essences">ten_essences</a><br>
 - checklists<br>
     - <a href="checklists/bucket_list_games">bucket_list_games</a><br>
     - <a href="checklists/linux_new_drive_steps">linux_new_drive_steps</a><br>
+    - <a href="checklists/playlist_doodle_requests">playlist_doodle_requests</a><br>
 - links<br>
     - <a href="links/bookmarks">bookmarks</a><br>
     - <a href="links/browser_extensions">browser_extensions</a><br>
     - <a href="links/new_tab_page">new_tab_page</a> (<a href="html/new_tab_page_simple.html">simple</a>)<br>
+    - <a href="links/spotify_playlists">spotify_playlists</a><br>
 - other<br>
     - <a href="pdfs/pdfs">pdfs</a><br>
