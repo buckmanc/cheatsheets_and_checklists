@@ -21,15 +21,18 @@
   		}
 
   	const suffixes = [
-  			" town", " township", " city", " island", " isles", " republic", " kingdom", " queendom", " gardens", " falls",
-  			"burg", "benstein", "ville", "land", "lands", "istan", "bia", "mark", "entina", "sby", "sley", "swick", "wich", "bington", "berton", "chester", "bendell", "sbrook", "shire"
+  			" town", " township", " city", " island", " isles", " republic", " kingdom", " queendom", " tsardom", " despotate", " gardens", " falls",
+  			"burg", "benstein", "ville", "land", "lands", "istan", "bia", "mark", "entina", "sby", "sley", "swick", "wich", "bington", "berton", "chester", "bendell", "sbrook", "shire", "benae", "vellir", "barney", "benor"
   		];
   	const prefixes = [
   			"united ", "old ", "greater ", "west ", "east ", "north ", "south ", "first ",
-  			"the republic of ", "the democratic republic of ", "the soviet republic of ", "the people's republic of ", "the free state of ", "the free imperial city of ", "the commonwealth of ", "the federated states of ", "the federal republic of ", "the independant commune of ", "the democratic socialist republic of ", "the co-operative republic of ",
+  			"the republic of ", "the democratic republic of ", "the soviet republic of ", "the people's republic of ", "the free state of ", "the free imperial city of ", "the commonwealth of ", "the federated states of ", "the federal republic of ", "the independant commune of ", "the democratic socialist republic of ", "the co-operative republic of ", "confederated principalities of ", "tribal confederation of ", "nomadic confederacy of ", "monarchial republic of ",
   			"the liberal democracy of ", "the moderately left-leaning ", "the sweet embrace of ", "the tiny coastal ",
   			"the imperium of ", "imperial ",
-  			"the imperishable kingdom of ", "the eternal realm of ", "the woodland realm of ", "the ancient domain of ", "the hidden forest of "
+  			"the imperishable kingdom of ", "the eternal realm of ", "the woodland realm of ", "the ancient domain of ", "the hidden forest of ", "the arcane enclave of ", "the tempestuous "
+  		];
+  	const exclusivePrefixes = [
+  			"amon ", "barad ", "caras ", "cirith ", "ered ", "eryn ", "emyn ", "imland ", "minas ", "mount", "tol "
   		];
 
   	function updateSuffix(){
@@ -40,9 +43,15 @@
   			document.getElementById("prefix").textContent=choose(prefixes);
   		}
 
+  	function updateExclusivePrefix(){
+  			document.getElementById("prefix").textContent=choose(exclusivePrefixes);
+  		}
+
   	function init(){
   			var rando = Math.random();
-  			if (rando < 0.08){
+  			if (rando < 0.01){
+  					updateExclusivePrefix();
+  			else if (rando < 0.08){
   					updateSuffix();
   					updatePrefix();
   				}
