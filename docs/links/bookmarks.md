@@ -32,7 +32,7 @@
 - [Market Holidays](https://www.nyse.com/markets/hours-calendars)
 
 ## Emergency Music
-- [Dungeon Synth Archives](https://youtube.com/@TheDungeonSynthArchives/videos)
+- [Dungeon Synth Archives](https://www.youtube.com/playlist?list=UULFhmm356a5qe1luUsoatAgjA)
 - [LoFi Study Girl](https://youtube.com/watch?v=jfKfPfyJRdk)
 - [LoFi Air Traffic Control](https://www.lofiatc.com/)
 - [OC Remix Radio](https://rainwave.cc/ocremix/)
