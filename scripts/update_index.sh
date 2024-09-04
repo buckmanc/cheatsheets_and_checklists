@@ -7,7 +7,7 @@ indexTemplateString="$(cat "$gitRoot/docs/index_template.md")"
 pdfTemplateString="$(cat "$gitRoot/docs/pdfs/pdfs_template.md")"
 
 # populate tables of contents
-baseToc="$(tree "$gitRoot/docs/" -P '*.md' --filesfirst --prune --noreport -H 'docs/' | \
+baseToc="$(tree "$gitRoot/docs/" -P '*.md' --filesfirst --prune --noreport -H 'docs//' | \
 perl -00pe 's/(^.+<\/h1><p>|<hr>.+$)//sg' | \
 sed 's/[└─├│ ]/ /g' | \
 perl -pe 's/&nbsp;/ /g' | \
