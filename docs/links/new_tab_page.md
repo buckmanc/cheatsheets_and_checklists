@@ -16,6 +16,11 @@ welcome to <span id="prefix"></span>new tab<span id="suffix"></span>
 - [spotify playlists](../links/spotify_playlists.md)
 - [google news](https://news.google.com)
 - [gmail](https://mail.google.com/mail/u/0/#all)
+- [calendar](https://calendar.google.com)
+
+## dev
+- [cloudflare dash](https://dash.cloudflare.com)
+- [goog console](https://console.cloud.google.com)
 
 ## webcams
 - [KMTV](https://www.3newsnow.com/weather/weather-cams)

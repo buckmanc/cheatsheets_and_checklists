@@ -8,10 +8,19 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../css/new_tab_page_simple.css" />
   <script>
@@ -70,11 +79,16 @@
 <body>
 <!-- ## new tab -->
 
-<p>welcome to <span id="prefix"></span>new tab<span id="suffix"></span></p>
+<p>welcome to <span id="prefix"></span>new
+tab<span id="suffix"></span></p>
 <h2 id="shopping">shopping</h2>
 <ul>
-<li><a href="https://amazon.com">amazon</a> - <a href="https://amazon.com/your-orders">orders</a> <a href="https://www.amazon.com/gp/aw/c">cart</a></li>
-<li><a href="https://etsy.com">etsy</a> - <a href="https://www.etsy.com/your/purchases">orders</a> <a href="https://www.etsy.com/cart">cart</a></li>
+<li><a href="https://amazon.com">amazon</a> - <a
+href="https://amazon.com/your-orders">orders</a> <a
+href="https://www.amazon.com/gp/aw/c">cart</a></li>
+<li><a href="https://etsy.com">etsy</a> - <a
+href="https://www.etsy.com/your/purchases">orders</a> <a
+href="https://www.etsy.com/cart">cart</a></li>
 </ul>
 <h2 id="personal">personal</h2>
 <ul>
@@ -89,10 +103,17 @@
 <li><a href="../links/spotify_playlists">spotify playlists</a></li>
 <li><a href="https://news.google.com">google news</a></li>
 <li><a href="https://mail.google.com/mail/u/0/#all">gmail</a></li>
+<li><a href="https://calendar.google.com">calendar</a></li>
+</ul>
+<h2 id="dev">dev</h2>
+<ul>
+<li><a href="https://dash.cloudflare.com">cloudflare dash</a></li>
+<li><a href="https://console.cloud.google.com">goog console</a></li>
 </ul>
 <h2 id="webcams">webcams</h2>
 <ul>
-<li><a href="https://www.3newsnow.com/weather/weather-cams">KMTV</a></li>
+<li><a
+href="https://www.3newsnow.com/weather/weather-cams">KMTV</a></li>
 <li><a href="https://www.ketv.com/article/skycams/8071873">KETV</a></li>
 <li><a href="https://www.wowt.com/weather/cams/">WOWT</a></li>
 </ul>
