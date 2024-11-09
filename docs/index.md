@@ -14,6 +14,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
 - cheatsheets<br>
     - <a href="cheatsheets/ascii">ascii</a><br>
     - <a href="cheatsheets/caffeine">caffeine</a><br>
+    - <a href="cheatsheets/koopalings">koopalings</a><br>
     - <a href="cheatsheets/nato_alphabet">nato_alphabet</a><br>
     - <a href="cheatsheets/playing_cards">playing_cards</a><br>
     - <a href="cheatsheets/poker_hands">poker_hands</a><br>
