@@ -13,6 +13,7 @@ Coke|2.8
 Diet Coke|3.8
 Dew|4.5
 Diet Dew|4.5
+Starbucks Bottled Frap|8.0
 Starbucks Doubleshot Energy|9.0
 Java Monster|13.3
 Starbucks Bottled Cold Brew|16.4
