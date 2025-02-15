@@ -2,8 +2,8 @@
 welcome to <span id="prefix"></span>new tab<span id="suffix"></span>
 
 ## shopping
-- [amazon](https://amazon.com) - [orders](https://amazon.com/your-orders) [cart](https://www.amazon.com/gp/aw/c)
-- [etsy](https://etsy.com) - [orders](https://www.etsy.com/your/purchases) [cart](https://www.etsy.com/cart)
+- [amazon](https://amazon.com) - [orders](https://amazon.com/your-orders) [cart](https://www.amazon.com/gp/aw/c) [list](https://www.amazon.com/hz/wishlist/ls)
+- [etsy](https://etsy.com) - [orders](https://www.etsy.com/your/purchases) [cart](https://www.etsy.com/cart) [list]
 
 ## personal
 - [bookmarks](../links/bookmarks.md)

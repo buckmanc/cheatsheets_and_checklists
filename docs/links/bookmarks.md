@@ -27,6 +27,7 @@
 - [URL Decode / Encode](https://urlencoder.org)
 
 ## Other
+- [NowPlayi.ng](https://nowplayi.ng/playing.php)
 - [Pokemon Go Raid Finder](https://9db.jp/pokego/data/62)
 - [Pokemon Go Countdowns](https://p337.info/pokemongo/)
 - [Market Holidays](https://www.nyse.com/markets/hours-calendars)
