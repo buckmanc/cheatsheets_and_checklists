@@ -12,9 +12,10 @@ year|event
 1.5B BCE|fungi
 450M BCE|sharks
 385M BCE|trees
-243-233 BCE|dinosaurs
+243M-233M BCE|dinosaurs
 66M BCE|Chicxulub Impact, end of dinosaurs
 3.6M BCE|megalodon goes extinct
+0.4M-0.1M BCE|formation of Saturn's rings
 0.3M BCE|modern humans
 
 ## Before Common Era
@@ -30,9 +31,10 @@ year|event
 ~1750 BCE|Complaint tablet to Ea-nāṣir
 1332–1323 BCE|reign of Tutankhamun
 1200 BCE|Start of the Iron Age
+~700 BCE|Rome adds Jan. and Feb. to the start of the 10 month calendar
 ~600 BCE|first record of Zoroastrianism in Iran
 ~500 BCE - 300 CE |synthesis of Hinduism
-~563–483 BCE|lifetime of Siddhartha Gautama,aka the Buddha, founder of Buddhism
+~563–483 BCE|lifetime of Siddhartha Gautama, aka the Buddha, founder of Buddhism
 ~300 BCE|compass invented in China[^fourgreat]
 196 BCE|creation of the Rosetta Stone
 71 BCE|death of Sparticus
@@ -97,6 +99,8 @@ year|event
 1898|Puerto Rico and Guam aquired by US after Spanish-American War
 1903|the first airplane flight, by the Wright brothers
 1905|Einstein's Theory of Special Relativity published
+1906-1915|Azusa Street revival begins Pentecostalism and modern Christian speaking in tongues
+1912|China adopts the Gregorian calendar
 1914-1918|WWI
 1918–1920|the Great Influenza epidemic, aka the "Spanish flu"
 1922-1991|the USSR
@@ -107,6 +111,7 @@ year|event
 1945|flu vaccine becomes widely available
 1947-1991|the Cold War
 1951|Henrietta Lacks' cells begin the HeLa cell line
+1953|UK/US orchestrates the Iranian coup, precursor to the Islamic revolution
 1955|setting of Back to the Future I
 1961|Yuri Gagarin conducts the first human space flight
 1962|the Cuban Missle Crisis
@@ -119,14 +124,27 @@ year|event
 1969|Apollo 11, the first human moon landing
 1971|release of Computer Space, the first arcade game
 1974|Nixon resigns following the Watergate scandal
+1975|US women can get credit without a male cosigner
+1979|completion of the Iranian Islamic Revolution
 1979-1989|Jerry Falwell's "Moral Majority"
 1980-2000|Satanic Panic
 1985|Alexey Pajitnov creates Tetris
 1989|Berlin Wall falls
 1992-1996|Star Trek: Khan Noonien Singh rules a quarter of Earth
-2001|9/11
+1993|marital rape outlawed in all 50 US states
+1993|creation of the European Union
+1999|the Euro is introduced
+1999|Columbine High School shooting
+2001|destruction of the World Trade Center
+2001|the iPod is released
+2001|Wikipedia launches
+2005|YouTube is founded
+2006|Pluto loses planet status
+2007|the iPhone is released
+2008|Lehman Brothers declares bankruptcy, triggering the 2008 recession
+2008|the first Android phone (the HTC Dream) is released
 2015|setting of Back to the Future II
-2020|COVID pandemic, est 18M deaths in 4.5 years
+2020|COVID-19 pandemic, est 18M deaths in 4.5 years
 2024|1st commercial moon landing
 2024|Star Trek: Irish reunification
 
