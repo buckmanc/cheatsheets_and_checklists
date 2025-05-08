@@ -2,7 +2,7 @@
 
 ## 2D Metroidvania Castlevanias
 - [x] Symphony of the Night
-- [ ] Circle of the Moon
+- [x] Circle of the Moon
 - [x] Harmony of Dissonance
 - [x] Aria of Sorrow
 - [x] Dawn of Sorrow

@@ -26,6 +26,9 @@
 - [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - [URL Decode / Encode](https://urlencoder.org)
 
+### Man
+- [rsync](https://linux.die.net/man/1/rsync)
+
 ## Other
 - [NowPlayi.ng](https://nowplayi.ng/playing.php)
 - [Pokemon Go Raid Finder](https://9db.jp/pokego/data/62)

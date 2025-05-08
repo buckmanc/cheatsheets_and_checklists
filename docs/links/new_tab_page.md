@@ -8,7 +8,7 @@ welcome to <span id="prefix"></span>new tab<span id="suffix"></span>
 ## personal
 - [bookmarks](../links/bookmarks.md)
 - [dotfiles](https://github.com/buckmanc/dotfiles)
-- [wallpapers](https://github.com/buckmanc/wallpapers)
+- [wallpapers](https://wallpapers.buckman.cc)
 - [cheatsheets and checklists](../index.md)
 - [herschel](http://herschel.local)
 
