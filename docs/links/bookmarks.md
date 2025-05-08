@@ -1,20 +1,30 @@
 # Bookmarks
 
 ## Dev
-- [ASCII Converter](https://www.branah.com/ascii-converter)
+
+### Regex
 - [Old Regex Basics](https://web.archive.org/web/20130814132447/http://www.regular-expressions.info/reference.html)
 - [Regex Lookarounds](https://miro.medium.com/v2/1*PRRHGdN32Mep-3KhLwvKzw.png)
+- [Regex Tester](https://regex101.com/)
+
+### Character Encoding
+- [ASCII Converter](https://www.branah.com/ascii-converter)
+- [ANSI Escape Sequences](https://stackoverflow.com/a/33206814)
+- [URL Decode / Encode](https://urlencoder.org)
+
+### Man
+- [rsync](https://linux.die.net/man/1/rsync)
+- [grep](https://linux.die.net/man/1/grep)
+
+### Misc
 - [Vim Cheat Sheet](https://vim.rtorr.com/)
 - [SQL Server Data Types](https://web.archive.org/web/20161128134813/http://www.dummies.com/programming/sql/data-types-found-in-sql-server-2008)
 - [SQL Data Types](https://www.w3schools.com/sql/sql_datatypes.asp)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers)
 - [Nerd Font Cheatsheet](https://www.nerdfonts.com/cheat-sheet)
-- [ANSI Escape Sequences](https://stackoverflow.com/a/33206814)
 - [Windows Environment Variables](https://ss64.com/nt/syntax-variables.html)
-- [Regex Tester](https://regex101.com/)
 - [ShellCheck](https://shellcheck.net)
 - [Crontab.Guru](https://crontab.guru)
-- [Gist Viewer](https://yi-jiayu.github.io/essence/)
 - [No Hello](https://nohello.net)
 - [Passwordless SSH](https://linuxize.com/post/how-to-setup-passwordless-ssh-login/)
 - [jq Cheat Sheet](https://gist.github.com/olih/f7437fb6962fb3ee9fe95bda8d2c8fa4)
@@ -24,10 +34,6 @@
 - [dotnet ef commands](https://learn.microsoft.com/en-us/ef/core/cli/dotnet#using-the-tools)
 - [JSON2CSharp (and XML, etc)](https://json2cscharp.com)
 - [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
-- [URL Decode / Encode](https://urlencoder.org)
-
-### Man
-- [rsync](https://linux.die.net/man/1/rsync)
 
 ## Other
 - [NowPlayi.ng](https://nowplayi.ng/playing.php)
