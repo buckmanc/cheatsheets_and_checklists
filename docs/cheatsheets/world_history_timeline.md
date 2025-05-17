@@ -9,11 +9,12 @@ year|event
 4.5B BCE|enter Earth
 3.7B BCE|earliest evidence of life
 3.6B BCE|LUCA
+2B BCE|Vredefort impact, the largest verified impact structure on earth
 1.5B BCE|fungi
 450M BCE|sharks
 385M BCE|trees
 243M-233M BCE|dinosaurs
-66M BCE|Chicxulub Impact, end of dinosaurs
+66M BCE|Chicxulub Impact, end of non-bird dinosaurs
 3.6M BCE|megalodon goes extinct
 0.4M-0.1M BCE|formation of Saturn's rings
 0.3M BCE|modern humans
@@ -128,8 +129,10 @@ year|event
 1979|completion of the Iranian Islamic Revolution
 1979-1989|Jerry Falwell's "Moral Majority"
 1980-2000|Satanic Panic
+1980|scientists including Walter Alvarez propose that an asteroid killed the dinosaurs
 1985|Alexey Pajitnov creates Tetris
 1989|Berlin Wall falls
+1990|discovery of Chicxulub crater
 1992-1996|Star Trek: Khan Noonien Singh rules a quarter of Earth
 1993|marital rape outlawed in all 50 US states
 1993|creation of the European Union
