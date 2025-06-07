@@ -19,6 +19,7 @@ welcome to <span id="prefix"></span>new tab<span id="suffix"></span>
 - [calendar](https://calendar.google.com)
 
 ## create
+- [github](https://github.com)
 - [cloudflare dash](https://dash.cloudflare.com)
 - [goog console](https://console.cloud.google.com)
 - [yt studio](https://studio.youtube.com)

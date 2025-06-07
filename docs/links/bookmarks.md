@@ -20,7 +20,7 @@
 - [Vim Cheat Sheet](https://vim.rtorr.com/)
 - [SQL Server Data Types](https://web.archive.org/web/20161128134813/http://www.dummies.com/programming/sql/data-types-found-in-sql-server-2008)
 - [SQL Data Types](https://www.w3schools.com/sql/sql_datatypes.asp)
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers)
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Nerd Font Cheatsheet](https://www.nerdfonts.com/cheat-sheet)
 - [Windows Environment Variables](https://ss64.com/nt/syntax-variables.html)
 - [ShellCheck](https://shellcheck.net)

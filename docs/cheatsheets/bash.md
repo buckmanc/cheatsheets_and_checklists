@@ -101,3 +101,32 @@ then
 	exit 0
 fi
 ```
+
+## test operators
+
+operator|desc
+---|---
+`-gt`| greater than
+`-ge`| greater than or equal to
+`-lt`| less than
+`-le`| less than or equal to
+`-f`|file exists
+`-d`|directory exists
+`-e`|anything exists
+`-x`|file is executable
+`-ef`|file path equals
+`-n`|string is not empty
+`-z`|string is empty
+
+## using operators
+```bash
+if [[ "$var" -gt 0 ]]
+then
+    echo "yep it's greater than zero"
+fi
+
+if test "$var" -gt 0
+then
+    echo "yep it's greater than zero"
+fi
+```

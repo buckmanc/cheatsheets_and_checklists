@@ -16,6 +16,8 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="cheatsheets/bash">bash</a><br>
     - <a href="cheatsheets/caffeine">caffeine</a><br>
     - <a href="cheatsheets/koopalings">koopalings</a><br>
+    - <a href="cheatsheets/markdown">markdown</a><br>
+    - <a href="cheatsheets/mythical_metal_analogues">mythical_metal_analogues</a><br>
     - <a href="cheatsheets/nato_alphabet">nato_alphabet</a><br>
     - <a href="cheatsheets/playing_cards">playing_cards</a><br>
     - <a href="cheatsheets/poker_hands">poker_hands</a><br>
