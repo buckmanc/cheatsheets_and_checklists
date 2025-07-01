@@ -24,6 +24,7 @@ year|event
 year|event
 ---|-------
 3.4M-5000 BCE|Stone Age
+8500|earliest evidence of silk in Jiahu, China
 5000-3300 BCE|Copper Age
 ~3500 BCE|the Kish Tablet, oldest written document
 3300-1200 BCE|Bronze Age
@@ -54,12 +55,13 @@ year|event
 476|fall of the Western Roman Empire
 593|earliest reference to printing, in China[^fourgreat]
 610|first revelation of Islam
-~800|gunpowered invented in China[^fourgreat]
+~800|gunpowder invented in China[^fourgreat]
 897|the Catholic church tries a dead pope
 ~975-1025|Beowulf manuscript written
 1044|record of first bombs, in China
+1095-1272|the Crusades
 1185-1868|Samurai era
-1206-1227|Ghengis Khan rules the Mongol Empire
+1206-1227|Genghis Khan rules the Mongol Empire
 ~1400|Romance of the Three Kingdoms[^sixnovels]
 ~1400|Water Margin[^sixnovels]
 ~1400|gunpowder use spreads to Eurasia
@@ -67,6 +69,7 @@ year|event
 1450-1572|Machu Picchu founded and inhabited
 1492|Christopher Columbus "discovers" the Americas
 ~1500|Jin Ping Mei (The Plum in the Golden Vase)[^sixnovels]
+1517|Martin Luther writes the Ninety-five Theses
 1535|the Coverdale Bible, the first English Bible
 1582|Pope Gregory XIII starts the Gregorian calendar
 1592|Journey to the West[^sixnovels]
@@ -76,10 +79,10 @@ year|event
 1692-1693|Salem witch trials
 1760-1840|the Industrial Revolution
 1750|The Scholars[^sixnovels]
-1791|Dream of the Red Chamber[^sixnovels]
 1775-1783|US Revolution
 1776|USA is founded
 1789-1799|the French Revolution
+1791|Dream of the Red Chamber[^sixnovels]
 1813|Pride and Prejudice published
 1816|Year Without a Summer, aka Eighteen Hundred and Froze To Death
 1818|Frankenstein published
@@ -97,7 +100,7 @@ year|event
 1886|Carl Benz makes the first gasoline powered modern car
 1889|Nintendo founded
 1897|Dracula published
-1898|Puerto Rico and Guam aquired by US after Spanish-American War
+1898|Puerto Rico and Guam acquired by US after Spanish-American War
 1903|the first airplane flight, by the Wright brothers
 1905|Einstein's Theory of Special Relativity published
 1906-1915|Azusa Street revival begins Pentecostalism and modern Christian speaking in tongues
@@ -115,7 +118,7 @@ year|event
 1953|UK/US orchestrates the Iranian coup, precursor to the Islamic revolution
 1955|setting of Back to the Future I
 1961|Yuri Gagarin conducts the first human space flight
-1962|the Cuban Missle Crisis
+1962|the Cuban Missile Crisis
 1963|JFK assassinated
 1965|Alexei Arkhipovich Leonov conducts the first space walk
 1954-1968|American civil rights movement
