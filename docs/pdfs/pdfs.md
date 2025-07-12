@@ -11,11 +11,14 @@ Designed for easy printing. Put 'em on the community bulletin board, in your cub
 - <a href="/pdfs/bash.pdf">bash</a><br>
 - <a href="/pdfs/bucket_list_games.pdf">bucket_list_games</a><br>
 - <a href="/pdfs/caffeine.pdf">caffeine</a><br>
+- <a href="/pdfs/colorblindness.pdf">colorblindness</a><br>
 - <a href="/pdfs/feruchemic_table.pdf">feruchemic_table</a><br>
 - <a href="/pdfs/hemalurgic_table.pdf">hemalurgic_table</a><br>
 - <a href="/pdfs/koopalings.pdf">koopalings</a><br>
 - <a href="/pdfs/linux_new_drive_steps.pdf">linux_new_drive_steps</a><br>
+- <a href="/pdfs/markdown.pdf">markdown</a><br>
 - <a href="/pdfs/metallic_arts.pdf">metallic_arts</a><br>
+- <a href="/pdfs/mythical_metal_analogues.pdf">mythical_metal_analogues</a><br>
 - <a href="/pdfs/nato_alphabet_print_version.pdf">nato_alphabet</a><br>
 - <a href="/pdfs/playing_cards.pdf">playing_cards</a><br>
 - <a href="/pdfs/playlist_doodle_requests.pdf">playlist_doodle_requests</a><br>

@@ -68,6 +68,7 @@ make_header "$sourceDir/Printable_ASCII_characters_wikimedia.svg" "ascii.png"
 make_header "$sourceDir/ten_commandments.png" "ten_commandments.png"
 make_header "$sourceDir/stormlight.svg" "stormlight.png"
 make_header "$sourceDir/mistborn.png" "mistborn.png"
+make_header "$sourceDir/colorblindness.svg" "colorblindness.png"
 
 if [[ -f "$tempPath" ]]
 then

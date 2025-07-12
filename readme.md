@@ -15,6 +15,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="docs/cheatsheets/ascii.md">ascii</a><br>
     - <a href="docs/cheatsheets/bash.md">bash</a><br>
     - <a href="docs/cheatsheets/caffeine.md">caffeine</a><br>
+    - <a href="docs/cheatsheets/colorblindness.md">colorblindness</a><br>
     - <a href="docs/cheatsheets/koopalings.md">koopalings</a><br>
     - <a href="docs/cheatsheets/markdown.md">markdown</a><br>
     - <a href="docs/cheatsheets/mythical_metal_analogues.md">mythical_metal_analogues</a><br>
