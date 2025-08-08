@@ -121,9 +121,11 @@ year|event
 1962|the Cuban Missile Crisis
 1963|JFK assassinated
 1965|Alexei Arkhipovich Leonov conducts the first space walk
+1965|Malcolm X is assassinated
 1954-1968|American civil rights movement
 1966-1969|Star Trek: TOS
 1968|Martin Luther King Jr. is assassinated
+1968|RFK is assassinated
 1969|the first message over Arpanet, the early internet
 1969|Apollo 11, the first human moon landing
 1971|release of Computer Space, the first arcade game
