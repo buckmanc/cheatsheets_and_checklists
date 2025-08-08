@@ -43,11 +43,6 @@ then
 fi
 ```
 
-## count args
-```bash
-echo "$#"
-```
-
 ## print line number
 ```bash
 echo "$LINENO"
@@ -77,6 +72,11 @@ myArray+=("$var")
 echo "array has ${#myArray[@]} items"
 ```
 
+## count args
+```bash
+echo "$#"
+```
+
 ## iterate an array
 ```bash
 for var in "${myArray[@]}"
@@ -91,6 +91,27 @@ for arg in "$@"
 do
     echo "$arg"
 done
+```
+
+## iterate lines
+```bash
+while read -r line
+do
+    echo "$line"
+done < <(echo "$lines")
+```
+
+## substring
+```bash
+# ${string:offset:length}
+
+var="hello world"
+echo "${var:0:5} bob"
+```
+
+## move to beginning and clear line
+```bash
+echo -ne "\r\033[2K task x% done"
 ```
 
 ## date gate
