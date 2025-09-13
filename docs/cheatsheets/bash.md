@@ -127,6 +127,7 @@ fi
 
 operator|desc
 ---|---
+`-eq`| equal to
 `-gt`| greater than
 `-ge`| greater than or equal to
 `-lt`| less than

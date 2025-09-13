@@ -19,9 +19,11 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="docs/cheatsheets/koopalings.md">koopalings</a><br>
     - <a href="docs/cheatsheets/markdown.md">markdown</a><br>
     - <a href="docs/cheatsheets/mythical_metal_analogues.md">mythical_metal_analogues</a><br>
+    - <a href="docs/cheatsheets/named_principles.md">named_principles</a><br>
     - <a href="docs/cheatsheets/nato_alphabet.md">nato_alphabet</a><br>
     - <a href="docs/cheatsheets/playing_cards.md">playing_cards</a><br>
     - <a href="docs/cheatsheets/poker_hands.md">poker_hands</a><br>
+    - <a href="docs/cheatsheets/systems.md">systems</a><br>
     - <a href="docs/cheatsheets/ten_commandments.md">ten_commandments</a><br>
     - <a href="docs/cheatsheets/world_history_timeline.md">world_history_timeline</a><br>
     - cosmere<br>
@@ -38,6 +40,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="docs/checklists/bucket_list_games.md">bucket_list_games</a><br>
     - <a href="docs/checklists/linux_new_drive_steps.md">linux_new_drive_steps</a><br>
     - <a href="docs/checklists/playlist_doodle_requests.md">playlist_doodle_requests</a><br>
+    - <a href="docs/checklists/ssh.md">ssh</a><br>
 - links<br>
     - <a href="docs/links/bookmarks.md">bookmarks</a><br>
     - <a href="docs/links/browser_extensions.md">browser_extensions</a><br>
