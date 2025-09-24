@@ -12,6 +12,7 @@ Designed for easy printing. Put 'em on the community bulletin board, in your cub
 - <a href="/pdfs/bucket_list_games.pdf">bucket_list_games</a><br>
 - <a href="/pdfs/caffeine.pdf">caffeine</a><br>
 - <a href="/pdfs/colorblindness.pdf">colorblindness</a><br>
+- <a href="/pdfs/days_of_the_week.pdf">days_of_the_week</a><br>
 - <a href="/pdfs/feruchemic_table.pdf">feruchemic_table</a><br>
 - <a href="/pdfs/hemalurgic_table.pdf">hemalurgic_table</a><br>
 - <a href="/pdfs/koopalings.pdf">koopalings</a><br>
@@ -24,7 +25,6 @@ Designed for easy printing. Put 'em on the community bulletin board, in your cub
 - <a href="/pdfs/playing_cards.pdf">playing_cards</a><br>
 - <a href="/pdfs/playlist_doodle_requests.pdf">playlist_doodle_requests</a><br>
 - <a href="/pdfs/poker_hands.pdf">poker_hands</a><br>
-- <a href="/pdfs/poker_variants.pdf">poker_variants</a><br>
 - <a href="/pdfs/radiant_orders.pdf">radiant_orders</a><br>
 - <a href="/pdfs/ssh.pdf">ssh</a><br>
 - <a href="/pdfs/systems.pdf">systems</a><br>

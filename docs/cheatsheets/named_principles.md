@@ -1,4 +1,5 @@
 # Named Principles
+<!-- pdflandscape -->
 
 Name|Desc
 ---|---
@@ -8,7 +9,8 @@ Name|Desc
 [Occum's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor)|The simplest answer is usually true
 [Dunning–Kruger Effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)|A cognitive bias in which unskilled individuals suffer from illusory superiority, mistakenly rating their ability much higher than average
 [Brandolini’s Law](https://en.wikipedia.org/wiki/Brandolini%27s_law)|The amount of energy needed to refute bullshit is an order of magnitude bigger than to produce it
-[Brooks’s law](https://en.wikipedia.org/wiki/Brooks%27s_law)|Adding manpower to a late software project makes it later.
+[Gish gallop](https://en.wikipedia.org/wiki/Gish_gallop)|A rhetorical technique in which a person in a debate attempts to overwhelm an opponent by presenting an excessive number of arguments, without regard for their accuracy or strength, with a rapidity that makes it impossible for the opponent to address them in the time available
+[Brooks’s law](https://en.wikipedia.org/wiki/Brooks%27s_law)|Adding manpower to a late software project makes it later
 [Betteridge’s Law of Headlines](https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines)|Any headline which ends in a question mark can be answered by the word 'no'
 [Shirky Principle](https://en.wikipedia.org/wiki/Clay_Shirky#Shirky_principle)|Institutions will try to preserve the problem to which they are the solution
 [Streisand Effect](https://en.wikipedia.org/wiki/Streisand_effect)|Any attempt to hide, remove, or censor a piece of information has the unintended consequence of publicizing the information more widely
