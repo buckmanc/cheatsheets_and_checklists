@@ -7,7 +7,7 @@ markdown_extensions:
       custom_checkbox: true
   # - link_attributes
 # minify plugin breaks search and tables
-# plugins:
+plugins:
   # - social
   # - search
 #   - minify:
@@ -19,6 +19,7 @@ markdown_extensions:
 #       cache_safe: true
 #       css_files:
 #           - docs/css/*
+  - git-revision-date-localized
 exclude_docs: |
     *_template.md
     *_print_version.md
