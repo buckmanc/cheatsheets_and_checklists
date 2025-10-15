@@ -40,6 +40,7 @@
 - [Pokemon Go Raid Finder](https://9db.jp/pokego/data/62)
 - [Pokemon Go Countdowns](https://p337.info/pokemongo/)
 - [Market Holidays](https://www.nyse.com/markets/hours-calendars)
+- [bookmarks for browser import](../html/bookmarks_export.html)
 
 ## Emergency Music
 - [Dungeon Synth Archives](https://www.youtube.com/playlist?list=UULFhmm356a5qe1luUsoatAgjA)
