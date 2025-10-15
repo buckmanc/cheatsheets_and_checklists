@@ -30,6 +30,11 @@ echo "${var^^}"
 echo "${var,,}"
 ```
 
+## slice var
+```bash
+"${VAR:offset:length}"
+```
+
 ## increment var
 ```bash
 i=$((i+1))
@@ -152,3 +157,7 @@ then
     echo "yep it's greater than zero"
 fi
 ```
+
+# TODO
+
+- add preferred arg parsing method

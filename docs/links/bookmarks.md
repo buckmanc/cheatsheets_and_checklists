@@ -46,12 +46,14 @@
 - [LoFi Study Girl](https://youtube.com/watch?v=jfKfPfyJRdk)
 - [LoFi Air Traffic Control](https://www.lofiatc.com/)
 - [OC Remix Radio](https://rainwave.cc/ocremix/)
+- [Bytebeat](https://dollchan.net/bytebeat/)
 - ~~[Voices of the Ainur](https://www.podchaser.com/podcasts/voices-of-the-ainur-1487083/episodes/recent)~~
 
 ## Bookmarklets
 
 - copy sanitized url - `javascript:void(navigator.clipboard.writeText(location.href.substring(0,location.href.search("(ref=|\\?)"))));`
-- email - `javascript:void(window.open("mailto:example@example.com?subject=%22+encodeURIComponent(document.title)+%22&body=%22+document.location.href));`
-- wayback - `javascript:location.href='http://web.archive.org/web/*/'+document.location.href; `
-- gistfix - `javascript:(function(){var a=/^(?:.*\/)?([a-f0-9]+)$/.exec(window.location.href),b=a?a[1]:null;b&&(window.location.href=%27https://yi-jiayu.github.io/essence/#'+b);})()`
+- email - `javascript:void(window.open("mailto:example@example.com?subject="+encodeURIComponent(document.title)+"&body="+document.location.href));`
+- wb - view `javascript:void(window.open('https://web.archive.org/web/*/'+location.href.replace(/\/$/, '')));`
+- wb - save `javascript:void(window.open('https://web.archive.org/save/'+location.href));`
+- x - img (need to test) `javascript: (function () { var images = document.getElementsByTagName('img');var l = images.length; for (var i = 0; i < l; i++) { images[0].parentNode.removeChild(images[0];} }());`
 - puzzle from img - `javascript:post('https://www.jigsawexplorer.com/jigsaw-puzzle-result/',{'image-url':document.location.href,color:'charcoal','puzzle-nop':136});function post(a,b){const c=(e,f)=>Object.assign(document.createElement(e),f),d=c('form',{action:a,method:'post',hidden:true});for(const[e,f]of Object.entries(b))d.appendChild(c('input',{name:e,value:f}));document.body.appendChild(d),d.submit()}`

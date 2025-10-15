@@ -138,6 +138,7 @@ year|event
 1985|Alexey Pajitnov creates Tetris
 1989|Berlin Wall falls
 1990|discovery of Chicxulub crater
+1991|Rodney King is beaten by police in Los Angeles, CA
 1992-1996|Star Trek: Khan Noonien Singh rules a quarter of Earth
 1993|marital rape outlawed in all 50 US states
 1993|creation of the European Union
@@ -151,8 +152,10 @@ year|event
 2007|the iPhone is released
 2008|Lehman Brothers declares bankruptcy, triggering the 2008 recession
 2008|the first Android phone (the HTC Dream) is released
+2014|Michael Brown is shot by police in Ferguson, MO
 2015|setting of Back to the Future II
 2020|COVID-19 pandemic, est 18M deaths in 4.5 years
+2020|George Floyd is murdered by police in Minneapolis, MN
 2024|1st commercial moon landing
 2024|Star Trek: Irish reunification
 
