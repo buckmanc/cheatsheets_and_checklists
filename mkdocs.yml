@@ -19,7 +19,13 @@ plugins:
 #       cache_safe: true
 #       css_files:
 #           - docs/css/*
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      timezone: America/Chicago
+      enable_creation_date: true
+      exclude:
+          - drafts/*
+      enable_git_follow: true
+      enable_parallel_processing: true
 exclude_docs: |
     *_template.md
     *_print_version.md
@@ -39,6 +45,7 @@ theme:
   color_mode: auto
   user_color_mode_toggle: true
   nav_style: dark
+  custom_dir: docs/overrides
   # name: material
   # features:
   #   - toc.integrate
