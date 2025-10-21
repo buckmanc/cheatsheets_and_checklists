@@ -1,44 +1,12 @@
+INHERIT: standard.yml
 site_name: Cheatsheets and Checklists
 
 markdown_extensions:
-  - footnotes
-  - pymdownx.tilde
   - pymdownx.tasklist:
       custom_checkbox: true
-  # - link_attributes
-# minify plugin breaks search and tables
-plugins:
-  # - social
-  # - search
-#   - minify:
-#       minify_html: true
-#       minify_js: true
-#       minify_css: true
-#       htmlmin_opts:
-#           remove_comments: true
-#       cache_safe: true
-#       css_files:
-#           - docs/css/*
-  - git-revision-date-localized:
-      timezone: America/Chicago
-      enable_creation_date: true
-      exclude:
-          - drafts/*
-      enable_git_follow: true
-      enable_parallel_processing: true
-exclude_docs: |
-    *_template.md
-    *_print_version.md
-site_url: https://cheatsheets-and-checklists.pages.dev/
+site_url: https://cheatsheets.buckman.cc
 repo_url: https://github.com/buckmanc/cheatsheets_and_checklists
-site_author: Charles Buckman
 site_description: A simple repo of personal reference material written in Markdown. Peruse at your leisure, preferably with a cup of bean water in a cozy tavern run by an orc.
-not_in_nav: |
-  /pdfs/
-  /html/
-validation:
-  links:
-    absolute_links: relative_to_docs
 
 theme:
   name: mkdocs
@@ -46,6 +14,3 @@ theme:
   user_color_mode_toggle: true
   nav_style: dark
   custom_dir: docs/overrides
-  # name: material
-  # features:
-  #   - toc.integrate

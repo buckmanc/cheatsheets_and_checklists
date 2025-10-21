@@ -1,0 +1,42 @@
+site_author: Charles Buckman
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.tilde
+
+exclude_docs: |
+    *_template.md
+    *_print_version.md
+
+not_in_nav: |
+    /pdf/
+    /html/
+    stats.md
+    omnibus.md
+
+plugins:
+  - material/social
+  - search
+  - exclude-search:
+      exclude:
+        - stats.md
+        - omnibus.md
+  - git-revision-date-localized:
+      timezone: America/Chicago
+      enable_creation_date: true
+      exclude:
+          - drafts/*
+      enable_git_follow: true
+      enable_parallel_processing: true
+validation:
+  links:
+    absolute_links: relative_to_docs
+
+theme:
+  name: material
+  features:
+    - toc.integrate
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.path
+    - navigation.prune
