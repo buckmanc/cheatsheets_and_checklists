@@ -20,6 +20,11 @@ tar.gz
 gz
 ```
 
+## assign var from command output
+```bash
+var="$(echo "eat at joe's")"
+```
+
 ## uppercase var
 ```bash
 echo "${var^^}"
@@ -126,6 +131,21 @@ then
 	echo 'skippy skippy'
 	exit 0
 fi
+```
+
+## capture output and test success
+```bash
+if output=$(ls * 2>&1)
+then
+    echo "success"
+else
+    echo "failure"
+fi
+```
+
+## use variable in place of file
+```bash
+echo -n 'one\ntwo\nthree' | grep -f <(echo -e 'two\nthree\nfour')
 ```
 
 ## test operators
