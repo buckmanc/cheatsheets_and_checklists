@@ -34,18 +34,34 @@
 
   	const suffixes = [
   			" town", " township", " city", " island", " isles", " republic", " kingdom", " queendom", " tsardom", " despotate", " gardens", " falls",
-  			"burg", "benstein", "ville", "land", "lands", "istan", "bia", "mark", "entina", "sby", "sley", "swick", "wich", "bington", "berton", "chester", "bendell", "sbrook", "shire", "benae", "vellir", "barney", "benor"
+  			"burg", "benstein", "ville", "land", "lands", "istan", "bia", "mark", "entina", "sby", "sley", "swick", "wich", "bington", "berton", "chester", "bendell", "sbrook", "shire", "benae", "vellir", "barney", "benor",
+  			" village", " haven", " sanctuary", " peninsula", "worth", "dale", " valley", " ridge"
   		];
   	const prefixes = [
   			"united ", "old ", "greater ", "west ", "east ", "north ", "south ", "first ",
   			"the republic of ", "the democratic republic of ", "the soviet republic of ", "the people's republic of ", "the free state of ", "the free imperial city of ", "the commonwealth of ", "the federated states of ", "the federal republic of ", "the independant commune of ", "the democratic socialist republic of ", "the co-operative republic of ", "confederated principalities of ", "tribal confederation of ", "nomadic confederacy of ", "monarchial republic of ",
   			"the liberal democracy of ", "the moderately left-leaning ", "the sweet embrace of ", "the tiny coastal ",
   			"the imperium of ", "imperial ",
-  			"the imperishable kingdom of ", "the eternal realm of ", "the woodland realm of ", "the ancient domain of ", "the hidden forest of ", "the arcane enclave of ", "the tempestuous ", "the shrine to knowledge at "
+  			"the imperishable kingdom of ", "the eternal realm of ", "the woodland realm of ", "the ancient domain of ", "the hidden forest of ", "the arcane enclave of ", "the tempestuous ", "the shrine to knowledge at ",
+  			"itty bitty ", "fort ",
+  			"the protectorate of ", "the bustling metropolis of ", "the allied territories of ", "the unholy empire of ", "the sacred order of ", "the tranquil estates of ", "the serene plains of "
   		];
   	const exclusivePrefixes = [
-  			"amon ", "barad ", "caras ", "cirith ", "ered ", "eryn ", "emyn ", "imlad ", "minas ", "mount", "tol "
+  			"amon ", "barad ", "caras ", "cirith ", "ered ", "eryn ", "emyn ", "imlad ", "khazad ", "minas ", "mount", "tol "
   		];
+
+  	const clausePart1 = [
+  		" of", " in", " beyond", " across", " upon",
+  		" under", " over", " near ", " far from ", " beside",
+  		" between", " among", " within", " inside"
+  	];
+
+  	const clausePart2 = [
+  		"whispering winds", "eternal stars", "crimson dawn", "silver moon",
+  		"ancient ones", "forgotten gods", "fallen kings", "rising sun",
+  		"western seas", "eastern mountains", "northern lights", "southern cross",
+  		"five rivers", "seven seas", "nine worlds", "twelve moons"
+  	];
 
   	function updateSuffix(){
   			document.getElementById("suffix").textContent=choose(suffixes);
@@ -59,19 +75,38 @@
   			document.getElementById("prefix").textContent=choose(exclusivePrefixes);
   		}
 
+  	function updateClause() {
+  				document.getElementById("clause").textContent=choose(clausePart1) + " the " + choose(clausePart2);
+  			}
+
   	function init(){
   			var rando = Math.random();
-  			if (rando < 0.01){
+
+  			if (rando < 0.05){
   					updateExclusivePrefix();
   				}
-  			else if (rando < 0.08){
-  					updateSuffix();
+  			else if (rando < 0.20){
+
+  				var randoTier2 = Math.random();
+
+  				if (randoTier2 < 0.25){
+  						updateSuffix();
+  						updateClause();
+  					}
+  				else if (randoTier2 < 0.5){
+  						updateSuffix();
+  						updatePrefix();
+  						updateClause();
+  					}
+  				else{
+  						updateSuffix();
+  						updatePrefix();
+  					}
+  				}
+  			else if (rando < 0.47){
   					updatePrefix();
   				}
-  			else if (rando < 0.25){
-  					updatePrefix();
-  				}
-  			else if (rando < 0.60){
+  			else if (rando < 0.70){
   					updateSuffix();
   				}
   		}
@@ -82,11 +117,13 @@
 <body>
 <!-- ## new tab -->
 
-<p>welcome to <span id="prefix"></span>new tab<span id="suffix"></span></p>
+<p>welcome to <span id="prefix"></span>new tab<span id="suffix"></span><span id="clause"></span></p>
+<!-- unfortunately, there is no generic user url for 1) etsy wishlists and 2) github repositories -->
+
 <h2 id="shopping">shopping</h2>
 <ul>
 <li><a href="https://amazon.com">amazon</a> - <a href="https://amazon.com/your-orders">orders</a> <a href="https://www.amazon.com/gp/aw/c">cart</a> <a href="https://www.amazon.com/hz/wishlist/ls">list</a></li>
-<li><a href="https://etsy.com">etsy</a> - <a href="https://www.etsy.com/your/purchases">orders</a> <a href="https://www.etsy.com/cart">cart</a></li>
+<li><a href="https://etsy.com">etsy</a> - <a href="https://www.etsy.com/your/purchases">orders</a> <a href="https://www.etsy.com/cart">cart</a> <a href="https://www.etsy.com/people/warhammer300?tab=items">list</a></li>
 </ul>
 <h2 id="personal">personal</h2>
 <ul>
@@ -105,7 +142,7 @@
 </ul>
 <h2 id="create">create</h2>
 <ul>
-<li><a href="https://github.com">github</a></li>
+<li><a href="https://github.com/buckmanc?tab=repositories">github</a></li>
 <li><a href="https://dash.cloudflare.com">cloudflare dash</a></li>
 <li><a href="https://console.cloud.google.com">goog console</a></li>
 <li><a href="https://studio.youtube.com">yt studio</a></li>

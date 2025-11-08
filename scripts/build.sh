@@ -29,13 +29,15 @@ mkdir -p "$gitRoot/docs/html"
 indexPath="$gitRoot/docs/index.md"
 newTabHtmlPath="$gitRoot/docs/html/new_tab_page_simple.html"
 newTabMdPath="$gitRoot/docs/links/new_tab_page.md"
+newTabScripts="$gitRoot/docs/html/pickstring.html"
 bookmarksPagePath="$gitRoot/docs/links/bookmarks.md"
 bookmarksExportPath="$gitRoot/docs/html/bookmarks_export.html"
 exportScriptPath="$HOME/bin/export-bookmarks"
 
 # rebuild the new tab html page if needed
-if [[ "$newTabMdPath" -nt "$newTabHtmlPath" ]]
+if [[ "$newTabMdPath" -nt "$newTabHtmlPath" || "$newTabScripts" -nt "$newTabHtmlPath" ]]
 then
+	echo "rebuilding new tab html..."
 	pandoc --from gfm --to html --standalone --metadata title="" --metadata pagetitle="new tab" "$newTabMdPath" --css "../css/new_tab_page_simple.css" --output "$newTabHtmlPath" --include-in-header="$gitRoot/docs/html/pickstring.html" --wrap=preserve
 	sed -e 's|/index\.md|/|g' -e 's/\.md"/"/g' -i "$newTabHtmlPath"
 fi
