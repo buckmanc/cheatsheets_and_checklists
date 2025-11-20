@@ -18,6 +18,7 @@ theme:
 extra_css:
   - css/extra.css
 
-plugins:
-  - search:
-      enabled: false
+# turning off the search plugin breaks tables
+# plugins:
+#   - search:
+#       enabled: false
