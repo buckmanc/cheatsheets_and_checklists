@@ -14,9 +14,12 @@ Name|Desc
 [Betteridge’s Law of Headlines](https://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines)|Any headline which ends in a question mark can be answered by the word 'no'
 [Shirky Principle](https://en.wikipedia.org/wiki/Clay_Shirky#Shirky_principle)|Institutions will try to preserve the problem to which they are the solution
 [Streisand Effect](https://en.wikipedia.org/wiki/Streisand_effect)|Any attempt to hide, remove, or censor a piece of information has the unintended consequence of publicizing the information more widely
-[Eagleson's Law](https://netmeister.org/blog/software-engineering-laws.html)|Any code of your own that you haven't looked at for six or more months might as well have been written by someone else
+[Eagleson's Law](https://netmeister.org/blog/software-engineering-laws.html)|Any code you wrote more than six months ago might as well have been written by someone else
 [Sturgeon's Law](https://en.wikipedia.org/wiki/Sturgeon%27s_law)|90% of everything is crud
-Postel's Law|Be conservative in what you send, be liberal in what you accept
+[Postel's Law](https://en.wikipedia.org/wiki/Robustness_principle)|Be conservative in what you send, be liberal in what you accept
+[Osborne Effect](https://en.wikipedia.org/wiki/Osborne_effect)|When customers defer orders for the current product as an unexpected drawback of a company announcing a future product
+[Matilda Effect](https://en.wikipedia.org/wiki/Matilda_effect)|When women do the work and men get the credit
+
 
 Sources:
 
