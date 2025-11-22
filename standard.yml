@@ -4,6 +4,8 @@ edit_uri: edit/main/docs/
 markdown_extensions:
   - footnotes
   - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 exclude_docs: |
     *_template.md
