@@ -52,9 +52,9 @@
 
 ## Bookmarklets
 
-- copy sanitized url - `javascript:void(navigator.clipboard.writeText(location.href.substring(0,location.href.search("(ref=|\\?)"))));`
-- email - `javascript:void(window.open("mailto:example@example.com?subject="+encodeURIComponent(document.title)+"&body="+document.location.href));`
-- wb - view `javascript:void(window.open('https://web.archive.org/web/*/'+location.href.replace(/\/$/, '')));`
-- wb - save `javascript:void(window.open('https://web.archive.org/save/'+location.href));`
-- x - img (need to test) `javascript: (function () { var images = document.getElementsByTagName('img');var l = images.length; for (var i = 0; i < l; i++) { images[0].parentNode.removeChild(images[0];} }());`
-- puzzle from img - `javascript:post('https://www.jigsawexplorer.com/jigsaw-puzzle-result/',{'image-url':document.location.href,color:'charcoal','puzzle-nop':136});function post(a,b){const c=(e,f)=>Object.assign(document.createElement(e),f),d=c('form',{action:a,method:'post',hidden:true});for(const[e,f]of Object.entries(b))d.appendChild(c('input',{name:e,value:f}));document.body.appendChild(d),d.submit()}`
+- [email](javascript:void\(window.open\("mailto:example@example.com?subject="+encodeURIComponent\(document.title\)+"&body="+document.location.href\)\);)
+- [copy sanitized url](javascript:void\(navigator.clipboard.writeText\(location.href.substring\(0,location.href.search\("\(ref=|\\\\?\)"\)\)\)\);)
+- [wb - view](javascript:void\(window.open\('https://web.archive.org/web/*/'+location.href.replace\(/\/$/, ''\)\)\);)
+- [wb - save](javascript:void\(window.open\('https://web.archive.org/save/'+location.href\)\);)
+- [x - img](javascript: \(function \(\) { var images = document.getElementsByTagName\('img'\);var l = images.length; for \(var i = 0; i < l; i++\) { images[0].parentNode.removeChild\(images[0]\);} }\(\)\);)
+- ~~[puzzle from img](javascript:post\('https://www.jigsawexplorer.com/jigsaw-puzzle-result/',{'image-url':document.location.href,color:'charcoal','puzzle-nop':136}\);function post\(a,b\){const c=\(e,f\)=>Object.assign\(document.createElement\(e\),f\),d=c\('form',{action:a,method:'post',hidden:true}\);for\(const[e,f]of Object.entries\(b\)\)d.appendChild\(c\('input',{name:e,value:f}\)\);document.body.appendChild\(d\),d.submit\(\)})~~

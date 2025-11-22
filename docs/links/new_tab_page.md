@@ -8,11 +8,8 @@ welcome to <span id="prefix"></span>new tab<span id="suffix"></span><span id="cl
 - [etsy](https://etsy.com) - [orders](https://www.etsy.com/your/purchases) [cart](https://www.etsy.com/cart) [list](https://www.etsy.com/people/warhammer300?tab=items)
 
 ## personal
-- [bookmarks](../links/bookmarks.md)
-- [dotfiles](https://github.com/buckmanc/dotfiles)
 - [wallpapers](https://wallpapers.buckman.cc)
 - [cheatsheets and checklists](../index.md)
-- [spotify playlists](../links/spotify_playlists.md)
 - [herschel](http://herschel.local)
 
 ## goog
