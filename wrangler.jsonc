@@ -1,8 +1,10 @@
 {
   "name": "cheatsheets-and-checklists",
-  "compatibility_date": "2025-10-20",
+  "compatibility_date": "2025-11-21",
   "assets": {
     "directory": "./site/"
   },
-  "preview_urls": false
+  "preview_urls": false,
+  "workers_dev": false,
+  "last_item_with_no_comma": true
 }
