@@ -32,12 +32,12 @@ ex, 3 water 1.5 rice
 - 1 1/3 cups Orzo
 - 2 tsp minced garlic
 - 3 cups Chicken Broth
-- 1/2 cup Parmesan Cheese ((good-quality))
+- 1/2 cup Parmesan Cheese (good-quality)
 - 1/4 cup Heavy Cream
 - 1 teaspoon Fresh Lemon Zest
-- 2 Tablespoons Fresh Lemon Juice ((add more for more lemon flavor))
-- 2 Tablespoons Fresh Basil ((chopped))
-- Salt and Pepper ((to taste))
+- 2 Tablespoons Fresh Lemon Juice (add more for more lemon flavor)
+- 2 Tablespoons Fresh Basil (chopped)
+- Salt and Pepper (to taste)
 
 - heavy-bottomed saucepan
 	- the child of a pot and pan
@@ -112,7 +112,7 @@ ex, 3 water 1.5 rice
 
 ### directions
 
-1. preheat over to 400
+1. preheat oven to 400
 1. line baking sheet with parchment paper
 1. cook
 	- 18 mins for regular bacon

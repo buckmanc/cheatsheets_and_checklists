@@ -15,7 +15,7 @@ Weld, carve, cook, sculpt, sew. Make something in the world that wasn't there be
 
 ## 3. Don't wait
 
-You can start now with what's in front of you. As Goethe [may or may not have] said, “Begin it!”
+You can start now with what's in front of you. As Goethe [may or may not have] said, "Begin it!"
 
 ## 4. Use a project to learn a skill
 
@@ -35,7 +35,7 @@ Don't hide from these. Talk about them. They're not enemies to be avoided, they'
 
 ## 8. Measure carefully
 
-Have some tolerance. You know what tolerance is? If something fits tightly into something–that's a close tolerance. If something fits loosely, that's a loose tolerance. Knowing the difference between tight and loose tolerance is perhaps the most important measure of a craftsperson.
+Have some tolerance. You know what tolerance is? If something fits tightly into something - that's a close tolerance. If something fits loosely, that's a loose tolerance. Knowing the difference between tight and loose tolerance is perhaps the most important measure of a craftsperson.
 
 ## 9. Make things for other people
 
@@ -43,4 +43,4 @@ Nothing feels better than expanding your making beyond yourself. Make no mistake
 
 ## 10. Use more cooling fluid
 
-If I could go back in time and tell my young self anything–any specific thing at all–it would be this: Use more cooling fluid!
+If I could go back in time and tell my young self anything - any specific thing at all - it would be this: Use more cooling fluid!
