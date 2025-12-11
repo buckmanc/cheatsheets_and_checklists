@@ -11,6 +11,6 @@ Glyph|Order|Spren|Attribute|Attribute|Surge|Surge
 !["Elsecallers"](/images/stormlight_small/beteb.svg)|Elsecallers|Inkspren|Wise|Careful|Transformation|Transportation
 !["Willshapers"](/images/stormlight_small/willshapers.svg)|Willshapers|Reacher (Lightspren)|Resolute|Builder|Transportation|Cohesion
 !["Stonewards"](/images/stormlight_small/stonewards.svg)|Stonewards|Peakspren|Dependable|Resourceful|Cohesion|Tension
-!["Bondsmiths"](/images/stormlight_small/ishi.svg)|Bondsmiths|<details><summary>spoiler</summary>the Stormfather,<br>the Nightwatcher,<br>and the Sibling</details>|Pious|Guiding|Tension|Adhesion 
+    !["Bondsmiths"](/images/stormlight_small/ishi.svg)|Bondsmiths|<details><summary>spoiler</summary>the Stormfather,<br>the Nightwatcher,<br>and the Sibling</details>|Pious|Guiding|Tension|Adhesion 
 
 from [The Coppermind](https://coppermind.net/wiki/Surgebinding)

@@ -130,6 +130,7 @@ year|event
 1969|Apollo 11, the first human moon landing
 1971|release of Computer Space, the first arcade game
 1974|Nixon resigns following the Watergate scandal
+1974|the last US "ugly law" is repealed
 1975|US women can get credit without a male cosigner
 1979|completion of the Iranian Islamic Revolution
 1979-1989|Jerry Falwell's "Moral Majority"

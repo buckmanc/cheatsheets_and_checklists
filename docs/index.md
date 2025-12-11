@@ -12,6 +12,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
 ## Table of Contents
 
 - cheatsheets<br>
+    - <a href="cheatsheets/10_commandments_for_makers">10_commandments_for_makers</a><br>
     - <a href="cheatsheets/ascii">ascii</a><br>
     - <a href="cheatsheets/bash">bash</a><br>
     - <a href="cheatsheets/caffeine">caffeine</a><br>
@@ -41,6 +42,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="checklists/bucket_list_games">bucket_list_games</a><br>
     - <a href="checklists/linux_new_drive_steps">linux_new_drive_steps</a><br>
     - <a href="checklists/playlist_doodle_requests">playlist_doodle_requests</a><br>
+    - <a href="checklists/recipes">recipes</a><br>
     - <a href="checklists/ssh">ssh</a><br>
 - links<br>
     - <a href="links/bookmarks">bookmarks</a><br>

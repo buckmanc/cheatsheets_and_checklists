@@ -6,6 +6,7 @@ make sure you're editing the template, doofus
 
 Designed for easy printing. Put 'em on the community bulletin board, in your cubicle, on top of your dog, in a hidden compartment in your spleen.
 
+- <a href="/pdfs/10_commandments_for_makers.pdf">10_commandments_for_makers</a><br>
 - <a href="/pdfs/allomantic_metals.pdf">allomantic_metals</a><br>
 - <a href="/pdfs/ascii.pdf">ascii</a><br>
 - <a href="/pdfs/bash.pdf">bash</a><br>
@@ -26,6 +27,7 @@ Designed for easy printing. Put 'em on the community bulletin board, in your cub
 - <a href="/pdfs/playlist_doodle_requests.pdf">playlist_doodle_requests</a><br>
 - <a href="/pdfs/poker_hands.pdf">poker_hands</a><br>
 - <a href="/pdfs/radiant_orders.pdf">radiant_orders</a><br>
+- <a href="/pdfs/recipes.pdf">recipes</a><br>
 - <a href="/pdfs/ssh.pdf">ssh</a><br>
 - <a href="/pdfs/systems.pdf">systems</a><br>
 - <a href="/pdfs/ten_commandments.pdf">ten_commandments</a><br>
