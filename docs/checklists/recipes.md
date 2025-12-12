@@ -123,10 +123,17 @@ ex, 3 water 1.5 rice
 
 ## waffles
 
-- mix the shit
-- burn it sufficiently
-- butter and syrup to taste
-- clean the waffle burner
+1. mix the mix per the box
+1. preheat waffle marker
+	- green light turns on when done
+1. place drip tray underneath
+1. pour ~1.75 cups into the waffle maker
+1. close, wait 10 seconds, then rotate
+1. repeat previous two steps for side b
+1. set timer for 4 minutes
+1. remove waffles with a plastic implement
+1. butter and syrup to taste
+1. wipe out the crumbs from the waffle burner
 
 ## misc shit
 
