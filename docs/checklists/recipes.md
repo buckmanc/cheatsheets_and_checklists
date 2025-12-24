@@ -95,11 +95,6 @@ ex, 3 water 1.5 rice
 1. pre-separate the batch of strips for easier placement
 1. place 5-6 non-overlapping pieces of bacon in your pan, cook 4 mins
 1. flip, 3 mins
-1. google "done bacon" for a reference image
-	- it was too crispy for Kelsey last time
-	- you want it "waggly but not floppy"
-	- well except that criteria didn't work; the appropriate doneness level made a u shape when picked up
-	- "browned"
 1. place on paper towel plate, rest 5 mins
 1. repeat as needed
 
@@ -115,15 +110,15 @@ ex, 3 water 1.5 rice
 1. preheat oven to 400
 1. line baking sheet with parchment paper
 1. cook
-	- 18 mins for regular bacon
-	- 24 mins for thick cut bacon
-	- martha stewart version says 15 mins
-1. shorten cook times for less crispy
+	- ?? mins for regular bacon
+	- 20 mins for thick cut bacon
 1. martha stewart method says to rotate the pan halfway thru
+1. extract to paper towel plate
 
 ## waffles
 
 1. mix the mix per the box
+	1. 3 cups waffle mix, 2 cups water makes 4 waffles... probably
 1. preheat waffle marker
 	- green light turns on when done
 1. place drip tray underneath
