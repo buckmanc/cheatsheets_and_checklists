@@ -1,2 +1,3 @@
 site/*
 source_images/*
+.cache/*
