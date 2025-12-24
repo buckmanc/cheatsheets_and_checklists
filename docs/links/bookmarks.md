@@ -32,7 +32,7 @@
 - [bash test operators cheat sheet](https://kapeli.com/cheat_sheets/Bash_Test_Operators.docset/Contents/Resources/Documents/index)
 - [sqlite3 cheat sheet](https://sqlitetutorial.net/sqlite-commands)
 - [dotnet ef commands](https://learn.microsoft.com/en-us/ef/core/cli/dotnet#using-the-tools)
-- [JSON2CSharp (and XML, etc)](https://json2cscharp.com)
+- [JSON2CSharp (and XML, etc)](https://json2csharp.com)
 - [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
 ## Other
