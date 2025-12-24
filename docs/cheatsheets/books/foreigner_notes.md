@@ -8,9 +8,9 @@ A ship full of humans have to live with aliens that have different emotions than
 
 If you like...
 
-- TNG, but you wish the episodes were slower and more drawn out
+- TNG, but you wish the episodes were hella slow
 - Sanderson's time spent in character thoughts, but you wish it was only one character
-- Austin's social drama, but you wish there were more aliens, more tea, and sometimes guns
+- Austin's social drama, but you wish there were more politics, more aliens, more tea, and sometimes guns
 
 ...you will love this series.
 
@@ -44,3 +44,8 @@ book|summary
 book|summary
 ---|---
 7|<details><summary>spoiler</summary>Phoenix returns to political upheaval. Tabini-aiji has been dethroned and is maybe in hiding</details>
+
+## Links
+
+- [Audible](https://www.audible.com/series/Foreigner-Audiobooks/B00992TEFC)
+- [Universes of CJ Cherryh](https://www.cherryh.com/www/univer.htm)

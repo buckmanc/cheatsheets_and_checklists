@@ -18,7 +18,6 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="cheatsheets/colorblindness">colorblindness</a><br>
     - <a href="cheatsheets/days_of_the_week">days_of_the_week</a><br>
     - <a href="cheatsheets/example_vba_macro">example_vba_macro</a><br>
-    - <a href="cheatsheets/foreigner_notes">foreigner_notes</a><br>
     - <a href="cheatsheets/koopalings">koopalings</a><br>
     - <a href="cheatsheets/markdown">markdown</a><br>
     - <a href="cheatsheets/mythical_metal_analogues">mythical_metal_analogues</a><br>
@@ -30,16 +29,18 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="cheatsheets/ten_commandments_for_makers">ten_commandments_for_makers</a><br>
     - <a href="cheatsheets/ten_commandments">ten_commandments</a><br>
     - <a href="cheatsheets/world_history_timeline">world_history_timeline</a><br>
-    - cosmere<br>
-        - mistborn<br>
-            - metallic_arts<br>
-                - <a href="cheatsheets/cosmere/mistborn/metallic_arts/allomantic_metals">allomantic_metals</a><br>
-                - <a href="cheatsheets/cosmere/mistborn/metallic_arts/feruchemic_table">feruchemic_table</a><br>
-                - <a href="cheatsheets/cosmere/mistborn/metallic_arts/hemalurgic_table">hemalurgic_table</a><br>
-                - <a href="cheatsheets/cosmere/mistborn/metallic_arts/metallic_arts">metallic_arts</a><br>
-        - stormlight<br>
-            - <a href="cheatsheets/cosmere/stormlight/radiant_orders">radiant_orders</a><br>
-            - <a href="cheatsheets/cosmere/stormlight/ten_essences">ten_essences</a><br>
+    - books<br>
+        - <a href="cheatsheets/books/foreigner_notes">foreigner_notes</a><br>
+        - cosmere<br>
+            - mistborn<br>
+                - metallic_arts<br>
+                    - <a href="cheatsheets/books/cosmere/mistborn/metallic_arts/allomantic_metals">allomantic_metals</a><br>
+                    - <a href="cheatsheets/books/cosmere/mistborn/metallic_arts/feruchemic_table">feruchemic_table</a><br>
+                    - <a href="cheatsheets/books/cosmere/mistborn/metallic_arts/hemalurgic_table">hemalurgic_table</a><br>
+                    - <a href="cheatsheets/books/cosmere/mistborn/metallic_arts/metallic_arts">metallic_arts</a><br>
+            - stormlight<br>
+                - <a href="cheatsheets/books/cosmere/stormlight/radiant_orders">radiant_orders</a><br>
+                - <a href="cheatsheets/books/cosmere/stormlight/ten_essences">ten_essences</a><br>
 - checklists<br>
     - <a href="checklists/bucket_list_games">bucket_list_games</a><br>
     - <a href="checklists/linux_new_drive_steps">linux_new_drive_steps</a><br>
