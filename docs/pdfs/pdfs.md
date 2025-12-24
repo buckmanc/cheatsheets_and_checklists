@@ -6,7 +6,6 @@ make sure you're editing the template, doofus
 
 Designed for easy printing. Put 'em on the community bulletin board, in your cubicle, on top of your dog, in a hidden compartment in your spleen.
 
-- <a href="/pdfs/10_commandments_for_makers.pdf">10_commandments_for_makers</a><br>
 - <a href="/pdfs/allomantic_metals.pdf">allomantic_metals</a><br>
 - <a href="/pdfs/ascii.pdf">ascii</a><br>
 - <a href="/pdfs/bash.pdf">bash</a><br>
@@ -14,7 +13,9 @@ Designed for easy printing. Put 'em on the community bulletin board, in your cub
 - <a href="/pdfs/caffeine.pdf">caffeine</a><br>
 - <a href="/pdfs/colorblindness.pdf">colorblindness</a><br>
 - <a href="/pdfs/days_of_the_week.pdf">days_of_the_week</a><br>
+- <a href="/pdfs/example_vba_macro.pdf">example_vba_macro</a><br>
 - <a href="/pdfs/feruchemic_table.pdf">feruchemic_table</a><br>
+- <a href="/pdfs/foreigner_notes.pdf">foreigner_notes</a><br>
 - <a href="/pdfs/hemalurgic_table.pdf">hemalurgic_table</a><br>
 - <a href="/pdfs/koopalings.pdf">koopalings</a><br>
 - <a href="/pdfs/linux_new_drive_steps.pdf">linux_new_drive_steps</a><br>
@@ -30,6 +31,7 @@ Designed for easy printing. Put 'em on the community bulletin board, in your cub
 - <a href="/pdfs/recipes.pdf">recipes</a><br>
 - <a href="/pdfs/ssh.pdf">ssh</a><br>
 - <a href="/pdfs/systems.pdf">systems</a><br>
+- <a href="/pdfs/ten_commandments_for_makers.pdf">ten_commandments_for_makers</a><br>
 - <a href="/pdfs/ten_commandments.pdf">ten_commandments</a><br>
 - <a href="/pdfs/ten_essences.pdf">ten_essences</a><br>
 - <a href="/pdfs/world_history_timeline.pdf">world_history_timeline</a><br>

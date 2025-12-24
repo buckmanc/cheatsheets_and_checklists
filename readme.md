@@ -12,12 +12,13 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
 ## Table of Contents
 
 - cheatsheets<br>
-    - <a href="docs/cheatsheets/10_commandments_for_makers.md">10_commandments_for_makers</a><br>
     - <a href="docs/cheatsheets/ascii.md">ascii</a><br>
     - <a href="docs/cheatsheets/bash.md">bash</a><br>
     - <a href="docs/cheatsheets/caffeine.md">caffeine</a><br>
     - <a href="docs/cheatsheets/colorblindness.md">colorblindness</a><br>
     - <a href="docs/cheatsheets/days_of_the_week.md">days_of_the_week</a><br>
+    - <a href="docs/cheatsheets/example_vba_macro.md">example_vba_macro</a><br>
+    - <a href="docs/cheatsheets/foreigner_notes.md">foreigner_notes</a><br>
     - <a href="docs/cheatsheets/koopalings.md">koopalings</a><br>
     - <a href="docs/cheatsheets/markdown.md">markdown</a><br>
     - <a href="docs/cheatsheets/mythical_metal_analogues.md">mythical_metal_analogues</a><br>
@@ -26,6 +27,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="docs/cheatsheets/playing_cards.md">playing_cards</a><br>
     - <a href="docs/cheatsheets/poker_hands.md">poker_hands</a><br>
     - <a href="docs/cheatsheets/systems.md">systems</a><br>
+    - <a href="docs/cheatsheets/ten_commandments_for_makers.md">ten_commandments_for_makers</a><br>
     - <a href="docs/cheatsheets/ten_commandments.md">ten_commandments</a><br>
     - <a href="docs/cheatsheets/world_history_timeline.md">world_history_timeline</a><br>
     - cosmere<br>

@@ -1,4 +1,4 @@
-# 10 Commandments for Makers
+# Ten Commandments for Makers
 ## by Adam Savage
 
 From his [2014 Maker Faire speech](https://www.youtube.com/watch?v=ER7rhQ7N69k), as written in a now-defunct [Tested.com article](https://web.archive.org/web/20201112042714/https://www.tested.com/making/461282-my-10-commandments-makers/)
