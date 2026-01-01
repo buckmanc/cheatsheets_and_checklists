@@ -41,6 +41,9 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
             - stormlight<br>
                 - <a href="cheatsheets/books/cosmere/stormlight/radiant_orders">radiant_orders</a><br>
                 - <a href="cheatsheets/books/cosmere/stormlight/ten_essences">ten_essences</a><br>
+        - tolkien<br>
+            - <a href="cheatsheets/books/tolkien/lord_of_the_rings">lord_of_the_rings</a><br>
+            - <a href="cheatsheets/books/tolkien/silmarillion">silmarillion</a><br>
 - checklists<br>
     - <a href="checklists/bucket_list_games">bucket_list_games</a><br>
     - <a href="checklists/linux_new_drive_steps">linux_new_drive_steps</a><br>

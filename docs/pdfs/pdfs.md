@@ -19,6 +19,7 @@ Designed for easy printing. Put 'em on the community bulletin board, in your cub
 - <a href="/pdfs/hemalurgic_table.pdf">hemalurgic_table</a><br>
 - <a href="/pdfs/koopalings.pdf">koopalings</a><br>
 - <a href="/pdfs/linux_new_drive_steps.pdf">linux_new_drive_steps</a><br>
+- <a href="/pdfs/lord_of_the_rings.pdf">lord_of_the_rings</a><br>
 - <a href="/pdfs/markdown.pdf">markdown</a><br>
 - <a href="/pdfs/metallic_arts.pdf">metallic_arts</a><br>
 - <a href="/pdfs/mythical_metal_analogues.pdf">mythical_metal_analogues</a><br>
@@ -29,6 +30,7 @@ Designed for easy printing. Put 'em on the community bulletin board, in your cub
 - <a href="/pdfs/poker_hands.pdf">poker_hands</a><br>
 - <a href="/pdfs/radiant_orders.pdf">radiant_orders</a><br>
 - <a href="/pdfs/recipes.pdf">recipes</a><br>
+- <a href="/pdfs/silmarillion.pdf">silmarillion</a><br>
 - <a href="/pdfs/ssh.pdf">ssh</a><br>
 - <a href="/pdfs/systems.pdf">systems</a><br>
 - <a href="/pdfs/ten_commandments_for_makers.pdf">ten_commandments_for_makers</a><br>

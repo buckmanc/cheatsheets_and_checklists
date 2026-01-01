@@ -43,7 +43,7 @@ book|summary
 ## Arc 3: Drama Back Home
 book|summary
 ---|---
-7|<details><summary>spoiler</summary>Phoenix returns to political upheaval. Tabini-aiji has been dethroned and is maybe in hiding</details>
+7|"Where are my parents, nadi?"<details><summary>spoiler</summary>Phoenix returns to political upheaval. Tabini-aiji has been dethroned and is maybe in hiding. Bren and Grandma go to Uncle for help. Chapter 9, dinner with Uncle, rocks.</details>
 
 ## Links
 
