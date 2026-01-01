@@ -38,7 +38,7 @@ exportScriptPath="$HOME/bin/export-bookmarks"
 if [[ "$newTabMdPath" -nt "$newTabHtmlPath" || "$newTabScripts" -nt "$newTabHtmlPath" ]]
 then
 	echo "rebuilding new tab html..."
-	pandoc --from gfm --to html --standalone --metadata title="" --metadata pagetitle="new tab" "$newTabMdPath" --css "../css/new_tab_page_simple.css" --output "$newTabHtmlPath" --include-in-header="$gitRoot/docs/html/pickstring.html" --wrap=preserve
+	pandoc --from gfm --to html --standalone --metadata title="" --metadata pagetitle="new tab" "$newTabMdPath" --css "../css/new_tab_page_simple.css" --output "$newTabHtmlPath" --include-in-header="$gitRoot/docs/html/pickstring.html" --include-in-header="$gitRoot/docs/html/new_tab_page_icon_header.html" --wrap=preserve
 	sed -e 's|/index\.md|/|g' -e 's/\.md"/"/g' -i "$newTabHtmlPath"
 fi
 
