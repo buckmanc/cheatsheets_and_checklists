@@ -34,10 +34,12 @@ book|summary
 6|<details><summary>spoiler</summary>Bren, Grandma, Captain Jase, and Captain Sabin arrive at the second station, aka Reunion. They meet the Kyoh, rescue a captive Kyoh the Pilot's guild was keeping, dethrone the pilot's guild, and evacuate the station.</details>
 
 <details><summary>spoiler: motive notes</summary>
-- Captain Ramirez motives: created Jase and Yolanda as intermediaries so he could seek out and contact unknown aliens and thus gain leverage against the Pilot's Guild
-- Captain Tamun motives: humans only, fuck aliens
-- Pilots Guild motives: humans only, fuck aliens
+
+- Captain Ramirez motives: created Jase and Yolanda as intermediaries so he could seek out and contact unknown aliens and thus gain leverage against the Pilot's Guild<br>
+- Captain Tamun motives: humans only, fuck aliens<br>
+- Pilots Guild motives: humans only, fuck aliens<br>
 - Captain Sabin motives in appointing Tamun: mitigate Ramirez, oh shit Tamun's nuts
+
 </details>
 
 ## Arc 3: Drama Back Home
