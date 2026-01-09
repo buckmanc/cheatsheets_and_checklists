@@ -9,6 +9,7 @@ Name|Desc
 [Eagleson's Law](https://netmeister.org/blog/software-engineering-laws.html)|Any code you wrote more than six months ago might as well have been written by someone else
 [Gish gallop](https://en.wikipedia.org/wiki/Gish_gallop)|Overwhelming someone with as many arguments as possible, without regard for the accuracy or strength of the arguments
 [Godwin's Law](https://en.wikipedia.org/wiki/Godwin%27s_law)|As an online discussion grows longer, the probability of a comparison involving Nazis or Hitler approaches one
+[Jevon's Paradox](https://en.wikipedia.org/wiki/Jevons_paradox)|When technological advancements make a resource more efficient to use but resource use goes up instead of down
 [Law of Least Possible Simulation](https://archive.org/stream/PreludeToFoundationIsaacAsimov/Prelude%20to%20Foundation%20-%20Isaac%20Asimov_djvu.txt)|There can be no model of the universe smaller than the universe itself
 [Matilda Effect](https://en.wikipedia.org/wiki/Matilda_effect)|When women do the work and men get the credit
 [Occum's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor)|The simplest answer is usually true
