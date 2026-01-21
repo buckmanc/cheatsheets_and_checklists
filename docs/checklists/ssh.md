@@ -9,16 +9,17 @@
     - Termux: `sshd`
 1. server: verify password auth is on
     - Ubuntu: `/etc/ssh/sshd_config`
-    - Termux `$PREFIX/etc/ssh/sshd_config`
-    -
+    - Termux: `$PREFIX/etc/ssh/sshd_config`
+    - &nbsp;
         ```
         PasswordAuthentication yes
         ```
+1. server: Termux only: create an ssh password with `passwd` if needed
 1. client: create an ssh key pair
     - `ssh-keygen -C "your.email@example.com"`
 1. client: add server to config
     - `~/.ssh/config`
-    -
+    - &nbsp;
         ```
         host enterprise
             user picard
@@ -34,7 +35,7 @@
 1. server: disable password auth
     - Ubuntu: `/etc/ssh/sshd_config`
     - Termux: `$PREFIX/etc/ssh/sshd_config`
-    -
+    - &nbsp;
         ```
         PasswordAuthentication no
         ```
@@ -42,9 +43,5 @@
     - Ubuntu: `sudo systemctl restart ssh`
     - Termux: `pkill sshd && sshd`
 1. profit
-
-## TODO
-
-- fix code block bullet formatting
 
 references: [Linuxize](https://linuxize.com/post/how-to-setup-passwordless-ssh-login) and [Termux Wiki](https://wiki.termux.com/wiki/Remote_Access)
