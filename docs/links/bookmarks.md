@@ -42,6 +42,12 @@
 - [Market Holidays](https://www.nyse.com/markets/hours-calendars)
 - [bookmarks for browser import](../html/bookmarks_export.html)
 
+## Generators
+- [Death Generator](https://deathgenerator.com) ([Wayback](https://web.archive.org/web/*/https://deathgenerator.com))
+- [Sign Generator](http://www.redkid.net/generator/sign.php)
+- [Chyron Generator](https://breakyourownnews.com/)
+- ~~[Church Sign Generator](http://www.churchsigngenerator.com)~~ ([Source](https://web.archive.org/web/20040401113455/http://www.churchsigngenerator.com/source.html) [Chars](https://web.archive.org/web/20040219053618/http://www.churchsigngenerator.com:80/images/chars.gif) [Bg](https://web.archive.org/web/20060427020652/http://www.churchsigngenerator.com:80/images/basesign.jpg))
+
 ## Emergency Music
 - [Dungeon Synth Archives](https://www.youtube.com/playlist?list=UULFhmm356a5qe1luUsoatAgjA)
 - [LoFi Study Girl](https://youtube.com/watch?v=jfKfPfyJRdk)
