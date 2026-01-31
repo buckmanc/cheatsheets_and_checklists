@@ -17,7 +17,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="cheatsheets/caffeine">caffeine</a><br>
     - <a href="cheatsheets/colorblindness">colorblindness</a><br>
     - <a href="cheatsheets/days_of_the_week">days_of_the_week</a><br>
-    - <a href="cheatsheets/example_vba_macro">example_vba_macro</a><br>
+    - <a href="cheatsheets/example_vba_macro">example_vba_macro</a> (<a href="cheatsheets/example_vba_macro_simple">simple</a>)<br>
     - <a href="cheatsheets/koopalings">koopalings</a><br>
     - <a href="cheatsheets/markdown">markdown</a><br>
     - <a href="cheatsheets/mythical_metal_analogues">mythical_metal_analogues</a><br>

@@ -22,6 +22,7 @@ fi
 # fi
 
 "$gitRoot/scripts/update_index.sh"
+"$gitRoot/scripts/update_example_vba_macro.sh"
 # "$gitRoot/scripts/spotify_generate.sh"
 
 mkdir -p "$gitRoot/docs/html"

@@ -1,4 +1,5 @@
 # Example VBA Macro
+Full Version
 
 ## Background
 
@@ -9,6 +10,13 @@ If you're looking to write a VBA macro, keep in mind that VBA is *very old* at t
 I started coding by tinkering with existing macros I used on the job. Not many years after that I was a full-time developer moving on to C# and SQL. Not everybody has the opportunities necessary for that, but it's a very valid path.
 
 ## How To Use This Example
+
+### Quick Version
+
+1. Download the [example macro](/misc/ExampleMacro.xlsm)
+1. Follow the [simple instructions](example_vba_macro_simple.md)
+
+### Manual Version
 
 1. Open Excel
 1. Start a new blank workbook
@@ -44,10 +52,13 @@ Sub ExampleScript()
     Dim id As String
     Dim name As String
     Dim zip As String
-    Dim firstZipChar As String
+    
+    Dim NonUsZip As Boolean
     Dim tenFingies As Boolean
     Dim fingieString As String
+    
     Dim outputOne As String
+    Dim outputTwo As String
     Dim longName As String
 
     ' grab the first sheet from this workbook
@@ -75,6 +86,11 @@ Sub ExampleScript()
 
         ' update the user on progress
         Application.StatusBar = "Doing shit: " & FormatPercent(rowNum / mainSheet.UsedRange.Rows.Count, 2)
+        
+        ' tells the Excel to update the screen
+        ' otherwise Excel freezes in progress
+        ' doesn't matter for quick operations like this but for anything longer running it'll matter
+        DoEvents
 
         ' grab data
         id = mainSheet.Range("A" & rowNum).Value
@@ -95,23 +111,30 @@ Sub ExampleScript()
         End If
 
         ' do some business logic
-        firstZipChar = Left(zip, 1)
-
-        If firstZipChar = "0" And tenFingies Then
+        If (Not IsNumeric(zip) Or Len(zip) <> 5) And zip <> vbNullString Then
+            NonUsZip = True
+        Else
+            NonUsZip = False
+        End If
+        
+        If NonUsZip And tenFingies Then
             outputOne = "X"
         Else
             outputOne = ""
         End If
 
         If Len(name) > 13 Then
+            outputTwo = "X"
             longName = name
         Else
+            outputTwo = ""
             longName = ""
         End If
 
         ' push the data to the spreadsheet
         mainSheet.Range("E" & rowNum).Value = outputOne
-        mainSheet.Range("F" & rowNum).Value = longName
+        mainSheet.Range("F" & rowNum).Value = outputTwo
+        mainSheet.Range("G" & rowNum).Value = longName
 
         ' iterate our row counter
         rowNum = rowNum + 1
@@ -127,29 +150,29 @@ End Sub
 
 ## Corresponding Spreadsheet Table
 
-| ID             | Name              | Zip        | Has > 10 Fingers | Output One | Output Two      |
-|----------------|-------------------|------------|------------------|------------|-----------------|
-| 220781234-0    | Sleve McDichael   | 3096153    | TRUE             |            |                 |
-| 828417753-8    | Onsen Sweemey     | 004423     | FALSE            |            |                 |
-| 172934172-1    | Darryl Archideli  | 141707     | yes              |            |                 |
-| 573651857-0    | Anatoli Smorin    | 21040 CEDEX| no               |            |                 |
-| 052674485-5    | Rey McSriff       | 16-120     | x                |            |                 |
-| 996602934-4    | Glenallen Mixon   | 029000     | x                |            |                 |
-| 715035692-3    | Mario McIlwain    | 02714      | TRUE             |            |                 |
-| 217007453-8    | Raul Chamgelrian  | 63101      | FALSE            |            |                 |
-| 363790986-0    | Kevin Nogily      | asdf       | FALSE            |            |                 |
-| 880016640-4    | Bobson Dugnutt    | 36009 CEDEX| no               |            |                 |
-| 712333006-4    | Willie Dustice    | 32213      | yes              |            |                 |
-| 945958918-6    | Jeromy Gride      | 37416      | yes              |            |                 |
-| 346548127-5    | Scott Dorque      |            |                  |            |                 |
-| 302236511-5    | Shown Furcotte    | 235048     | no               |            |                 |
-| 531808967-3    | Dean Wesery       | 02250      | yes              |            |                 |
-| 889639658-1    | Mike Truk         |            | FALSE            |            |                 |
-| 416585373-9    | Dwigt Rortugal    | 433 68     | TRUE             |            |                 |
-| 092887470-7    | Tim Sandeale      | 422338     | yes              |            |                 |
-| 674373347-7    | Karl Dandleton    | 01101      | no               |            |                 |
-| 417973345-X    | Mike Hernandez    | 39290      | no               |            |                 |
-| 599343442-2    | Todd Bonzalez     | V6S        | strongbad is on point |         |                 |
+| ID | Name | Zip | Has \> 10 Fingers | Extra Fingers and Non-US Zip | Name Is Long | Long Name |
+|----|----|----|----|----|----|----|
+| 220781234-0 | Sleve McDichael | 3096153 | TRUE |  |  |  |
+| 828417753-8 | Onsen Sweemey | 004423 | FALSE |  |  |  |
+| 172934172-1 | Darryl Archideli | 141707 | yes |  |  |  |
+| 573651857-0 | Anatoli Smorin | 21040 CEDEX | no |  |  |  |
+| 052674485-5 | Rey McSriff | 16-120 | x |  |  |  |
+| 996602934-4 | Glenallen Mixon | 029000 | x |  |  |  |
+| 715035692-3 | Mario McIlwain | 02714 | TRUE |  |  |  |
+| 217007453-8 | Raul Chamgelrian | 63101 | FALSE |  |  |  |
+| 363790986-0 | Kevin Nogily | asdf | FALSE |  |  |  |
+| 880016640-4 | Bobson Dugnutt | 36009 CEDEX | no |  |  |  |
+| 712333006-4 | Willie Dustice | 32213 | yes |  |  |  |
+| 945958918-6 | Jeromy Gride | 37416 | yes |  |  |  |
+| 346548127-5 | Scott Dorque |  |  |  |  |  |
+| 302236511-5 | Shown Furcotte | 235048 | no |  |  |  |
+| 531808967-3 | Dean Wesery | 02250 | yes |  |  |  |
+| 889639658-1 | Mike Truk |  | FALSE |  |  |  |
+| 416585373-9 | Dwigt Rortugal | 433 68 | TRUE |  |  |  |
+| 092887470-7 | Tim Sandeale | 422338 | yes |  |  |  |
+| 674373347-7 | Karl Dandleton | 01101 | no |  |  |  |
+| 417973345-X | Mike Hernandez | 39290 | no |  |  |  |
+| 599343442-2 | Todd Bonzalez | V6S | strongbad is on point |  |  |  |
 
 ## Further Tips
 
@@ -160,9 +183,7 @@ End Sub
 
 ## Useful VBA Settings
 
-Found under in the VBA window under Tools > Options. I don't remember which of these are checked by default anymore
-
-- check Editor > Auto Syntax Check, Auto List Members
-- check General > Compile > Compile On Demand and Background Compile
-- check General > Error Trapping > Break on Unhandled Errors
-- check Docking > Locals Window and Immediate Window
+- Show the Immediate and Locals windows
+    - VBA Window > View > Immediate Window, Locals Window
+- Add the Debug toolbar
+    - VBA Window > Toolbars > Debug

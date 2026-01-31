@@ -13,7 +13,7 @@ sed 's/[└─├│ ]/ /g' | \
 perl -pe 's/&nbsp;/ /g' | \
 sed 's/^\t    //g' | \
 grep -Piv 'index.md' | \
-grep -Piv '_(template|print_version).md' | \
+grep -Piv '_(template|print_version|simple).md' | \
 grep -Piv '/(drafts)/' | \
 grep -Piv '^\s*$' | \
 tail -n +2 | \
@@ -40,6 +40,10 @@ perl -pe 's|/+|/|g' \
 # add a link to the simple new tag page, wherever the new tab page might be in the list
 simpleNewTabPageLink="(<a href=\"html/new_tab_page_simple.html\">simple</a>)"
 baseToc="$(echo "$baseToc" | perl -pe "s|(new_tab_page</a>)|\$1 $simpleNewTabPageLink|g")"
+
+# add a link to the simple new tag page, wherever the new tab page might be in the list
+simpleVbaLink="(<a href=\"docs/cheatsheets/example_vba_macro_simple.md\">simple</a>)"
+baseToc="$(echo "$baseToc" | perl -pe "s|(example_vba_macro</a>)|\$1 $simpleVbaLink|g")"
 
 # change directory levels for the index file
 indexToc="$(echo "$baseToc" | perl -pe 's|docs/||g' | perl -pe 's/\.md"/"/g')"
