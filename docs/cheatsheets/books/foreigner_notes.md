@@ -9,7 +9,7 @@ A ship full of humans have to live with aliens that have different emotions than
 If you like...
 
 - TNG, but you wish the episodes were hella slow
-- Sanderson's time spent in character thoughts, but you wish it was only one character
+- Sanderson's time spent in character thoughts, but you wish it was only one character and even slower
 - Austin's social drama, but you wish there were more politics, more aliens, more tea, and sometimes guns
 
 ...you will love this series.
@@ -29,7 +29,7 @@ book|summary
 
 book|summary
 ---|---
-4|<details><summary>spoiler</summary>Bren goes up to the partially restored space station unannounced, Captain Tamun sees the upheaval and stages a coup, dies, and Jase becomes Forth Captain</details>
+4|<details><summary>spoiler</summary>Bren goes up to the partially restored space station unannounced, Captain Tamun sees the upheaval and stages a coup, dies, and Jase becomes Forth Captain.</details>
 5|<details><summary>spoiler</summary>Captain Ramirez dies, Bren and Grandma leave on The Ship for the second station, Yolanda is the new paidhi, Grandma poisons Captain Sabin. Cajeiri, Tabini and Damiri's son, joins in the care of Grandma.</details>
 6|<details><summary>spoiler</summary>Bren, Grandma, Captain Jase, and Captain Sabin arrive at the second station, aka Reunion. They meet the Kyoh, rescue a captive Kyoh the Pilot's guild was keeping, dethrone the pilot's guild, and evacuate the station.</details>
 
@@ -46,7 +46,7 @@ book|summary
 book|summary
 ---|---
 7|"Where are my parents, nadi?"<details><summary>spoiler</summary>Phoenix returns to political upheaval. Tabini-aiji has been dethroned by Murini of the Kadagidi. Bren and Grandma go to Uncle Tatiseigi for help. Chapter 9, dinner with Uncle, rocks. Tabini and Damiri meet them there.</details>
-8|<details><summary>spoiler</summary>Presumably they set up how they're gonna fuck up Murini in book 9.</details>
+8|<details><summary>spoiler</summary>Allies to Tabini-aiji rally to him in Taiben (Uncle's estate) demonstrating their man'chi. Banichi and crew blow up would-be Assassins Guild usurpers. Tabini and allies storm the capitol via bus, train, car, and plane. Murini flees in advance.</details>
 
 
 ## Links

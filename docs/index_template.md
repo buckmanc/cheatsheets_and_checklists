@@ -12,3 +12,5 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
 ## Table of Contents
 
 {table_of_contents}
+
+![I wrote it down so I wouldn't *have* to remember!](images/sean_connery_remembers.jpg)

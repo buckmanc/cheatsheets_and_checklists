@@ -12,6 +12,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
 ## Table of Contents
 
 - cheatsheets<br>
+    - <a href="cheatsheets/adb">adb</a><br>
     - <a href="cheatsheets/ascii">ascii</a><br>
     - <a href="cheatsheets/bash">bash</a><br>
     - <a href="cheatsheets/caffeine">caffeine</a><br>
@@ -57,3 +58,5 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="links/spotify_playlists">spotify_playlists</a><br>
 - other<br>
     - <a href="pdfs/pdfs">pdfs</a><br>
+
+![I wrote it down so I wouldn't *have* to remember!](images/sean_connery_remembers.jpg)

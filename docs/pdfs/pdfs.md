@@ -6,6 +6,7 @@ make sure you're editing the template, doofus
 
 Designed for easy printing. Put 'em on the community bulletin board, in your cubicle, on top of your dog, in a hidden compartment in your spleen.
 
+- <a href="/pdfs/adb.pdf">adb</a><br>
 - <a href="/pdfs/allomantic_metals.pdf">allomantic_metals</a><br>
 - <a href="/pdfs/ascii.pdf">ascii</a><br>
 - <a href="/pdfs/bash.pdf">bash</a><br>

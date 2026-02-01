@@ -118,7 +118,7 @@ ex, 3 water 1.5 rice
 ## waffles
 
 1. mix the mix per the box
-	1. 3 cups waffle mix, 2 cups water makes 4 waffles... probably
+	- 3 cups waffle mix, 2 cups water makes 4 waffles... probably
 1. preheat waffle marker
 	- green light turns on when done
 1. place drip tray underneath
@@ -129,7 +129,7 @@ ex, 3 water 1.5 rice
 1. remove waffles with a plastic implement
 1. butter and syrup to taste
 1. if making more than one batch, unplug and replug the waffle maker
-	1. otherwise it will time out during the second batch
+	- otherwise it will time out during the second batch
 1. wipe out the crumbs from the waffle burner
 
 ## misc shit

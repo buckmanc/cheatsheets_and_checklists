@@ -12,12 +12,13 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
 ## Table of Contents
 
 - cheatsheets<br>
+    - <a href="docs/cheatsheets/adb.md">adb</a><br>
     - <a href="docs/cheatsheets/ascii.md">ascii</a><br>
     - <a href="docs/cheatsheets/bash.md">bash</a><br>
     - <a href="docs/cheatsheets/caffeine.md">caffeine</a><br>
     - <a href="docs/cheatsheets/colorblindness.md">colorblindness</a><br>
     - <a href="docs/cheatsheets/days_of_the_week.md">days_of_the_week</a><br>
-    - <a href="docs/cheatsheets/example_vba_macro.md">example_vba_macro</a><br>
+    - <a href="docs/cheatsheets/example_vba_macro.md">example_vba_macro</a> (<a href="docs/cheatsheets/example_vba_macro_simple.md">simple</a>)<br>
     - <a href="docs/cheatsheets/koopalings.md">koopalings</a><br>
     - <a href="docs/cheatsheets/markdown.md">markdown</a><br>
     - <a href="docs/cheatsheets/mythical_metal_analogues.md">mythical_metal_analogues</a><br>
@@ -57,3 +58,5 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="docs/links/spotify_playlists.md">spotify_playlists</a><br>
 - other<br>
     - <a href="docs/pdfs/pdfs.md">pdfs</a><br>
+
+![I wrote it down so I wouldn't *have* to remember!](images/sean_connery_remembers.jpg)

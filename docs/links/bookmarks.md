@@ -47,6 +47,11 @@
 - [Sign Generator](http://www.redkid.net/generator/sign.php)
 - [Chyron Generator](https://breakyourownnews.com/)
 - ~~[Church Sign Generator](http://www.churchsigngenerator.com)~~ ([Source](https://web.archive.org/web/20040401113455/http://www.churchsigngenerator.com/source.html) [Chars](https://web.archive.org/web/20040219053618/http://www.churchsigngenerator.com:80/images/chars.gif) [Bg](https://web.archive.org/web/20060427020652/http://www.churchsigngenerator.com:80/images/basesign.jpg))
+- [BSOD Generator](https://perchance.org/bsod-generator)
+
+## Basics
+- [Google Contacts](https://contacts.google.com)
+- [MyPostcard](https://mypostcard.com)
 
 ## Emergency Music
 - [Dungeon Synth Archives](https://www.youtube.com/playlist?list=UULFhmm356a5qe1luUsoatAgjA)
