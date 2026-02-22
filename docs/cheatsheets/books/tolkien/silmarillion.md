@@ -15,7 +15,7 @@ The Children of Húrin is also available as a more fleshed out, [standalone book
 
 ## Difficult Chapters
 
-Of Beleriand and its Realms is a notoriously difficult and boring chapter. It's got some lovely moments, but it's largely just land descriptions. If you get bored there, just skim it or skip it.
+*Of Beleriand and its Realms* is a notoriously difficult and boring chapter. It's got some lovely moments, but it's largely just land descriptions. If you get bored there, just skim it or skip it.
 
 ## Terms
 
