@@ -17,6 +17,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="cheatsheets/bash">bash</a><br>
     - <a href="cheatsheets/caffeine">caffeine</a><br>
     - <a href="cheatsheets/colorblindness">colorblindness</a><br>
+    - <a href="cheatsheets/corporate_speak">corporate_speak</a><br>
     - <a href="cheatsheets/days_of_the_week">days_of_the_week</a><br>
     - <a href="cheatsheets/example_vba_macro">example_vba_macro</a> (<a href="cheatsheets/example_vba_macro_simple">simple</a>)<br>
     - <a href="cheatsheets/koopalings">koopalings</a><br>
@@ -26,6 +27,8 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists), th
     - <a href="cheatsheets/nato_alphabet">nato_alphabet</a><br>
     - <a href="cheatsheets/playing_cards">playing_cards</a><br>
     - <a href="cheatsheets/poker_hands">poker_hands</a><br>
+    - <a href="cheatsheets/poker_variants">poker_variants</a><br>
+    - <a href="cheatsheets/swap_languages">swap_languages</a><br>
     - <a href="cheatsheets/systems">systems</a><br>
     - <a href="cheatsheets/ten_commandments_for_makers">ten_commandments_for_makers</a><br>
     - <a href="cheatsheets/ten_commandments">ten_commandments</a><br>

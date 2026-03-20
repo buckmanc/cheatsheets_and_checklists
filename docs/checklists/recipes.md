@@ -119,10 +119,12 @@ ex, 3 water 1.5 rice
 
 1. mix the mix per the box
 	- 3 cups waffle mix, 2 cups water makes 4 waffles... probably
+1. add a teeny it of olive oil
+	- TODO get measurement from a box
 1. preheat waffle marker
 	- green light turns on when done
 1. place drip tray underneath
-1. pour ~1.75 cups into the waffle maker
+1. pour ~1 cups into the waffle maker
 1. close, wait 10 seconds, then rotate
 1. repeat previous two steps for side b
 1. set timer for 4 minutes

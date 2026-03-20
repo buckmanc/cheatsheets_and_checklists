@@ -8,6 +8,12 @@ It belongs in the appendices. Tonally it doesn't match the text and it provides 
 
 This is my number one tip for new LotR readers.
 
+## Do I Need to Read the Hobbit?
+
+No. Lord of the Rings rehashes the required info from The Hobbit. You won't feel like you're missing out.
+
+If you're unsure which to start with or if you'll like them, I recommend starting with LotR. It's better and more tonally consistent than The Hobbit. If you read The Hobbit later it'll read like a prequel.
+
 ## Structure
 
 Lord of the Rings is six books in three volumes and those book are structured very decisively.

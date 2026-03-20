@@ -39,9 +39,9 @@ Tears of the Kingdom | x | x |
 Game | Played | Beaten | Note
 ---|---|---|---
 Link's Awakening (1993) | x | x |
-Oracle of Ages (2001) | | |
+Oracle of Ages (2001) | x | |
 Oracle of Seasons (2001) | | |
-Minish Cap (2004) | | |
+Minish Cap (2004) | x | |
 Phantom Hourglass (2007) | | |
 Spirit Tracks (2009) | | |
 Link Between Worlds (2013) | | |
