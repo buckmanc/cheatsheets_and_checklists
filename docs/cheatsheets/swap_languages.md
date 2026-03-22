@@ -9,16 +9,31 @@ This page is a work in progress.
 ## BotW / TotK languages
 
 ## Lantean
+![anquietas](/images/fonts/anquietas.png)
+
+[Font](https://www.thescifiworld.net/downloads/fonts/anquietas.ttf)
+
+Source: [Sci-Fi World](https://thescifiworld.net/fonts.htm)
 
 ## Minecraft Galactic Whatever
 
 ## Draconic (Skyrim)
 
+## Oblivion
+
 ## Morse Code
 
 ## Starfox Adventures lang
 
-## 2 from Babylon Five
+## Vorlon (Babylon Five)
+![vorlon](/images/fonts/vorlon.png)
+
+[font](https://web.archive.org/web/20260106002831if_/https://www.thescifiworld.net/downloads/fonts/vorlon.ttf)
+
+## Shadow (Babylon Five)
+![shadow](/images/fonts/shadow.png)
+
+[font](https://web.archive.org/web/20260103061948/https://thescifiworld.net/downloads/fonts/shadow.ttf)
 
 ## V
 

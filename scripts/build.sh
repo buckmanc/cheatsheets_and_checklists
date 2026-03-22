@@ -53,6 +53,8 @@ then
 		> "$bookmarksExportPath"
 fi
 
+"$gitRoot/scripts/make_all_font_comparisons.sh"
+
 
 mkdocs build --config-file "$gitRoot/mkdocs.yml"
 # htmlmin --remove-comments "$gitRoot/docs/html/new_tab_page_simple.html" "$gitRoot/site/html/new_tab_page_simple.html"
