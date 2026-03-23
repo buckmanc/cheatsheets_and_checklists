@@ -2,15 +2,15 @@
 
 ## Games
 
-chicago
+chicago 3 hand, 2 bush
 omaha
-colorado
+colorado 2 hand, 3 bush
 seven card stud
 texas hold 'em
 shit on your neighbor
 in between
 iron cross
-guts
+guts (aka guts or butts)
 
 ## Modifiers
 pimp

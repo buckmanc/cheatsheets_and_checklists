@@ -114,9 +114,11 @@ year|event
 1939-1945|WWII
 1945|flu vaccine becomes widely available
 1947-1991|the Cold War
+1950-1953|the Korean War
 1951|Henrietta Lacks' cells begin the HeLa cell line
 1953|UK/US orchestrates the Iranian coup, precursor to the Islamic revolution
 1955|setting of Back to the Future I
+1955-1975|The Vietnam War
 1961|Yuri Gagarin conducts the first human space flight
 1962|the Cuban Missile Crisis
 1963|JFK assassinated
