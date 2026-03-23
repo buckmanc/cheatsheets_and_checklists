@@ -1,4 +1,5 @@
-site/*
-source_images/*
+/site/*
+/source_images/*
 .cache/*
 ~$*
+/fonts/
