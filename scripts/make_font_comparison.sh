@@ -55,6 +55,9 @@ do
         chars=( {0..9} )
     fi
 
+    tempDirSet="$tempDir/$iCharSet"
+    mkdir -p "$tempDirSet"
+
     iChar=0
     for c in "${chars[@]}"; do
 
@@ -64,7 +67,7 @@ do
             -gravity center \
             -annotate 0 "$c" \
             -stroke black -strokewidth 1 -fill none -draw "rectangle 0,0 $((cell_w-1)),$((cell_h-1))" \
-            "$tempDir/control_$(printf '%02d' "$iChar").png"
+            "$tempDirSet/control_$(printf '%02d' "$iChar").png"
 
         magick -size ${cell_w}x${cell_h} xc:white \
             -font "$optControlFont" \
@@ -72,7 +75,7 @@ do
             -gravity center \
             -annotate 0 "$c" \
             -stroke black -strokewidth 1 -fill none -draw "rectangle 0,0 $((cell_w-1)),$((cell_h-1))" \
-            "$tempDir/new_$(printf '%02d' "$iChar").png"
+            "$tempDirSet/new_$(printf '%02d' "$iChar").png"
 
         iChar=$((iChar+1))
     done
@@ -84,26 +87,44 @@ do
         tempOutPathIfExists=()
     fi
 
-    magick "$tempDir/control_"*.png \
+    # put the chars together into one row
+    magick "$tempDirSet/control_"*.png \
         +append \
-        "$tempDir/control_row.png"
+        "$tempDirSet/control_row.png"
 
-    magick "$tempDir/new_"*.png \
+    # put the chars together into one row
+    magick "$tempDirSet/new_"*.png \
         +append \
-        "$tempDir/new_row.png"
+        "$tempDirSet/new_row.png"
+    
+    # compare current new row and previous new row here
+    # if they match, don't add
+    # this removes the lower case line for languages with no separate lowercase letters
+    skipachu=0
+    if [[ "$iCharSet" == 1 ]]
+    then
+        firstRowNewPath="$tempDir/0/control_row.png"
+        percDiff="$(magick compare -trim -colorspace gray "$tempDirSet/control_row.png" "$firstRowNewPath" null: 2>&1 | grep -iPo '(?<=\()[\d\.\-]+(?=\))' || true)"
 
-    # echo "tempOutPathIfExists: ${tempOutPathIfExists[*]}"
-    # echo "tempOutPath: $tempOutPath"
+        # skip if difference is < 10%
+        # vorlon and minecraft sga both report < 8% difference, no clue why
+        if [[ "$(echo "$percDiff < 0.1" | bc -l)" == 1 ]]
+        then
+            skipachu=1
+        fi
+    fi
 
-    magick \
-        "${tempOutPathIfExists[@]}" \
-        "$tempDir/control_row.png" \
-        "$tempDir/new_row.png" \
-        -append \
-        "$tempOutPath"
+    # mash the rows onto the output image
+    if [[ "$skipachu" == 0 ]]
+    then
+        magick \
+            "${tempOutPathIfExists[@]}" \
+            "$tempDirSet/control_row.png" \
+            "$tempDirSet/new_row.png" \
+            -append \
+            "$tempOutPath"
+    fi
 
-    rm "$tempDir/new_"*.png
-    rm "$tempDir/control_"*.png
     iCharSet=$((iCharSet+1))
 done
 
