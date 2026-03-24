@@ -12,10 +12,10 @@ fontFileTypeRegex="otf|ttf"
 
 tempDlDir="$TEMP/font_dls"
 
-sections="$(echo "$pageText" | perl -0777p -e 's/[\r\n]+/@/g;' -e 's/##/\n/g;')"
+sections="$(echo "$pageText" | perl -0777p -e 's/[\r\n]+/@/g;' -e 's/##/\n/g;'i | tail -n +2)"
 
 # TODO make this better
-controlFont="$(find "$HOME/.config/mintty" -type f -iname '*.ttf' -print)"
+controlFont="$(find "$HOME/.config/mintty" -type f -iname '*.ttf' | head -n1 || true)"
 
 announcedTitle=0
 title=''
@@ -38,6 +38,8 @@ do
 	imageFileName="$(basename "$imageLink")"
 	imageFileName="${imageFileName%.*}"
 	localFontPath=''
+	imagePath=''
+	fontName=''
 	announcedTitle=0
 
 	# if there's no font link...
@@ -50,7 +52,7 @@ do
 		# ...check for a local one
 		# doing this by assuming the image is named after the font
 		# therefore to use a local font, save it in the fonts dir and name the image link after it
-		localFontPath="$(find "$localFontDir" -type f -iname "${imageFileName}*" -regextype posix-extended -iregex ".*\.($fontFileTypeRegex)$")" 
+		localFontPath="$(find "$localFontDir" -type f -iname "${imageFileName}*" -regextype posix-extended -iregex ".*\.($fontFileTypeRegex)$" | head -n1 || true)" 
 
 		# otherwise, nothing we can do
 		if [[ ! -f "$localFontPath" ]]
@@ -65,12 +67,15 @@ do
 		imagePath="$gitRoot/docs${imageLink}"
 	# otherwise predict the path
 	else
-		fontName="$(echo "$fontLink" | grep -iPo '[^/]+(?=\.[a-zA-Z]{3,4}$)')"
-		imagePath="$imageDir/${fontName}.png"
+		fontName="$(echo "$fontLink" | grep -iPo '[^/]+(?=\.[a-zA-Z]{3,4}$)' || true)"
+		if [[ -n "$fontName" ]]
+		then
+			imagePath="$imageDir/${fontName}.png"
+		fi
 	fi
 
 	# if there's a font but no image, make the image
-	if [[ ! -f "$imagePath" ]] && [[ -n "$fontLink" || -n "$localFontPath" ]]
+	if [[ -n "$imagePath" && ! -f "$imagePath" ]] && [[ -n "$fontLink" || -n "$localFontPath" ]]
 	then
 		announceTitle
 		# echo "title: $title"
@@ -93,7 +98,7 @@ do
 			tempZipPath="$tempDlDir/font.zip"
 			curl --clobber -s "$fontLink" -o "$tempZipPath"
 			"$HOME/bin/xunzip" "$tempZipPath"
-			tempFontPath="$(find "$tempDlDir" -type f -regextype posix-extended -iregex ".*\.($fontFileTypeRegex)$")"
+			tempFontPath="$(find "$tempDlDir" -type f -regextype posix-extended -iregex ".*\.($fontFileTypeRegex)$" | head -n1 || true)"
 		else
 			curl -s "$fontLink" -o "$tempFontPath"
 		fi
@@ -112,7 +117,7 @@ do
 		imageLine="[![${fontName}](/images/fonts/${fontName}.png)](/images/fonts/${fontName}.png)"
 		
 		lineNum="$(grep -n -Fi "## $title" "$pagePath" | cut -d: -f1)"
-		lineNum=$((lineNum+1))
+		lineNum=$((lineNum + 1))
 		sed -i "${lineNum}i §$imageLine" "$pagePath"
 		perl -i -pe "s/§/\n/g;" "$pagePath"
 		perl -i -pe "s/\r//g;" "$pagePath"

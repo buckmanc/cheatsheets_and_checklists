@@ -2,6 +2,8 @@
 
 A list of fictional languages with ~one-to-one analogues to English or other real languages.
 
+See also: [substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher)
+
 This page is a work in progress.
 
 ## Hylian
@@ -29,7 +31,17 @@ Source: [Sci-Fi World](https://thescifiworld.net/fonts.htm)
 
 ## Draconic (Skyrim)
 
-## Oblivion
+[![SR-Dragon_script](/images/fonts/SR-Dragon_script.png)](/images/fonts/SR-Dragon_script.png)
+
+Draconic also includes nine characters that map to letter pairings.
+
+[font](https://images.uesp.net/e/e1/SR-Dragon_script.zip) [source](https://en.m.uesp.net/wiki/Lore:Dragon_Alphabet)
+
+## Daedric (Oblivion)
+
+[![Obliviontt](/images/fonts/Obliviontt.png)](/images/fonts/Obliviontt.png)
+
+[font](https://images.uesp.net/3/38/Obliviontt.zip) [source](https://en.m.uesp.net/wiki/Lore:Daedric_Alphabet)
 
 ## Morse Code
 
@@ -47,16 +59,19 @@ Source: [Sci-Fi World](https://thescifiworld.net/fonts.htm)
 
 [font](https://web.archive.org/web/20260103061948/https://thescifiworld.net/downloads/fonts/shadow.ttf)
 
-## V
+## V (tv show)
 
 ## Eorzean (FFXIV)
 
 [![AugmentedNeo-Eorzean-Regular](/images/fonts/AugmentedNeo-Eorzean-Regular.png)](/images/fonts/AugmentedNeo-Eorzean-Regular.png)
 
 [font](https://github.com/karaipsum/Eorzean-Typeface/raw/refs/heads/main/fonts/AugmentedNeo-Eorzean-Regular.otf)
+
 ## Steel Alphabet
 
-[Coppermind](https://coppermind.net/wiki/Steel_alphabet)
+[![steelAlphabet - Aligned](/images/fonts/steelAlphabet - Aligned.png)](/images/fonts/steelAlphabet - Aligned.png)
+
+[font](https://drive.google.com/file/d/1QE3AQceObf8EuuQG69romt-f6yJSq8TK/view?usp=sharing) [Coppermind](https://coppermind.net/wiki/Steel_alphabet)
 
 ## Kirby and the Forgotten Land
 
@@ -64,4 +79,6 @@ Source: [Sci-Fi World](https://thescifiworld.net/fonts.htm)
 
 [Font](https://drive.google.com/file/d/1C1mh6bhrmzgQk0o7HZ_0LychBm9cyRaD/view?usp=drive_link) [WiKirby](https://wikirby.com/wiki/Fictional_languages_in_the_Kirby_series#Kirby_and_the_Forgotten_Land)
 
-## Koppaite (Pikmin 3)
+## Interstellar Alphabet (Pikmin 3)
+
+[wiki](https://www.pikminwiki.com/Interstellar_alphabet)

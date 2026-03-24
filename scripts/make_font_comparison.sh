@@ -17,10 +17,11 @@ do
         echo "I have no idea what $arg means"
         exit 1
     fi
-
-
 done
 
+# echo "optControlFont: $optControlFont"
+# echo "optNewFont: $optNewFont"
+# echo "optOutPath: $optOutPath"
 
 pointsize=48
 padding=20
@@ -61,13 +62,20 @@ do
     iChar=0
     for c in "${chars[@]}"; do
 
-        magick -size ${cell_w}x${cell_h} xc:white \
+        # echo "line: $LINENO"
+        # echo "iChar: $iChar"
+        # echo "iCharSet: $iCharSet"
+        if ! magick -size ${cell_w}x${cell_h} xc:white \
             -font "$optNewFont" \
             -pointsize $pointsize \
             -gravity center \
             -annotate 0 "$c" \
             -stroke black -strokewidth 1 -fill none -draw "rectangle 0,0 $((cell_w-1)),$((cell_h-1))" \
             "$tempDirSet/control_$(printf '%02d' "$iChar").png"
+        then
+            echo "font is missing char $c"
+            continue
+        fi
 
         magick -size ${cell_w}x${cell_h} xc:white \
             -font "$optControlFont" \
@@ -85,6 +93,15 @@ do
         tempOutPathIfExists=("$tempOutPath")
     else
         tempOutPathIfExists=()
+    fi
+
+    # this will occur if the font doesn't have anything in this character set, ie no lowercase letters
+    if ! ls "$tempDirSet/control_"*.png > /dev/null 2>&1
+    then
+        # but don't forget to increment the increment var
+        # or send your soul wandering for all eternity demon
+        iCharSet=$((iCharSet+1))
+        continue
     fi
 
     # put the chars together into one row
