@@ -39,9 +39,9 @@ Draconic also includes nine characters that map to letter pairings.
 
 ## Daedric (Oblivion)
 
-[![Obliviontt](/images/fonts/Obliviontt.png)](/images/fonts/Obliviontt.png)
+[![daedra](/images/fonts/daedra.png)](/images/fonts/daedra.png)
 
-[font](https://images.uesp.net/3/38/Obliviontt.zip) [source](https://en.m.uesp.net/wiki/Lore:Daedric_Alphabet)
+[font](https://dafont.com/daedra.font) [details](https://en.m.uesp.net/wiki/Lore:Daedric_Alphabet)
 
 ## Morse Code
 
@@ -60,6 +60,10 @@ Draconic also includes nine characters that map to letter pairings.
 [font](https://web.archive.org/web/20260103061948/https://thescifiworld.net/downloads/fonts/shadow.ttf)
 
 ## V (tv show)
+
+[![visitor](/images/fonts/visitor.png)](/images/fonts/visitor.png)
+
+[font](https://www.thescifiworld.net/downloads/fonts/visitor.ttf)
 
 ## Eorzean (FFXIV)
 

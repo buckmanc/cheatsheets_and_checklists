@@ -10,4 +10,5 @@ benefit|value add (noun)
 follow up|circle back
 go into detail|drill down / double click
 thing we're good at|core competency
+employee|associate
 
