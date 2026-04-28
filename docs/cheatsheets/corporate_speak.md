@@ -25,3 +25,4 @@ how things work today|current state
 how we want things to work|future state
 meeting interval|meeting cadence
 make meaningful change|move the needle
+PowerPoint presentation|deck

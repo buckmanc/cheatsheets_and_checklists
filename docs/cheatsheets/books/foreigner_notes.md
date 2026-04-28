@@ -47,8 +47,12 @@ book|summary
 ---|---
 7|"Where are my parents, nadi?"<details><summary>spoiler</summary>Phoenix returns to political upheaval. Tabini-aiji has been dethroned by Murini of the Kadagidi. Bren and Grandma go to Uncle Tatiseigi for help. Chapter 9, dinner with Uncle, rocks. Tabini and Damiri meet them there. In Bren's absence his mother died and Barb married Toby.</details>
 8|<details><summary>spoiler</summary>Allies to Tabini-aiji rally to him in Taiben (Uncle's estate) demonstrating their man'chi. Banichi and crew blow up would-be Assassins Guild usurpers. Tabini and allies storm the capitol via bus, train, car, and plane. Murini flees in advance. Bren is vindicated by report of his actions in space and his seeming evident man'chi to Tabini.</details>
-9|The first time (aside from the book 1 novellas) that we get a narrative perspective other than Bren's.<details><summary>spoiler</summary>Cajeiri has stronger feelings for his ship-board human "friends" than for his Taibeni bodyguards. Amid the upheaval of the coup and anti-coup Cajeiri is abducted by rivals of Ilisidi's. She and Bren return to the neighborhood of Malguri to pursue him.</details>
+9|The first time (aside from the book 1 novellas) that we get a narrative perspective other than Bren's.<details><summary>spoiler</summary>Cajeiri has stronger feelings for his ship-board human "friends" than for his Taibeni bodyguards. Amid the upheaval of the coup and anti-coup Cajeiri is abducted by a rival of Ilisidi's (Caiti), who intends to offer him to Murini. She and Bren return to the neighborhood of Malguri to pursue him. Cajeiri escapes and Caiti and Murini are both killed in the ensuing turmoil.</details>
 
+## Arc 4: ???
+book|summary
+---|---
+10|<details><summary>spoiler</summary>Cell phones, amirite? Bren visits his seaside estate, Cajeiri is ill-content.</details>
 
 ## Links
 
