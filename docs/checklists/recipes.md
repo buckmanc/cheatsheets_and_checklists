@@ -24,6 +24,25 @@ These are absolutely dirt simple recipes for absolute nincompoops. Don't @ me.
 two cups water per one cup rice<br>
 ex, 3 water 1.5 rice
 
+## ramen
+
+Makes pork ramen spicy.
+
+### ingredients
+
+- Maruchan ramen packet, preferably pork or chili
+
+### directions
+
+1. boil water
+1. cook ramen for 3 mins
+1. stir constantly for 1:30 or until noodles act like noodles
+1. lower temp to very low and stir as much as you feel like
+1. remove ramen from burner 5 seconds early
+1. strain into a bowl, leaving only a barely noticeable amount of water to help stir in the seasoning
+1. stir in the seasoning
+1. eat ramen
+
 ## orzo
 
 ### ingredients
@@ -38,7 +57,6 @@ ex, 3 water 1.5 rice
 - 2 Tablespoons Fresh Lemon Juice (add more for more lemon flavor)
 - 2 Tablespoons Fresh Basil (chopped)
 - Salt and Pepper (to taste)
-
 - heavy-bottomed saucepan
 	- the child of a pot and pan
 	- it's a deep pan
@@ -75,30 +93,9 @@ ex, 3 water 1.5 rice
 1. Rub each fillet with olive oil and season with garlic powder, paprika, salt and pepper. Place the salmon in the air fryer and air fry for 7-9 minutes, depending on this thickness of the salmon. Please note, time may vary between air fryers.
 1. Open basket and check for desired doneness with a fork. You can return the salmon for another 1 or 2 minutes as necessary.
 
-## stove-top bacon
-
-### ingredients
-
-- bacon
-- frying pan
-	- try using that big flat guy
-	- update: do *not* use that big flat guy
-- two tongs (one for raw, one for cooked)
-- butter knife for additional manipulation
-- paper towel plate
-- raw bacon plate
-- the nameless one for timers
-
-### directions
-
-1. preheat a large nonstick skillet over medium/high heat (just below 4 on the power burner)
-1. pre-separate the batch of strips for easier placement
-1. place 5-6 non-overlapping pieces of bacon in your pan, cook 4 mins
-1. flip, 3 mins
-1. place on paper towel plate, rest 5 mins
-1. repeat as needed
-
 ## parchment paper bacon
+
+This is the ultimate bacon method. It's cleaner, less intensive, and more consistent than the traditional method.
 
 ### ingredients
 
@@ -112,14 +109,40 @@ ex, 3 water 1.5 rice
 1. cook
 	- ?? mins for regular bacon
 	- 20 mins for thick cut bacon
-1. martha stewart method says to rotate the pan halfway thru
 1. extract to paper towel plate
+
+## stove-top bacon
+
+Don't use this one unless you have to. Parchment paper bacon is better.
+
+### ingredients
+
+- bacon
+- frying pan
+	- try using that big flat guy
+	- update: do *not* use that big flat guy
+- two tongs (one for raw, one for cooked)
+- butter knife for additional manipulation
+- paper towel plate
+- raw bacon plate
+- the nameless one (voice assistant) for timers
+
+### directions
+
+1. preheat a large nonstick skillet over medium/high heat (just below 4 on the power burner)
+1. pre-separate the batch of strips for easier placement
+1. place 5-6 non-overlapping pieces of bacon in your pan, cook 4 mins
+1. flip, 3 mins
+1. place on paper towel plate, rest 5 mins
+1. repeat as needed
 
 ## waffles
 
+For [this waffle maker](https://www.amazon.com/gp/aw/d/B00UH1Z2OG).
+
 1. mix the mix per the box
 	- 3 cups waffle mix, 2 cups water makes 4 waffles... probably
-1. add a teeny it of olive oil
+1. add a teeny bit of olive oil
 	- TODO get measurement from a box
 1. preheat waffle marker
 	- green light turns on when done
