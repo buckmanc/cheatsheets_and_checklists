@@ -7,6 +7,7 @@ request|ask (noun)
 new things to do for me|takeaways / action items
 new things to do for this issue|next steps
 new|net new
+result|end result
 benefit|value add (noun)
 follow up|circle back
 go into detail|drill down / double click / deep dive
@@ -26,3 +27,5 @@ how we want things to work|future state
 meeting interval|meeting cadence
 make meaningful change|move the needle
 PowerPoint presentation|deck
+work in progress|in flight
+process / workflow|workstream

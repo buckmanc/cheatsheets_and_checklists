@@ -18,10 +18,10 @@ If you like...
 
 book|summary
 ---|---
-1 - Part 1|Prequel novella: Phoenix, on a mission to build a new space station, becomes inexplicably lost in deep space. The crew struggles to survive and stops in orbit of the Atevi homeworld
-1 - Part 2|Prequel novella: First contact between humans and Atevi
-1 - In Between|Humans and Atevi live together, but due to misunderstandings about their fundamental emotional makeup the War of the Landing occurs. The Atevi win and the office of the paidhi is established to handle 1) relations between the species and 2) the slow, non-disruptive handover of human technology
-1 - Main|Bren goes to the ancient estate of Malguri, Grandma tries to figure out Bren's loyalties, Bren learns about Atevi, and <details><summary>spoiler</summary>oh shit The Ship came back</details>
+1 - Part 1|Prequel novella: Phoenix, on a mission to build a new space station, becomes inexplicably lost in deep space. The crew struggles to survive and stops in orbit of the atevi homeworld
+1 - Part 2|Prequel novella: First contact between humans and atevi
+1 - In Between|Humans and atevi live together, but due to misunderstandings about their fundamental emotional makeup the War of the Landing occurs. The atevi win and the office of the paidhi is established to handle 1) relations between the species and 2) the slow, non-disruptive handover of human technology
+1 - Main|Bren goes to the ancient estate of Malguri, Grandma tries to figure out Bren's loyalties, Bren learns about atevi, and <details><summary>spoiler</summary>oh shit The Ship came back</details>
 2|<details><summary>spoiler</summary>Tabini is romantically entangled with Damiri of the Atageini, a semi-rival clan to his. Opponents shoot up her apartments and destroy the antique porcelain lilies. Jase and Yolanda land from the ship, three paidhi now.</details>
 3|<details><summary>spoiler</summary>Jase lies for the whole book to get Yolanda back from the island, also unknown aliens destroyed the second station so Phoenix ran back here</details>
 
@@ -31,7 +31,7 @@ book|summary
 ---|---
 4|<details><summary>spoiler</summary>Bren goes up to the partially restored space station unannounced, Captain Tamun sees the upheaval and stages a coup, dies, and Jase becomes Forth Captain.</details>
 5|<details><summary>spoiler</summary>Captain Ramirez dies, Bren and Grandma leave on The Ship for the second station, Yolanda is the new paidhi, Grandma poisons Captain Sabin. Cajeiri, Tabini and Damiri's son, joins in the care of Grandma.</details>
-6|<details><summary>spoiler</summary>Bren, Grandma, Captain Jase, and Captain Sabin arrive at the second station, aka Reunion. They meet the Kyoh, rescue a captive Kyoh the Pilot's guild was keeping, dethrone the pilot's guild, and evacuate the station.</details>
+6|<details><summary>spoiler</summary>Bren, Grandma, Captain Jase, and Captain Sabin arrive at the second station, aka Reunion. They meet the kyo, rescue a captive kyo the Pilot's guild was keeping, dethrone the pilot's guild, and evacuate the station.</details>
 
 <details><summary>spoiler: motive notes</summary>
 
@@ -49,10 +49,11 @@ book|summary
 8|<details><summary>spoiler</summary>Allies to Tabini-aiji rally to him in Taiben (Uncle's estate) demonstrating their man'chi. Banichi and crew blow up would-be Assassins Guild usurpers. Tabini and allies storm the capitol via bus, train, car, and plane. Murini flees in advance. Bren is vindicated by report of his actions in space and his seeming evident man'chi to Tabini.</details>
 9|The first time (aside from the book 1 novellas) that we get a narrative perspective other than Bren's.<details><summary>spoiler</summary>Cajeiri has stronger feelings for his ship-board human "friends" than for his Taibeni bodyguards. Amid the upheaval of the coup and anti-coup Cajeiri is abducted by a rival of Ilisidi's (Caiti), who intends to offer him to Murini. She and Bren return to the neighborhood of Malguri to pursue him. Cajeiri escapes and Caiti and Murini are both killed in the ensuing turmoil.</details>
 
-## Arc 4: ???
+## Arc 4: At Home on the Coast?
 book|summary
 ---|---
-10|<details><summary>spoiler</summary>Cell phones, amirite? Bren visits his seaside estate, Cajeiri is ill-content.</details>
+10|<details><summary>spoiler</summary>Bren visits his seaside estate of Najida, Cajeiri train hops to visit. Bren and Cajeiri visit the neighboring Lord and barely escape an assassination by the The Marid in the south, who courted the neighbor as an ally during the coup. The neighbor was part of a plot by Machigi to kill Bren, overtake the region, and move against Tabini. Cajeiri gains two Guild guards.</details>
+10 - epilogue|<details><summary>spoiler</summary>At a meeting in Najida Village, Grandma tells the Edi and the Gan, the aboriginal peoples of Mospheira, that they should petition Tabini to create provinces / houses for them.</details>
 
 ## Links
 
