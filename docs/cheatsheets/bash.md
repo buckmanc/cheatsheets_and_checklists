@@ -25,6 +25,16 @@ gz
 var="$(echo "eat at joe's")"
 ```
 
+## assign var and test exit code
+```bash
+if var="$(cat "filepath.txt")"
+then
+    echo "$var"
+else
+    echo "yo fail state"
+fi
+```
+
 ## uppercase var
 ```bash
 echo "${var^^}"
@@ -146,6 +156,19 @@ fi
 ## use variable in place of file
 ```bash
 echo -n 'one\ntwo\nthree' | grep -f <(echo -e 'two\nthree\nfour')
+```
+
+## printf formats
+
+### integer
+
+```bash
+# todo
+```
+
+### decimals and commas
+```bash
+# todo
 ```
 
 ## test operators

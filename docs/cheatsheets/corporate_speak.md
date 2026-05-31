@@ -4,6 +4,7 @@ Instead of X|Say Y
 ---|---
 what we've learned|learnings
 request|ask (noun)
+solve|solution (verb)
 new things to do for me|takeaways / action items
 new things to do for this issue|next steps
 new|net new
