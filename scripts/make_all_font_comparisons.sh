@@ -12,7 +12,7 @@ fontFileTypeRegex="otf|ttf"
 
 tempDlDir="$TEMP/font_dls"
 
-sections="$(echo "$pageText" | perl -0777p -e 's/[\r\n]+/@/g;' -e 's/##/\n/g;'i | tail -n +2)"
+sections="$(echo "$pageText" | perl -0777p -e 's/[\r\n]+/@/g;' -e 's/###/\n/g;'i | tail -n +2)"
 
 # TODO make this better
 controlFont="$(find "$HOME/.config/mintty" -type f -iname '*.ttf' | head -n1 || true)"
@@ -100,15 +100,27 @@ do
 			# dafont support
 			if [[ "$fontLinkExt" == "font" ]]
 			then
-				fontDownloadLink="https://dl.${fontLinkDomain}/dl/?f=${fontName}"
+				if [[ "$fontLinkDomain" == "dafont.com" ]]
+				then
+					fontDownloadLink="https://dl.${fontLinkDomain}/dl/?f=${fontName//-/_}"
+				# elif [[ "$fontLinkDomain" == "fonts2u.com" ]]
+				# then
+				# fonts2u format is a halfway decent fallback
+				else
+					fontDownloadLink="https://${fontLinkDomain}/download/${fontName}.font"
+				fi
 			else
 				fontDownloadLink="$fontLink"
 			fi
 
 			tempZipPath="$tempDlDir/font.zip"
 
+			# echo "$fontDownloadLink"
+			# echo "$fontLinkDomain"
+
 			# dafont downloads require the referer to be the same domain
-			curl --clobber --referer "$fontLinkDomain" -s "$fontDownloadLink" -o "$tempZipPath"
+			curl --clobber --referer "https://$fontLinkDomain" -s "$fontDownloadLink" -o "$tempZipPath"
+
 			"$HOME/bin/xunzip" "$tempZipPath"
 			tempFontPath="$(find "$tempDlDir" -type f -regextype posix-extended -iregex ".*\.($fontFileTypeRegex)$" | head -n1 || true)"
 		else
@@ -128,7 +140,7 @@ do
 
 		imageLine="[![${fontName}](/images/fonts/${fontName}.png)](/images/fonts/${fontName}.png)"
 		
-		lineNum="$(grep -n -Fi "## $title" "$pagePath" | cut -d: -f1)"
+		lineNum="$(grep -n -Fi "### $title" "$pagePath" | cut -d: -f1)"
 		lineNum=$((lineNum + 1))
 		sed -i "${lineNum}i §$imageLine" "$pagePath"
 		perl -i -pe "s/§/\n/g;" "$pagePath"
