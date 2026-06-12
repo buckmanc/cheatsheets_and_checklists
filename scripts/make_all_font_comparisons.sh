@@ -61,13 +61,14 @@ do
 		fi
 	fi
 
+	fontName="$(echo "$fontLink" | grep -iPo '[^/]+(?=\.[a-zA-Z]{3,4}$)' || true)"
+
 	# if there's an image link, build the local image path
 	if [[ -n "$imageLink" ]]
 	then
 		imagePath="$gitRoot/docs${imageLink}"
 	# otherwise predict the path
 	else
-		fontName="$(echo "$fontLink" | grep -iPo '[^/]+(?=\.[a-zA-Z]{3,4}$)' || true)"
 		if [[ -n "$fontName" ]]
 		then
 			imagePath="$imageDir/${fontName}.png"
