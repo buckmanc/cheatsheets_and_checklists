@@ -33,7 +33,7 @@ announceTitle(){
 while read -r section
 do
 	title="$(echo "$section" | grep -iPo "^.+?(?=@)")"
-	fontLink="$(echo "$section" | grep -iPo '(?<=\()http.+?\.(otf|ttf|zip)(?=\))' | head -n1 || true)"
+	fontLink="$(echo "$section" | grep -iPo '(?<=\()http.+?\.(otf|ttf|zip|font)(?=\))' | head -n1 || true)"
 	imageLink="$(echo "$section" | grep -iPo '(?<=\()[^\(]+?\.(png)(?=\))' | head -n1 || true)"
 	imageFileName="$(basename "$imageLink")"
 	imageFileName="${imageFileName%.*}"
@@ -86,6 +86,7 @@ do
 
 		fontLinkExt="${fontLink##*.}"
 		fontLinkExt="${fontLinkExt,,}"
+		fontLinkDomain="$(echo "$fontLink" | grep -iPo '^(?:https?:\/\/)?(?:www\.)?\K([^\/\?]+)')"
 
 		tempFontPath="$tempDlDir/font.$fontLinkExt"
 
@@ -93,14 +94,25 @@ do
 		if [[ -z "$fontLink" && -f "$localFontPath" ]]
 		then
 			cp "$localFontPath" "$tempFontPath"
-		elif [[ "$fontLinkExt" == "zip" ]]
+		elif [[ "$fontLinkExt" =~ (zip|font) ]]
 		then
+
+			# dafont support
+			if [[ "$fontLinkExt" == "font" ]]
+			then
+				fontDownloadLink="https://dl.${fontLinkDomain}/dl/?f=${fontName}"
+			else
+				fontDownloadLink="$fontLink"
+			fi
+
 			tempZipPath="$tempDlDir/font.zip"
-			curl --clobber -s "$fontLink" -o "$tempZipPath"
+
+			# dafont downloads require the referer to be the same domain
+			curl --clobber --referer "$fontLinkDomain" -s "$fontDownloadLink" -o "$tempZipPath"
 			"$HOME/bin/xunzip" "$tempZipPath"
 			tempFontPath="$(find "$tempDlDir" -type f -regextype posix-extended -iregex ".*\.($fontFileTypeRegex)$" | head -n1 || true)"
 		else
-			curl -s "$fontLink" -o "$tempFontPath"
+			curl --clobber --referer "$fontLinkDomain" -s "$fontLink" -o "$tempFontPath"
 		fi
 
 		# do work

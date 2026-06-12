@@ -69,6 +69,7 @@ do
             -font "$optNewFont" \
             -pointsize $pointsize \
             -gravity center \
+            -fill black \
             -annotate 0 "$c" \
             -stroke black -strokewidth 1 -fill none -draw "rectangle 0,0 $((cell_w-1)),$((cell_h-1))" \
             "$tempDirSet/control_$(printf '%02d' "$iChar").png"
@@ -81,6 +82,7 @@ do
             -font "$optControlFont" \
             -pointsize $pointsize \
             -gravity center \
+            -fill black \
             -annotate 0 "$c" \
             -stroke black -strokewidth 1 -fill none -draw "rectangle 0,0 $((cell_w-1)),$((cell_h-1))" \
             "$tempDirSet/new_$(printf '%02d' "$iChar").png"
@@ -123,6 +125,7 @@ do
         firstRowNewPath="$tempDir/0/control_row.png"
         percDiff="$(magick compare -trim -colorspace gray "$tempDirSet/control_row.png" "$firstRowNewPath" null: 2>&1 | grep -iPo '(?<=\()[\d\.\-]+(?=\))' || true)"
 
+        # TODO: also skip if all chars are solid white
         # skip if difference is < 10%
         # vorlon and minecraft sga both report < 8% difference, no clue why
         if [[ "$(echo "$percDiff < 0.1" | bc -l)" == 1 ]]
