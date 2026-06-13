@@ -2,7 +2,12 @@
 
 A list of fictional languages with ~one-to-one analogues to English or other real languages. Useful for tattoos, cross stitch, or stenciling arcane messages on your neighbor.
 
-See also: [substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher)
+See also:
+
+- [Wikipedia - Substitution cipher](https://en.wikipedia.org/wiki/Substitution_cipher)
+- [TV Tropes - Cypher Language](https://tvtropes.org/pmwiki/pmwiki.php/Main/CypherLanguage)
+
+---
 
 ## The Legend of Zelda
 
@@ -50,22 +55,20 @@ TODO: fix
 
 [![anquietas](/images/fonts/anquietas.png)](/images/fonts/anquietas.png)
 
-[Font](https://www.thescifiworld.net/downloads/fonts/anquietas.ttf)
-
-Source: [Sci-Fi World](https://thescifiworld.net/fonts.htm)
+[font](https://www.thescifiworld.net/downloads/fonts/anquietas.ttf)
 
 ## SGA
 
-### Standard Galactic Alphabet (Commander Keen)
+### Standard Galactic Alphabet - Commander Keen
 
 [![font.sga_2.ttf.andrew_durdin.2002-09-14](/images/fonts/font.sga_2.ttf.andrew_durdin.2002-09-14.png)](/images/fonts/font.sga_2.ttf.andrew_durdin.2002-09-14.png)
 
 [font](https://files.shikadi.net/keenwiki/fonts/font.sga_2.ttf.andrew_durdin.2002-09-14.zip) [details](https://keenwiki.shikadi.net/wiki/Standard_Galactic_Alphabet)
 
-### Standard Galactic Alphabet (Minecraft)
+### Standard Galactic Alphabet - Minecraft
 [![standard-galactic-alphabet](/images/fonts/standard-galactic-alphabet.png)](/images/fonts/standard-galactic-alphabet.png)
 
-[minecraft font](https://fontstruct.com/fontstructions/show/1437607/standard-galactic-alphabet-10) 
+[font](https://fontstruct.com/fontstructions/show/1437607/standard-galactic-alphabet-10) 
 
 ## Elder Scrolls
 
@@ -75,7 +78,7 @@ Draconic also includes nine characters that map to letter pairings.
 
 [![SR-Dragon_script](/images/fonts/SR-Dragon_script.png)](/images/fonts/SR-Dragon_script.png)
 
-[font](https://images.uesp.net/e/e1/SR-Dragon_script.zip) [source](https://en.m.uesp.net/wiki/Lore:Dragon_Alphabet)
+[font](https://images.uesp.net/e/e1/SR-Dragon_script.zip) [details](https://en.m.uesp.net/wiki/Lore:Dragon_Alphabet)
 
 ### Daedric
 
@@ -110,31 +113,31 @@ Draconic also includes nine characters that map to letter pairings.
 
 ## Final Fantasy
 
-### Etro Script (FFXIII)
+### Etro Script - FFXIII
 
 [![grace-of-etro](/images/fonts/grace-of-etro.png)](/images/fonts/grace-of-etro.png)
 
 [font](https://dafont.com/grace-of-etro.font)
 
-### Eorzean (FFXIV)
+### Eorzean - FFXIV
 
 [![AugmentedNeo-Eorzean-Regular](/images/fonts/AugmentedNeo-Eorzean-Regular.png)](/images/fonts/AugmentedNeo-Eorzean-Regular.png)
 
 [font](https://github.com/karaipsum/Eorzean-Typeface/raw/refs/heads/main/fonts/AugmentedNeo-Eorzean-Regular.otf)
 
-### Al Bhed (FFX)
+### Al Bhed - FFX
 
 [![Al Bhed](/images/fonts/Al Bhed.png)](/images/fonts/Al Bhed.png)
 
 [font](https://www.dafont.com/al-bhed.font)
 
-### Yevon (FFX)
+### Yevon - FFX
 
 [![ffxyevon](/images/fonts/ffxyevon.png)](/images/fonts/ffxyevon.png)
 
 [font](https://fonts2u.com/ffxyevon.font)
 
-### Clavat Script (Crystal Chronicles)
+### Clavat Script - Crystal Chronicles
 
 [![clavat-script](/images/fonts/clavat-script.png)](/images/fonts/clavat-script.png)
 
@@ -146,7 +149,7 @@ Draconic also includes nine characters that map to letter pairings.
 
 [![steelAlphabet - Aligned](/images/fonts/steelAlphabet - Aligned.png)](/images/fonts/steelAlphabet - Aligned.png)
 
-[font](https://drive.google.com/file/d/1QE3AQceObf8EuuQG69romt-f6yJSq8TK/view?usp=sharing) [Coppermind](https://coppermind.net/wiki/Steel_alphabet)
+[font](https://drive.google.com/file/d/1QE3AQceObf8EuuQG69romt-f6yJSq8TK/view?usp=sharing) [details](https://coppermind.net/wiki/Steel_alphabet)
 
 ## Axiom Verge
 
@@ -309,15 +312,15 @@ The English mapping for the Sanghelli script is not consistent.
 
 [![HALLocalcharacter-FayeLower](/images/fonts/HALLocalcharacter-FayeLower.png)](/images/fonts/HALLocalcharacter-FayeLower.png)
 
-[Font](https://drive.google.com/file/d/1C1mh6bhrmzgQk0o7HZ_0LychBm9cyRaD/view?usp=drive_link) [WiKirby](https://wikirby.com/wiki/Fictional_languages_in_the_Kirby_series#Kirby_and_the_Forgotten_Land)
+[font](https://drive.google.com/file/d/1C1mh6bhrmzgQk0o7HZ_0LychBm9cyRaD/view?usp=drive_link) [details](https://wikirby.com/wiki/Fictional_languages_in_the_Kirby_series#Kirby_and_the_Forgotten_Land)
 
-### Interstellar Alphabet (Pikmin 3)
+### Interstellar Alphabet - Pikmin 3
 
 [![Koppaite](/images/fonts/Koppaite.png)](/images/fonts/Koppaite.png)
 
-[font](https://www.deviantart.com/creativesushi/art/Koppaite-567585261) [wiki](https://www.pikminwiki.com/Interstellar_alphabet)
+[font](https://www.deviantart.com/creativesushi/art/Koppaite-567585261) [details](https://www.pikminwiki.com/Interstellar_alphabet)
 
-### Ninjargon
+### Ninjargon - Lego Ninjago
 
 [![ninjargon](/images/fonts/ninjargon.png)](/images/fonts/ninjargon.png)
 
