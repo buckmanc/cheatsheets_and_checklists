@@ -95,7 +95,7 @@ do
 
 		fontLinkExt="${fontLink##*.}"
 		fontLinkExt="${fontLinkExt,,}"
-		fontLinkDomain="$(echo "$fontLink" | grep -iPo '^(?:https?:\/\/)?(?:www\.)?\K([^\/\?]+)')"
+		fontLinkDomain="$(echo "$fontLink" | grep -iPo '^(?:https?:\/\/)?(?:www\.)?\K([^\/\?]+)' || true)"
 		
 		# default referer
 		fontReferer="https://$fontLinkDomain"
