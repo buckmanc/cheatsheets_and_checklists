@@ -34,6 +34,12 @@ while read -r section
 do
 	title="$(echo "$section" | grep -iPo "^.+?(?=@)")"
 	fontLink="$(echo "$section" | grep -iPo '(?<=\()http.+?\.(otf|ttf|zip|font)(?=\))' | head -n1 || true)"
+
+	if [[ -z "$fontLink" ]]
+	then
+		fontLink="$(echo "$section" | grep -iPo '(?<=\()http.+?(fontstruct).+?(?=\))' | head -n1 || true)"
+	fi
+
 	imageLink="$(echo "$section" | grep -iPo '(?<=\()[^\(]+?\.(png)(?=\))' | head -n1 || true)"
 	imageFileName="$(basename "$imageLink")"
 	imageFileName="${imageFileName%.*}"
@@ -61,7 +67,7 @@ do
 		fi
 	fi
 
-	fontName="$(echo "$fontLink" | grep -iPo '[^/]+(?=\.[a-zA-Z]{3,4}$)' || true)"
+	fontName="$(echo "$fontLink" | perl -p -e 's/^.+\///g;' -e 's/\.[a-zA-Z0-9]{3,4}$//g')"
 
 	# if there's an image link, build the local image path
 	if [[ -n "$imageLink" ]]
@@ -88,6 +94,9 @@ do
 		fontLinkExt="${fontLink##*.}"
 		fontLinkExt="${fontLinkExt,,}"
 		fontLinkDomain="$(echo "$fontLink" | grep -iPo '^(?:https?:\/\/)?(?:www\.)?\K([^\/\?]+)')"
+		
+		# default referer
+		fontReferer="https://$fontLinkDomain"
 
 		tempFontPath="$tempDlDir/font.$fontLinkExt"
 
@@ -95,7 +104,7 @@ do
 		if [[ -z "$fontLink" && -f "$localFontPath" ]]
 		then
 			cp "$localFontPath" "$tempFontPath"
-		elif [[ "$fontLinkExt" =~ (zip|font) ]]
+		elif [[ "$fontLinkExt" =~ (zip|font) || "$fontLinkDomain" =~ (fontstruct\.com) ]]
 		then
 
 			# dafont support
@@ -110,6 +119,11 @@ do
 				else
 					fontDownloadLink="https://${fontLinkDomain}/download/${fontName}.font"
 				fi
+			elif [[ "$fontLinkDomain" == "fontstruct.com" ]]
+			then
+				id="$(echo "$fontLink" | grep -iPo '(?<=/)\d+(?=[/\?$])')"
+				fontDownloadLink="https://fontstruct.com/font_archives/download/$id/otf"
+				fontReferer="https://fontstruct.com/fontstructions/download/$id"
 			else
 				fontDownloadLink="$fontLink"
 			fi
@@ -119,13 +133,14 @@ do
 			# echo "$fontDownloadLink"
 			# echo "$fontLinkDomain"
 
-			# dafont downloads require the referer to be the same domain
-			curl --clobber --referer "https://$fontLinkDomain" -s "$fontDownloadLink" -o "$tempZipPath"
+			# dafont, fonts2u, and fontstruct all require referers of various sorts
+			# all output zips
+			curl --clobber --referer "$fontReferer" -s "$fontDownloadLink" -o "$tempZipPath"
 
 			"$HOME/bin/xunzip" "$tempZipPath"
 			tempFontPath="$(find "$tempDlDir" -type f -regextype posix-extended -iregex ".*\.($fontFileTypeRegex)$" | head -n1 || true)"
 		else
-			curl --clobber --referer "$fontLinkDomain" -s "$fontLink" -o "$tempFontPath"
+			curl --clobber --referer "$fontReferer" -s "$fontLink" -o "$tempFontPath"
 		fi
 
 		# do work

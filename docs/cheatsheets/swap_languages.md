@@ -294,6 +294,128 @@ The English mapping for the Sanghelli script is not consistent.
 
 [font](https://aurekfonts.github.io/TFGunray/TFGunray-Bold.otf)
 
+## Pokemon
+
+### PokeLatin
+
+[![Thraex%20Magnus%20%5bv0.94%5d](/images/fonts/Thraex%20Magnus%20%5bv0.94%5d.png)](/images/fonts/Thraex%20Magnus%20%5bv0.94%5d.png)
+
+[font](https://www.pokemonaaah.net/fonts/thraexmagnus/Thraex%20Magnus%20%5bv0.94%5d.zip)
+
+### Mewian
+
+[![mewian](/images/fonts/mewian.png)](/images/fonts/mewian.png)
+
+[font](https://fontstruct.com/fontstructions/show/1584784/mewian)
+
+### Michinoan (Arceus and the Jewel of Life)
+
+[![michinoan-arceus-and-the-jewel-of-life](/images/fonts/michinoan-arceus-and-the-jewel-of-life.png)](/images/fonts/michinoan-arceus-and-the-jewel-of-life.png)
+
+[font](https://fontstruct.com/fontstructions/show/1776316/michinoan-arceus-and-the-jewel-of-life)
+
+### Unown (Other?)
+
+[![unown-37](/images/fonts/unown-37.png)](/images/fonts/unown-37.png)
+
+[font](https://fontstruct.com/fontstructions/show/1787089/unown-37)
+
+### Ancient Unova (B/W/B2/W2)
+
+[![ancient-unova-b-w-b2-w2](/images/fonts/ancient-unova-b-w-b2-w2.png)](/images/fonts/ancient-unova-b-w-b2-w2.png)
+
+[font](https://fontstruct.com/fontstructions/show/1824167/ancient-unova-b-w-b2-w2)
+
+### Ancient Unova (anime)
+
+[![ancient-unova-anime](/images/fonts/ancient-unova-anime.png)](/images/fonts/ancient-unova-anime.png)
+
+[font](https://fontstruct.com/fontstructions/show/1824221/ancient-unova-anime)
+
+### Kalosian (Anime 1)
+
+[![kalosian-anime-1](/images/fonts/kalosian-anime-1.png)](/images/fonts/kalosian-anime-1.png)
+
+[font](https://fontstruct.com/fontstructions/show/1824257/kalosian-anime-1)
+
+### Braille (Pokemon R/S/E)
+
+[![braille-pokemon-r-s-e](/images/fonts/braille-pokemon-r-s-e.png)](/images/fonts/braille-pokemon-r-s-e.png)
+
+[font](https://fontstruct.com/fontstructions/show/1824316/braille-pokemon-r-s-e)
+
+### Sinnohese (PL:A and BDSP)
+
+[![sinnohese-pl-a-and-bdsp](/images/fonts/sinnohese-pl-a-and-bdsp.png)](/images/fonts/sinnohese-pl-a-and-bdsp.png)
+
+[font](https://fontstruct.com/fontstructions/show/1898188/sinnohese-pl-a-and-bdsp)
+
+### Kantonian (LGPE)
+
+[![kantonian-lgpe](/images/fonts/kantonian-lgpe.png)](/images/fonts/kantonian-lgpe.png)
+
+[font](https://fontstruct.com/fontstructions/show/1905811/kantonian-lgpe)
+
+### Lentalian (New Pokemon Snap)
+
+[![lentalian-new-pokemon-snap](/images/fonts/lentalian-new-pokemon-snap.png)](/images/fonts/lentalian-new-pokemon-snap.png)
+
+[font](https://fontstruct.com/fontstructions/show/1919446/lentalian-new-pokemon-snap)
+
+### Ferruvian (Pokken Tournament)
+
+[![ferruvian-pokken-tournament](/images/fonts/ferruvian-pokken-tournament.png)](/images/fonts/ferruvian-pokken-tournament.png)
+
+[font](https://fontstruct.com/fontstructions/show/1920505/ferruvian-pokken-tournament)
+
+### Unovan 1 (Anime)
+
+[![unovan-1-anime](/images/fonts/unovan-1-anime.png)](/images/fonts/unovan-1-anime.png)
+
+[font](https://fontstruct.com/fontstructions/show/1920908/unovan-1-anime)
+
+### Unovan 2 (Anime)
+
+[![unovan-2-anime](/images/fonts/unovan-2-anime.png)](/images/fonts/unovan-2-anime.png)
+
+[font](https://fontstruct.com/fontstructions/show/1920981/unovan-2-anime)
+
+### Alolan (Anime)
+
+[![unovan-2-anime-1](/images/fonts/unovan-2-anime-1.png)](/images/fonts/unovan-2-anime-1.png)
+
+[font](https://fontstruct.com/fontstructions/show/1921133/unovan-2-anime-1)
+
+### Pasioan (Pokemon Masters: EX)
+
+[![pasioan-pokemon-masters-ex](/images/fonts/pasioan-pokemon-masters-ex.png)](/images/fonts/pasioan-pokemon-masters-ex.png)
+
+[font](https://fontstruct.com/fontstructions/show/1936947/pasioan-pokemon-masters-ex)
+
+### Hoennian (ORAS)
+
+[![hoennian-oras](/images/fonts/hoennian-oras.png)](/images/fonts/hoennian-oras.png)
+
+[font](https://fontstruct.com/fontstructions/show/1950999/hoennian-oras)
+
+### Alolan (SMUSUM)
+
+[![alolan-smusum](/images/fonts/alolan-smusum.png)](/images/fonts/alolan-smusum.png)
+
+[font](https://fontstruct.com/fontstructions/show/1958237/alolan-smusum)
+
+### Unown (G/S/C, Compressed)
+
+[![unown-g-s-c-compressed](/images/fonts/unown-g-s-c-compressed.png)](/images/fonts/unown-g-s-c-compressed.png)
+
+[font](https://fontstruct.com/fontstructions/show/1960375/unown-g-s-c-compressed)
+
+### Hisuian (BDSP/LA)
+
+[![hisuian-bdsp-la](/images/fonts/hisuian-bdsp-la.png)](/images/fonts/hisuian-bdsp-la.png)
+
+[font](https://fontstruct.com/fontstructions/show/2021892/hisuian-bdsp-la)
+
 ## Misc
 
 ### Stray
@@ -341,4 +463,5 @@ Created by Lewis Carrol
 [![morse](/images/fonts/morse.png)](/images/fonts/morse.png)
 
 [font](https://dafont.com/morse.font) [details](https://en.wikipedia.org/wiki/Morse_code)
+
 
