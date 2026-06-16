@@ -3,6 +3,7 @@
 set -e
 
 gitRoot="$(git rev-parse --show-toplevel)"
+docsDir="$gitRoot/docs"
 imageDir="$gitRoot/docs/images/fonts"
 makePath="$gitRoot/scripts/make_font_comparison.sh"
 pagePath="$gitRoot/docs/cheatsheets/swap_languages.md"
@@ -77,7 +78,8 @@ do
 	else
 		if [[ -n "$fontName" ]]
 		then
-			imagePath="$imageDir/${fontName}.png"
+			fontNameSafe="$(echo "$fontName" | perl -p -e 's/[\. \[\]\(\)]/_/g;' -e 's/%\d[0-9a-zA-Z]/_/g;')"
+			imagePath="$imageDir/${fontNameSafe}.png"
 		fi
 	fi
 
@@ -154,7 +156,8 @@ do
 	then
 		announceTitle
 
-		imageLine="[![${fontName}](/images/fonts/${fontName}.png)](/images/fonts/${fontName}.png)"
+		imagePathWeb="${imagePath#$docsDir}"
+		imageLine="[![${fontName}]($imagePathWeb)]($imagePathWeb)"
 		
 		lineNum="$(grep -n -Fi "### $title" "$pagePath" | cut -d: -f1)"
 		lineNum=$((lineNum + 1))

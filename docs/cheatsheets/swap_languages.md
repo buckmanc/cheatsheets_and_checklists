@@ -61,7 +61,7 @@ TODO: fix
 
 ### Standard Galactic Alphabet - Commander Keen
 
-[![font.sga_2.ttf.andrew_durdin.2002-09-14](/images/fonts/font.sga_2.ttf.andrew_durdin.2002-09-14.png)](/images/fonts/font.sga_2.ttf.andrew_durdin.2002-09-14.png)
+[![font.sga_2.ttf.andrew_durdin.2002-09-14](/images/fonts/font_sga_2_ttf_andrew_durdin_2002-09-14.png)](/images/fonts/font_sga_2_ttf_andrew_durdin_2002-09-14.png)
 
 [font](https://files.shikadi.net/keenwiki/fonts/font.sga_2.ttf.andrew_durdin.2002-09-14.zip) [details](https://keenwiki.shikadi.net/wiki/Standard_Galactic_Alphabet)
 
@@ -127,7 +127,7 @@ Draconic also includes nine characters that map to letter pairings.
 
 ### Al Bhed - FFX
 
-[![Al Bhed](/images/fonts/Al Bhed.png)](/images/fonts/Al Bhed.png)
+[![Al Bhed](/images/fonts/Al_Bhed.png)](/images/fonts/Al_Bhed.png)
 
 [font](https://www.dafont.com/al-bhed.font)
 
@@ -147,7 +147,7 @@ Draconic also includes nine characters that map to letter pairings.
 
 ### Steel Alphabet
 
-[![steelAlphabet - Aligned](/images/fonts/steelAlphabet - Aligned.png)](/images/fonts/steelAlphabet - Aligned.png)
+[![steelAlphabet - Aligned](/images/fonts/steelAlphabet_-_Aligned.png)](/images/fonts/steelAlphabet_-_Aligned.png)
 
 [font](https://drive.google.com/file/d/1QE3AQceObf8EuuQG69romt-f6yJSq8TK/view?usp=sharing) [details](https://coppermind.net/wiki/Steel_alphabet)
 
@@ -185,7 +185,7 @@ Draconic also includes nine characters that map to letter pairings.
 
 The English mapping for the Sanghelli script is not consistent.
 
-[![Halo Covenant](/images/fonts/Halo Covenant.png)](/images/fonts/Halo Covenant.png)
+[![covenant](/images/fonts/covenant.png)](/images/fonts/covenant.png)
 
 [font](https://www.dafont.com/covenant.font) [details](https://www.halopedia.org/Sangheili_\(language\))
 
@@ -298,7 +298,7 @@ The English mapping for the Sanghelli script is not consistent.
 
 ### PokeLatin
 
-[![Thraex%20Magnus%20%5bv0.94%5d](/images/fonts/Thraex%20Magnus%20%5bv0.94%5d.png)](/images/fonts/Thraex%20Magnus%20%5bv0.94%5d.png)
+[![Thraex%20Magnus%20%5bv0.94%5d](/images/fonts/Thraex_Magnus__v0_94_.png)](/images/fonts/Thraex_Magnus__v0_94_.png)
 
 [font](https://www.pokemonaaah.net/fonts/thraexmagnus/Thraex%20Magnus%20%5bv0.94%5d.zip)
 
