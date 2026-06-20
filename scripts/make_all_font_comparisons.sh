@@ -28,6 +28,23 @@ announceTitle(){
 	fi
 }
 
+getFileName(){
+	# use a regex to remove path and file extension
+	echo "$1" | perl -p -e 's/^.+\///g;' -e 's/\.[a-zA-Z0-9]{3,4}$//g'
+}
+getSafeFontName(){
+	echo "$1" | perl -p -e 's/[\. \[\]\(\)]/_/g;' -e 's/%\d[0-9a-zA-Z]/_/g;'
+}
+fontSort(){
+	local input
+	input="$(cat)"
+	local criteria
+	criteria="(bold|italic|itliac|wii)"
+
+	echo "$input" | grep -viP "$criteria" | sort || true
+	echo "$input" | grep  -iP "$criteria" | sort || true
+}
+
 # echo "sections: $sections"
 # echo
 
@@ -68,19 +85,16 @@ do
 		fi
 	fi
 
-	fontName="$(echo "$fontLink" | perl -p -e 's/^.+\///g;' -e 's/\.[a-zA-Z0-9]{3,4}$//g')"
+	fontName="$(getFileName "$fontLink")"
 
 	# if there's an image link, build the local image path
 	if [[ -n "$imageLink" ]]
 	then
 		imagePath="$gitRoot/docs${imageLink}"
 	# otherwise predict the path
-	else
-		if [[ -n "$fontName" ]]
-		then
-			fontNameSafe="$(echo "$fontName" | perl -p -e 's/[\. \[\]\(\)]/_/g;' -e 's/%\d[0-9a-zA-Z]/_/g;')"
-			imagePath="$imageDir/${fontNameSafe}.png"
-		fi
+	elif [[ -n "$fontName" ]]
+	then
+		imagePath="$imageDir/$(getSafeFontName "$fontName").png"
 	fi
 
 	# if there's a font but no image, make the image
@@ -90,6 +104,7 @@ do
 		# echo "title: $title"
 		# echo "fontLink: $fontLink"
 		# echo "imageLink: $imageLink"
+		# echo "imagePath: $imagePath"
 
 		mkdir -p "$tempDlDir"
 
@@ -100,12 +115,12 @@ do
 		# default referer
 		fontReferer="https://$fontLinkDomain"
 
-		tempFontPath="$tempDlDir/font.$fontLinkExt"
+		tempFontPath="$tempDlDir/$fontName.$fontLinkExt"
 
 		# use a local font if we have one, but prefer a linked one
 		if [[ -z "$fontLink" && -f "$localFontPath" ]]
 		then
-			cp "$localFontPath" "$tempFontPath"
+			tempFontPath="$localFontPath"
 		elif [[ "$fontLinkExt" =~ (zip|font) || "$fontLinkDomain" =~ (fontstruct\.com) ]]
 		then
 
@@ -123,7 +138,14 @@ do
 				fi
 			elif [[ "$fontLinkDomain" == "fontstruct.com" ]]
 			then
-				id="$(echo "$fontLink" | grep -iPo '(?<=/)\d+(?=[/\?$])')"
+				id="$(echo "$fontLink" | grep -iPo '(?<=/)\d+\b' || true)"
+
+				if [[ -z "$id" ]]
+				then
+					echo "bad fontstruct id"
+					exit 1
+				fi
+
 				fontDownloadLink="https://fontstruct.com/font_archives/download/$id/otf"
 				fontReferer="https://fontstruct.com/fontstructions/download/$id"
 			else
@@ -139,11 +161,24 @@ do
 			# all output zips
 			curl --clobber --referer "$fontReferer" -s "$fontDownloadLink" -o "$tempZipPath"
 
-			"$HOME/bin/xunzip" "$tempZipPath"
-			tempFontPath="$(find "$tempDlDir" -type f -regextype posix-extended -iregex ".*\.($fontFileTypeRegex)$" | head -n1 || true)"
+			"$HOME/bin/xunzip" "$tempZipPath" > /dev/null
+			tempFontPath="$(find "$tempDlDir" -type f -regextype posix-extended -iregex ".*\.($fontFileTypeRegex)$" | fontSort | head -n1 || true)"
+
+			# update the font name and image path to match the actual font name inside the zip
+			# UNLESS we got the path from section's imagelink
+			# coz then we'll be stuck in a loop
+			newFileName="$(getFileName "$tempFontPath")"
+			if [[ ! "${newFileName,,}" =~ (font) && -z "$imageLink" ]]
+			then
+				fontName="$newFileName"
+				imagePath="$imageDir/$(getSafeFontName "$fontName").png"
+			fi
 		else
 			curl --clobber --referer "$fontReferer" -s "$fontLink" -o "$tempFontPath"
 		fi
+
+		# TODO hardcode specific charset exceptions here
+		# like plain ol' numbers in some fonts
 
 		# do work
 		"$makePath" "$controlFont" "$tempFontPath" "$imagePath"
@@ -159,7 +194,7 @@ do
 		imagePathWeb="${imagePath#$docsDir}"
 		imageLine="[![${fontName}]($imagePathWeb)]($imagePathWeb)"
 		
-		lineNum="$(grep -n -Fi "### $title" "$pagePath" | cut -d: -f1)"
+		lineNum="$(grep -n -Fi "### $title" "$pagePath" | cut -d: -f1 | head -n1)"
 		lineNum=$((lineNum + 1))
 		sed -i "${lineNum}i §$imageLine" "$pagePath"
 		perl -i -pe "s/§/\n/g;" "$pagePath"

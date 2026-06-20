@@ -23,17 +23,42 @@ done
 # echo "optNewFont: $optNewFont"
 # echo "optOutPath: $optOutPath"
 
+newFontName="$(basename "$optNewFont")"
+newFontName="${newFontName%.}"
+
 pointsize=48
 padding=20
 
 tempDir="$TEMP/font_comparison"
 tempOutPath="$tempDir/output.png"
 
+rm -rf "$tempDir"
 mkdir -p "$tempDir"
 
 measure() {
     magick -font "$1" -pointsize $pointsize label:W \
         -format "%w %h" info:
+}
+
+writeChar() {
+    char="$1"
+    charFont="$2"
+    charOutPath="$3"
+
+    # function passes error code of the last command within
+    
+    magick -size ${cell_w}x${cell_h} xc:white \
+        -font "$charFont" \
+        -pointsize $pointsize \
+        -gravity center \
+        -fill black \
+        -annotate 0 "$char" \
+        -stroke black -strokewidth 1 -fill none -draw "rectangle 0,0 $((cell_w-1)),$((cell_h-1))" \
+        "$charOutPath"
+}
+
+getPercDiff(){
+    magick compare -trim -colorspace gray "$1" "$2" null: 2>&1 | grep -iPo '(?<=\()[\d\.\-]+(?=\))' || true
 }
 
 read w1 h1 <<< "$(measure "$optNewFont")"
@@ -42,54 +67,69 @@ read w2 h2 <<< "$(measure "$optControlFont")"
 cell_w=$(( (w1 > w2 ? w1 : w2) + padding ))
 cell_h=$(( (h1 > h2 ? h1 : h2) + padding ))
 
-iCharSet=0
-while [[ "$iCharSet" -le 2 ]]
+# basic behaviour
+controlCharSetsStrings=("A..Z" "a..z" "0..9")
+newCharSetsStrings=()
+
+echo "font: $newFontName"
+
+# specific sets for specific fonts
+if [[ "$newFontName" =~ (TPHylian\-GCNRegular|ss\-ancient\-hylian\-sarinilli|sga_2|standard-galactic-alphabet|Dwemer|Falmer|Halo\ Covenant) ]]
+then
+    controlCharSetsStrings=("A..Z")
+elif [[ "$newFontName" =~ (vykhya) ]]
+then
+    controlCharSetsStrings=("A..Z" "a..z")
+elif [[ "$newFontName" =~ (Daedra|Clynese_Hand) ]]
+then
+    controlCharSetsStrings=("A..Z" "0..9")
+elif [[ "$newFontName" =~ (FFXYevon|steelAlphabet_-_Aligned) ]]
+then
+    # use lowercase for the new font but upper for the old
+    controlCharSetsStrings=("A..Z" "0..9")
+    newCharSetsStrings=("a..z" "0..9")
+fi
+
+# default the new char set to match the control unless otherwise specified
+if [[ "${#newCharSetsStrings[@]}" -eq 0 ]]
+then
+    newCharSetsStrings=("${controlCharSetsStrings[@]}")
+fi
+
+for iCharSet in "${!controlCharSetsStrings[@]}"
 do
-    if [[ "$iCharSet" -eq 0 ]]
-    then
-        chars=( {A..Z} )
-    elif [[ "$iCharSet" -eq 1 ]]
-    then
-        chars=( {a..z} )
-    elif [[ "$iCharSet" -eq 2 ]]
-    then
-        chars=( {0..9} )
-    fi
+
+    controlChars=()
+    newChars=()
+    # gotta use eval to get the expansion syntax to work from a variable
+    eval "controlChars=( {${controlCharSetsStrings[$iCharSet]}} )"
+    eval "newChars=( {${newCharSetsStrings[$iCharSet]}} )"
 
     tempDirSet="$tempDir/$iCharSet"
     mkdir -p "$tempDirSet"
 
-    iChar=0
-    for c in "${chars[@]}"; do
+    for iChar in "${!controlChars[@]}"
+    do
 
         # echo "line: $LINENO"
         # echo "iChar: $iChar"
         # echo "iCharSet: $iCharSet"
-        if ! magick -size ${cell_w}x${cell_h} xc:white \
-            -font "$optNewFont" \
-            -pointsize $pointsize \
-            -gravity center \
-            -fill black \
-            -annotate 0 "$c" \
-            -stroke black -strokewidth 1 -fill none -draw "rectangle 0,0 $((cell_w-1)),$((cell_h-1))" \
-            "$tempDirSet/control_$(printf '%02d' "$iChar").png"
+        echo -n "${newChars[$iChar]}"
+
+        if ! writeChar "${newChars[$iChar]}" "$optNewFont" \
+            "$tempDirSet/new_$(printf '%02d' "$iChar").png"
         then
-            echo "font is missing char $c"
+            echo "font is missing char ${newChars[$iChar]}"
             continue
         fi
 
-        magick -size ${cell_w}x${cell_h} xc:white \
-            -font "$optControlFont" \
-            -pointsize $pointsize \
-            -gravity center \
-            -fill black \
-            -annotate 0 "$c" \
-            -stroke black -strokewidth 1 -fill none -draw "rectangle 0,0 $((cell_w-1)),$((cell_h-1))" \
-            "$tempDirSet/new_$(printf '%02d' "$iChar").png"
+        writeChar "${controlChars[$iChar]}" "$optControlFont" \
+            "$tempDirSet/control_$(printf '%02d' "$iChar").png"
 
-        iChar=$((iChar+1))
+        writeChar " " "$optControlFont" \
+            "$tempDirSet/blank_$(printf '%02d' "$iChar").png"
     done
-
+    
     if [[ -f "$tempOutPath" ]]
     then
         tempOutPathIfExists=("$tempOutPath")
@@ -98,11 +138,8 @@ do
     fi
 
     # this will occur if the font doesn't have anything in this character set, ie no lowercase letters
-    if ! ls "$tempDirSet/control_"*.png > /dev/null 2>&1
+    if ! ls "$tempDirSet/new_"*.png > /dev/null 2>&1
     then
-        # but don't forget to increment the increment var
-        # or send your soul wandering for all eternity demon
-        iCharSet=$((iCharSet+1))
         continue
     fi
 
@@ -115,17 +152,21 @@ do
     magick "$tempDirSet/new_"*.png \
         +append \
         "$tempDirSet/new_row.png"
+
+    # put the chars together into one row
+    magick "$tempDirSet/blank_"*.png \
+        +append \
+        "$tempDirSet/blank_row.png"
     
     # compare current new row and previous new row here
     # if they match, don't add
     # this removes the lower case line for languages with no separate lowercase letters
     skipachu=0
-    if [[ "$iCharSet" == 1 ]]
+    if [[ "$iCharSet" -gt 0 ]]
     then
-        firstRowNewPath="$tempDir/0/control_row.png"
-        percDiff="$(magick compare -trim -colorspace gray "$tempDirSet/control_row.png" "$firstRowNewPath" null: 2>&1 | grep -iPo '(?<=\()[\d\.\-]+(?=\))' || true)"
+        firstRowNewPath="$tempDir/0/new_row.png"
+        percDiff="$(getPercDiff "$tempDirSet/new_row.png" "$firstRowNewPath")"
 
-        # TODO: also skip if all chars are solid white
         # skip if difference is < 10%
         # vorlon and minecraft sga both report < 8% difference, no clue why
         if [[ "$(echo "$percDiff < 0.1" | bc -l)" == 1 ]]
@@ -134,21 +175,41 @@ do
         fi
     fi
 
+    # compare to the blank row and skip if blank
+    percDiff="$(getPercDiff "$tempDirSet/new_row.png" "$tempDirSet/blank_row.png")"
+
+    if [[ "$(echo "$percDiff < 0.05" | bc -l)" == 1 ]]
+    then
+        skipachu=1
+    fi
+
     # mash the rows onto the output image
     if [[ "$skipachu" == 0 ]]
     then
         magick \
             "${tempOutPathIfExists[@]}" \
-            "$tempDirSet/control_row.png" \
             "$tempDirSet/new_row.png" \
+            "$tempDirSet/control_row.png" \
             -append \
             "$tempOutPath"
     fi
-
-    iCharSet=$((iCharSet+1))
 done
 
-mv "$tempOutPath" "$optOutPath"
+echo
+
+if [[ -f "$tempOutPath" ]]
+then
+    mv "$tempOutPath" "$optOutPath"
+else
+    magick -size 100x100 xc:white \
+        -fill black \
+        -gravity center \
+        -font "$optControlFont" \
+        caption:":(" \
+        -flatten \
+        "$optOutPath"
+fi
+
 rm -r "$tempDir"
 
 # echo "optOutPath: $optOutPath"

@@ -13,33 +13,33 @@ See also:
 
 ### Hylian - Twilight Princess
 
-[![tp-hylian](/images/fonts/tp-hylian.png)](/images/fonts/tp-hylian.png)
+[![TPHylian-GCNRegular](/images/fonts/TPHylian-GCNRegular.png)](/images/fonts/TPHylian-GCNRegular.png)
 
 [font](https://zeldauniverse.net/wp-content/uploads/2021/11/tp-hylian.zip) [details](https://zelda.fandom.com/wiki/Hylian_\(Language\))
 
 ### Hylian - Skyward Sword
 
-[![ss-ancient-hylian-sarinilli](/images/fonts/ss-ancient-hylian-sarinilli.png)](/images/fonts/ss-ancient-hylian-sarinilli.png)
+[![SSAncientHylian](/images/fonts/SSAncientHylian.png)](/images/fonts/SSAncientHylian.png)
 
 [font](https://zeldauniverse.net/wp-content/uploads/2021/11/ss-ancient-hylian-sarinilli.zip) [details](https://zelda.fandom.com/wiki/Hylian_\(Language\))
 
 ### Hylian - Link Between Worlds / BotW / TotK
 
-[![ablw-botw-hylian-plaguelily](/images/fonts/ablw-botw-hylian-plaguelily.png)](/images/fonts/ablw-botw-hylian-plaguelily.png)
+[![AlbwBotwHylian-Regular](/images/fonts/AlbwBotwHylian-Regular.png)](/images/fonts/AlbwBotwHylian-Regular.png)
 
 [font](https://zeldauniverse.net/wp-content/uploads/2021/11/ablw-botw-hylian-plaguelily.zip) [details](https://zelda.fandom.com/wiki/Hylian_\(Language\))
 
 ### Sheikah
 
-[![botw-sheikah-sarinilli](/images/fonts/botw-sheikah-sarinilli.png)](/images/fonts/botw-sheikah-sarinilli.png)
+[![BotW_Sheikah](/images/fonts/BotW_Sheikah.png)](/images/fonts/BotW_Sheikah.png)
 
 [font](https://zeldauniverse.net/wp-content/uploads/2021/11/botw-sheikah-sarinilli.zip) [font_alt](https://fontstruct.com/fontstructions/show/1371125/sheikah-complete) [details](https://zelda.fandom.com/wiki/Sheikah_\(Language\))
 
 ### Gerudo
 
-TODO: fix
+[![GerudoTypography](/images/fonts/GerudoTypography.png)](/images/fonts/GerudoTypography.png)
 
-[![gerudo-typography-sarinilli](/images/fonts/gerudo-typography-sarinilli.png)](/images/fonts/gerudo-typography-sarinilli.png)
+TODO: fix
 
 [font](https://zeldauniverse.net/wp-content/uploads/2021/11/gerudo-typography-sarinilli.zip) [details](https://zeldapedia.wiki/Gerudo_\(Language\))
 
@@ -61,11 +61,12 @@ TODO: fix
 
 ### Standard Galactic Alphabet - Commander Keen
 
-[![font.sga_2.ttf.andrew_durdin.2002-09-14](/images/fonts/font_sga_2_ttf_andrew_durdin_2002-09-14.png)](/images/fonts/font_sga_2_ttf_andrew_durdin_2002-09-14.png)
+[![sga_2](/images/fonts/sga_2.png)](/images/fonts/sga_2.png)
 
 [font](https://files.shikadi.net/keenwiki/fonts/font.sga_2.ttf.andrew_durdin.2002-09-14.zip) [details](https://keenwiki.shikadi.net/wiki/Standard_Galactic_Alphabet)
 
 ### Standard Galactic Alphabet - Minecraft
+
 [![standard-galactic-alphabet](/images/fonts/standard-galactic-alphabet.png)](/images/fonts/standard-galactic-alphabet.png)
 
 [font](https://fontstruct.com/fontstructions/show/1437607/standard-galactic-alphabet-10) 
@@ -74,27 +75,28 @@ TODO: fix
 
 ### Draconic
 
-Draconic also includes nine characters that map to letter pairings.
+[![Dragon_script](/images/fonts/Dragon_script.png)](/images/fonts/Dragon_script.png)
 
-[![SR-Dragon_script](/images/fonts/SR-Dragon_script.png)](/images/fonts/SR-Dragon_script.png)
+Draconic also includes nine characters that map to letter pairings.
 
 [font](https://images.uesp.net/e/e1/SR-Dragon_script.zip) [details](https://en.m.uesp.net/wiki/Lore:Dragon_Alphabet)
 
 ### Daedric
 
-[![daedra](/images/fonts/daedra.png)](/images/fonts/daedra.png)
+[![Daedra](/images/fonts/Daedra.png)](/images/fonts/Daedra.png)
 
 [font](https://dafont.com/daedra.font) [details](https://en.m.uesp.net/wiki/Lore:Daedric_Alphabet)
 
 ### Dwemer
 
-[![dwemer](/images/fonts/dwemer.png)](/images/fonts/dwemer.png)
+[![Dwemer](/images/fonts/Dwemer.png)](/images/fonts/Dwemer.png)
 
 [font](https://dafont.com/dwemer.font)
 
 ### Falmer
 
-[![falmer](/images/fonts/falmer.png)](/images/fonts/falmer.png)
+[![Falmer](/images/fonts/Falmer.png)](/images/fonts/Falmer.png)
+
 [font](https://dafont.com/falmer.font)
 
 ## Babylon Five
@@ -115,7 +117,7 @@ Draconic also includes nine characters that map to letter pairings.
 
 ### Etro Script - FFXIII
 
-[![grace-of-etro](/images/fonts/grace-of-etro.png)](/images/fonts/grace-of-etro.png)
+[![grace_of_etro](/images/fonts/grace_of_etro.png)](/images/fonts/grace_of_etro.png)
 
 [font](https://dafont.com/grace-of-etro.font)
 
@@ -133,13 +135,13 @@ Draconic also includes nine characters that map to letter pairings.
 
 ### Yevon - FFX
 
-[![ffxyevon](/images/fonts/ffxyevon.png)](/images/fonts/ffxyevon.png)
+[![FFXYevon](/images/fonts/FFXYevon.png)](/images/fonts/FFXYevon.png)
 
 [font](https://fonts2u.com/ffxyevon.font)
 
 ### Clavat Script - Crystal Chronicles
 
-[![clavat-script](/images/fonts/clavat-script.png)](/images/fonts/clavat-script.png)
+[![ClavatScript](/images/fonts/ClavatScript.png)](/images/fonts/ClavatScript.png)
 
 [font](https://dafont.com/clavat-script.font)
 
@@ -183,9 +185,9 @@ Draconic also includes nine characters that map to letter pairings.
 
 ### Sanghelli
 
-The English mapping for the Sanghelli script is not consistent.
+[![Halo Covenant](/images/fonts/Halo_Covenant.png)](/images/fonts/Halo_Covenant.png)
 
-[![covenant](/images/fonts/covenant.png)](/images/fonts/covenant.png)
+The English mapping for the Sanghelli script is not consistent.
 
 [font](https://www.dafont.com/covenant.font) [details](https://www.halopedia.org/Sangheili_\(language\))
 
@@ -193,7 +195,7 @@ The English mapping for the Sanghelli script is not consistent.
 
 ### Mandalorian
 
-[![MandoAF](/images/fonts/MandoAF.png)](/images/fonts/MandoAF.png)
+[![MandoAF-Classic](/images/fonts/MandoAF-Classic.png)](/images/fonts/MandoAF-Classic.png)
 
 [font](https://aurekfonts.github.io/MandoAF/MandoAF.zip)
 
@@ -205,7 +207,7 @@ The English mapping for the Sanghelli script is not consistent.
 
 ### Aurebesh
 
-[![aurebesh](/images/fonts/aurebesh.png)](/images/fonts/aurebesh.png)
+[![Aurebesh Condensed](/images/fonts/Aurebesh_Condensed.png)](/images/fonts/Aurebesh_Condensed.png)
 
 [font](https://dafont.com/aurebesh.font) [details](https://starwars.fandom.com/wiki/Aurebesh)
 
@@ -223,14 +225,13 @@ The English mapping for the Sanghelli script is not consistent.
 
 ### Coruscanti Aurebesh / Galactic Basic
 
-[![galactic_basic](/images/fonts/galactic_basic.png)](/images/fonts/galactic_basic.png)
+[![galbasic](/images/fonts/galbasic.png)](/images/fonts/galbasic.png)
 
 [font](https://aurekfonts.github.io/GalacticBasic/galactic_basic.zip)
 
 ### Naboo Aurebesh
 
 [![NabooAFAurebesh-Regular](/images/fonts/NabooAFAurebesh-Regular.png)](/images/fonts/NabooAFAurebesh-Regular.png)
-
 
 [font](https://aurekfonts.github.io/NabooAF/NabooAFAurebesh-Regular.otf)
 
@@ -248,7 +249,7 @@ The English mapping for the Sanghelli script is not consistent.
 
 ### The Old Tongue / Ur-Kittât
 
-[![ur_kittat](/images/fonts/ur_kittat.png)](/images/fonts/ur_kittat.png)
+[![Ur-Kittat](/images/fonts/Ur-Kittat.png)](/images/fonts/Ur-Kittat.png)
 
 [font](https://aurekfonts.github.io/UrKittat/ur_kittat.zip)
 
@@ -272,7 +273,7 @@ The English mapping for the Sanghelli script is not consistent.
 
 ### Naboo Futhark
 
-[![Naboo](/images/fonts/Naboo.png)](/images/fonts/Naboo.png)
+[![naboo](/images/fonts/naboo.png)](/images/fonts/naboo.png)
 
 [font](https://aurekfonts.github.io/Naboo/Naboo.zip)
 
@@ -298,7 +299,7 @@ The English mapping for the Sanghelli script is not consistent.
 
 ### PokeLatin
 
-[![Thraex%20Magnus%20%5bv0.94%5d](/images/fonts/Thraex_Magnus__v0_94_.png)](/images/fonts/Thraex_Magnus__v0_94_.png)
+[![Thraex Magnus [Desktop]](/images/fonts/Thraex_Magnus__Desktop_.png)](/images/fonts/Thraex_Magnus__Desktop_.png)
 
 [font](https://www.pokemonaaah.net/fonts/thraexmagnus/Thraex%20Magnus%20%5bv0.94%5d.zip)
 
@@ -316,7 +317,7 @@ The English mapping for the Sanghelli script is not consistent.
 
 ### Unown (Other?)
 
-[![unown-37](/images/fonts/unown-37.png)](/images/fonts/unown-37.png)
+[![unown](/images/fonts/unown.png)](/images/fonts/unown.png)
 
 [font](https://fontstruct.com/fontstructions/show/1787089/unown-37)
 
@@ -382,7 +383,7 @@ The English mapping for the Sanghelli script is not consistent.
 
 ### Alolan (Anime)
 
-[![unovan-2-anime-1](/images/fonts/unovan-2-anime-1.png)](/images/fonts/unovan-2-anime-1.png)
+[![alolan-anime](/images/fonts/alolan-anime.png)](/images/fonts/alolan-anime.png)
 
 [font](https://fontstruct.com/fontstructions/show/1921133/unovan-2-anime-1)
 
@@ -444,13 +445,13 @@ The English mapping for the Sanghelli script is not consistent.
 
 ### Ninjargon - Lego Ninjago
 
-[![ninjargon](/images/fonts/ninjargon.png)](/images/fonts/ninjargon.png)
+[![Ninjargon-Regular](/images/fonts/Ninjargon-Regular.png)](/images/fonts/Ninjargon-Regular.png)
 
 [font](https://dafont.com/ninjargon.font) [details](https://ninjago.fandom.com/wiki/Ninjargon)
 
 ### Nyctographic
 
-[![nyctographic](/images/fonts/nyctographic.png)](/images/fonts/nyctographic.png)
+[![Nyctographic](/images/fonts/Nyctographic.png)](/images/fonts/Nyctographic.png)
 
 Created by Lewis Carrol
 
@@ -463,5 +464,3 @@ Created by Lewis Carrol
 [![morse](/images/fonts/morse.png)](/images/fonts/morse.png)
 
 [font](https://dafont.com/morse.font) [details](https://en.wikipedia.org/wiki/Morse_code)
-
-
