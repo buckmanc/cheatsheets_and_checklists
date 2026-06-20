@@ -74,7 +74,7 @@ newCharSetsStrings=()
 echo "font: $newFontName"
 
 # specific sets for specific fonts
-if [[ "$newFontName" =~ (TPHylian\-GCNRegular|ss\-ancient\-hylian\-sarinilli|sga_2|standard-galactic-alphabet|Dwemer|Falmer|Halo\ Covenant) ]]
+if [[ "$newFontName" =~ (TPHylian\-GCNRegular|ss\-ancient\-hylian\-sarinilli|sga_2|standard-galactic-alphabet|Dwemer|Falmer|Halo\ Covenant|GerudoTypography) ]]
 then
     controlCharSetsStrings=("A..Z")
 elif [[ "$newFontName" =~ (vykhya) ]]
