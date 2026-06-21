@@ -1,6 +1,8 @@
 # Swap Languages
 
-A list of fictional languages with ~one-to-one analogues to English or other real languages. Useful for tattoos, cross stitch, or stenciling arcane messages on your neighbor.
+A list of fictional languages with ~one-to-one analogues to English. Useful for tattoos, cross stitch, or stenciling arcane messages on your neighbor.
+
+Fictional languages that match up to non-English languages are not featured here but can be found in the references.
 
 See also:
 
