@@ -16,6 +16,8 @@ thing we're good at|core competency
 employee|associate
 worker|individual contributor
 manager|people leader
+customer|client
+coworker|colleague
 primary goal|north star
 meet with|interface
 whatever group we both belong to|the team
@@ -30,6 +32,7 @@ how things work today|current state
 how we want things to work|future state
 recurring meeting interval|meeting cadence
 make meaningful change|move the needle
+change strategies|pivot
 PowerPoint presentation|deck
 work in progress|in flight
 process / workflow|workstream
