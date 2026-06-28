@@ -34,6 +34,7 @@ newTabScripts="$gitRoot/docs/html/pickstring.html"
 bookmarksPagePath="$gitRoot/docs/links/bookmarks.md"
 bookmarksExportPath="$gitRoot/docs/html/bookmarks_export.html"
 exportScriptPath="$HOME/bin/export-bookmarks"
+swapPath="$gitRoot/docs/cheatsheets/swap_languages.md"
 
 # rebuild the new tab html page if needed
 if [[ "$newTabMdPath" -nt "$newTabHtmlPath" || "$newTabScripts" -nt "$newTabHtmlPath" ]]
@@ -55,6 +56,9 @@ fi
 
 "$gitRoot/scripts/make_all_font_comparisons.sh"
 
+# update the swap total
+swapTotal="$(grep -iP '^### ' "$swapPath" | wc -l)"
+perl -pe 's/^(## Total:) \d+$/$1 '"$swapTotal"'/g;' -i "$swapPath"
 
 mkdocs build --config-file "$gitRoot/mkdocs.yml"
 # htmlmin --remove-comments "$gitRoot/docs/html/new_tab_page_simple.html" "$gitRoot/site/html/new_tab_page_simple.html"

@@ -85,6 +85,8 @@ do
 		fi
 	fi
 
+	# avoid the temptation to use getSafeFontName here
+	# must be a more canonical name to handle certain download links
 	fontName="$(getFileName "$fontLink")"
 
 	# if there's an image link, build the local image path
@@ -115,7 +117,8 @@ do
 		# default referer
 		fontReferer="https://$fontLinkDomain"
 
-		tempFontPath="$tempDlDir/$fontName.$fontLinkExt"
+		# gotta use safe font name here, as percent encoding breaks imagemagick and cannot be escaped in a fashion it will accept
+		tempFontPath="$tempDlDir/$(getSafeFontName $fontName).$fontLinkExt"
 
 		# use a local font if we have one, but prefer a linked one
 		if [[ -z "$fontLink" && -f "$localFontPath" ]]
@@ -177,11 +180,8 @@ do
 			curl --clobber --referer "$fontReferer" -s "$fontLink" -o "$tempFontPath"
 		fi
 
-		# TODO hardcode specific charset exceptions here
-		# like plain ol' numbers in some fonts
-
 		# do work
-		"$makePath" "$controlFont" "$tempFontPath" "$imagePath"
+		"$makePath" "$controlFont" "$tempFontPath" "$imagePath" "$gitRoot/chargen"
 
 		rm -rf "$tempDlDir"
 	fi

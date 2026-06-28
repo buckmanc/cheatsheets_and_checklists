@@ -1,5 +1,7 @@
 # Swap Languages
 
+## Total: 75
+
 A list of fictional languages with ~one-to-one analogues to English. Useful for tattoos, cross stitch, or stenciling arcane messages on your neighbor.
 
 Fictional languages that match up to non-English languages are not featured here but can be found in the references.
@@ -457,6 +459,36 @@ The English mapping for the Sanghelli script is not consistent.
 Created by Lewis Carrol
 
 [font](https://dafont.com/nyctographic.font)
+
+### Dada Urka - Junior Woodchucks Guidebook, Ducktales
+
+[![dada-urka](/images/fonts/dada-urka.png)](/images/fonts/dada-urka.png)
+
+[font](https://fontstruct.com/fontstructions/show/573167/dada_urka_1)
+
+### Atlantis (Disney)
+
+[![Atlantean](/images/fonts/Atlantean.png)](/images/fonts/Atlantean.png)
+
+[font](https://www.disneyexperience.com/downloads/fonts/atlantisfont.zip)
+
+### Ancient Language - Fire Emblem: Path of Radiance
+
+[![Ancient%20Language](/images/fonts/Ancient_Language.png)](/images/fonts/Ancient_Language.png)
+
+[font](https://serenesforest.net/wp-content/uploads/2014/05/Ancient%20Language.ttf)
+
+### Amphibian Alphabet - Amphibia
+
+[![AmphibiaRunes-Regular](/images/fonts/AmphibiaRunes-Regular.png)](/images/fonts/AmphibiaRunes-Regular.png)
+
+[font](https://dafont.com/amphibia-runes.font) [details](https://amphibia.fandom.com/wiki/Amphibian_alphabet)
+
+### Abyss Language - Genshin Impact
+
+[![genshin-impact](/images/fonts/genshin-impact.png)](/images/fonts/genshin-impact.png)
+
+[font](https://dafont.com/genshin-impact.font)
 
 ## IRL
 
