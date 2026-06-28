@@ -1,6 +1,6 @@
 # Swap Languages
 
-## Total: 75
+Total: 75
 
 A list of fictional languages with ~one-to-one analogues to English. Useful for tattoos, cross stitch, or stenciling arcane messages on your neighbor.
 

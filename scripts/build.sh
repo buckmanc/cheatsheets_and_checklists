@@ -58,7 +58,7 @@ fi
 
 # update the swap total
 swapTotal="$(grep -iP '^### ' "$swapPath" | wc -l)"
-perl -pe 's/^(## Total:) \d+$/$1 '"$swapTotal"'/g;' -i "$swapPath"
+perl -pe 's/^(Total:) \d+$/$1 '"$swapTotal"'/g;' -i "$swapPath"
 
 mkdocs build --config-file "$gitRoot/mkdocs.yml"
 # htmlmin --remove-comments "$gitRoot/docs/html/new_tab_page_simple.html" "$gitRoot/site/html/new_tab_page_simple.html"
