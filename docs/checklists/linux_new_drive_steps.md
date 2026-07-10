@@ -3,8 +3,11 @@
 ## identify the drive
 
 ```shell
-lsblk
-sudo smartctl -a | grep -i model
+# -e 1,7 : exclude loop and ram devices
+# -d : don't show partitions
+# -o : list these columns
+lsblk -e 7,1 -d -o NAME,MODEL,VENDOR,SIZE,SERIAL
+sudo smartctl -a /dev/sda | grep -i model
 ```
 
 WARNING /dev/sda designations can change at boot time

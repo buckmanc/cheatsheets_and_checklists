@@ -14,7 +14,7 @@ inspired by a discontinued [Strike Gently](https://strikegently.co) [blanket](..
  - planet
  - continent
  - country
- - state of province
+ - state or province
  - city, town, or village
  - local community
  - family

@@ -14,7 +14,7 @@ welcome to <span id="prefix"></span>new tab<span id="suffix"></span><span id="cl
 
 ## goog
 - [google news](https://news.google.com)
-- [gmail](https://mail.google.com/mail/u/0/#all)
+- [gmail](https://mail.google.com/mail/u/0/#all) - [login](https://accounts.google.com/AccountChooser/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%23all)
 - [calendar](https://calendar.google.com)
 
 ## create
