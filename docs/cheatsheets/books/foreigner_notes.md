@@ -61,7 +61,7 @@ book|summary
 
 book|summary
 ---|---
-13|
+13|<details><summary>spoiler</summary>Bren finalizes deals with Machigi and returns to Shejidan for the legislative session. Tabini grows suspicious of the lack of flow of information from the Assassins Guild in the prior arc, credits the actions to a faction of Younger Guild attempting to gain power over the Elder Guild. He also grows suspicious of Ilisidi, and casts suspicion on Bren's association with Ilisidi and Machigi.</details>
 
 ## Useful Quotes
 

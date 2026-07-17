@@ -5,6 +5,7 @@ Instead of X|Say Y
 what we've learned|learnings
 request|ask (noun)
 solve|solution (verb)
+successes|wins (noun)
 new tasks for me|takeaways / action items
 new tasks for us|next steps
 new|net new
@@ -36,3 +37,6 @@ change strategies|pivot
 PowerPoint presentation|deck
 work in progress|in flight
 process / workflow|workstream
+easy goals|low-hanging fruit
+attempt a task too large|boil the ocean
+finalize the plan|baselining

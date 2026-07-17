@@ -55,8 +55,8 @@ Makes pork ramen spicy.
 - 1/4 cup Heavy Cream
 - 1 teaspoon Fresh Lemon Zest
 - 2 Tablespoons Fresh Lemon Juice (add more for more lemon flavor)
-- 2 Tablespoons Fresh Basil (chopped)
-- Salt and Pepper (to taste)
+- 1 Tablespoons Fresh Basil (chopped)
+- Salt and Pepper (to taste - Kelsey prefers to do this herself)
 - heavy-bottomed saucepan
 	- the child of a pot and pan
 	- it's a deep pan
@@ -65,13 +65,11 @@ Makes pork ramen spicy.
 
 ### directions
 
-1. Heat a heavy-bottomed saucepan over medium-high heat and add butter. Melt until melted
+1. Heat a pan medium-high and add butter. Melt until melted
 1. Add orzo, toast for 2 minutes
-1. Add garlic, chicken broth and reduce the heat to medium-low and cover. Cook for 8-10 minutes or until the orzo is tender (this may take longer depending on the size of the orzo) and most of the chicken broth has been absorbed.
-1. Remove from the heat and add parmesan cheese until it is melted. Stir in heavy cream, fresh lemon zest, lemon juice, and basil. Taste for seasonings and add salt and pepper as needed.
--optional-
-1. For extra creaminess, stir in some salted butter right before serving and sprinkle parmesan cheese on top of the orzo. For extra lemon flavor, garnish with lemon zest.
-
+1. Add garlic, chicken broth and reduce the heat to medium-low and cover. Cook for 13-14 minutes or until the orzo is tender and most of the chicken broth has been absorbed. Slightly soupy is fine
+1. Remove from the heat and add parmesan cheese. Stir in heavy cream, fresh lemon zest, lemon juice, and basil.
+1. Optional: For extra creaminess, stir in some salted butter right before serving and sprinkle parmesan cheese on top of the orzo. For extra lemon flavor, garnish with lemon zest.
 
 ## air fryer salmon
 
