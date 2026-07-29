@@ -1,5 +1,13 @@
 # Foreigner Notes
 
+> ...the old Momentum theory of leadership: start a war, keep everyone facing the enemy - and avoid discussing domestic problems for another decade.
+> - book 12
+
+> "When will you be satisfied, paidhi?"
+>
+> "When I finish my job... When I see no more wars. No more dying."
+> - book 14
+
 ## Premise
 
 A ship full of humans have to live with aliens that have different emotions than they do; namely they have no "love", but rather a hierarchical, team/herd/loyalty emotion called man'chi.
@@ -61,12 +69,18 @@ book|summary
 
 book|summary
 ---|---
-13|<details><summary>spoiler</summary>Bren finalizes deals with Machigi and returns to Shejidan for the legislative session. Tabini grows suspicious of the lack of flow of information from the Assassins Guild in the prior arc, credits the actions to a faction of Younger Guild attempting to gain power over the Elder Guild. He also grows suspicious of Ilisidi, and casts suspicion on Bren's association with Ilisidi and Machigi.</details>
+13|<details><summary>spoiler</summary>Tabini credits lack of info from the guild in prior arcs to a faction of Younger Guild attempting to gain power over the Elder Guild. He questions whether Bren belongs to him or Ilisidi. Algini warns Bren that the head of the Kadagidi clan is really being driven by his head Guild bodyguard, who probably orchestrated the whole coup as a test run. Damiri believes Ilisidi has, in a way, taken Cajeiri from her, and her family's squabbles (Atageini vs Ajuri) have driven a wedge between her and Tabini. Tabini allows Cajeiri more leeway, allowing him to invite his human space station friends to his big ninth birthday party and allowing him to keep his secret pet. In a big mess of the secret pet getting out, it's revealed that Damiri's father has planted spies in her staff, and they are all expelled. Damiri, despite tensions, decides to remain with Tabini. The treaty between Ilisidi and Machigi is signed. In a touching scene, Lord Geigi asks Bren if they would be considered friends.</details>
+14|<details><summary>spoiler</summary>Lord Geigi tells Bren that Cajeri's human associates are all former Reunion dwellers and their lot is embroiled in drama about whether to stay on the station or resurrect the pre-Landing Maudit colonization plan.</details>
 
-## Useful Quotes
+## Cast
 
-> ...the old Momentum theory of leadership: start a war, keep everyone facing the enemy—and avoid discussing domestic problems for another decade.
-> - book 12
+name|desc
+--|--
+Bren Cameron|Main and only perspective character for 8 books. Starts out whiny and annoying, but grows. His human nature is sometimes and advantage with atevi and sometimes a disadvantage.
+Banichi and Jago|Bren's bodyguards. <details><summary>later spoiler</summary>Father and daughter.</details><details><summary>book 3 spoiler</summary>Jago and Bren are lovers.</details>
+Tabini|aiji (something between king and president) of the largest faction of atevi
+Damiri|Tabini's lover/wife/consort, initially for political reasons. Her mother is Atageini clan and her father is Ajuri clan. Tatiseigi is her Atageini uncle.
+Tatiseigi|Atageini, staunch conservative and traditionalist, quite racist against Edi, the Marid, and humans.
 
 ## Links
 
