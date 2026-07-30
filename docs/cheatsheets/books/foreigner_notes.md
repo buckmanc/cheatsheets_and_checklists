@@ -1,12 +1,17 @@
 # Foreigner Notes
 
 > ...the old Momentum theory of leadership: start a war, keep everyone facing the enemy - and avoid discussing domestic problems for another decade.
-> - book 12
+
+-- book 12
+
 
 > "When will you be satisfied, paidhi?"
 >
 > "When I finish my job... When I see no more wars. No more dying."
-> - book 14
+
+-- book 14
+
+---
 
 ## Premise
 
@@ -22,7 +27,8 @@ If you like...
 
 ...you will love this series.
 
-## Arc 1: It's Called "Foreigner" For a Reason
+## Book Summaries
+### Arc 1: It's Called "Foreigner" For a Reason
 
 book|summary
 ---|---
@@ -33,12 +39,12 @@ book|summary
 2|<details><summary>spoiler</summary>Tabini is romantically entangled with Damiri of the Atageini, a semi-rival clan to his. Opponents shoot up her apartments and destroy the antique porcelain lilies. Jase and Yolanda land from the ship, three paidhi now.</details>
 3|<details><summary>spoiler</summary>Jase lies for the whole book to get Yolanda back from the island, also unknown aliens destroyed the second station so Phoenix ran back here</details>
 
-## Arc 2: Don't Worry, Bren's Going Wherever the Action Is
+### Arc 2: Don't Worry, Bren's Going Wherever the Action Is
 
 book|summary
 ---|---
 4|<details><summary>spoiler</summary>Bren goes up to the partially restored space station unannounced, Captain Tamun sees the upheaval and stages a coup, dies, and Jase becomes Forth Captain.</details>
-5|<details><summary>spoiler</summary>Captain Ramirez dies, Bren and Grandma leave on The Ship for the second station, Yolanda is the new paidhi, Grandma poisons Captain Sabin. Cajeiri, Tabini and Damiri's son, joins in the care of Grandma.</details>
+5|Has a favorite dinner scene at the end.<details><summary>spoiler</summary>Captain Ramirez dies, Bren and Grandma leave on The Ship for the second station, Yolanda is the new paidhi, Grandma poisons Captain Sabin. Cajeiri, Tabini and Damiri's son, joins in the care of Grandma.</details>
 6|<details><summary>spoiler</summary>Bren, Grandma, Captain Jase, and Captain Sabin arrive at the second station, aka Reunion. They meet the kyo, rescue a captive kyo the Pilot's guild was keeping, dethrone the pilot's guild, and evacuate the station.</details>
 
 <details><summary>spoiler: motive notes</summary>
@@ -50,33 +56,33 @@ book|summary
 
 </details>
 
-## Arc 3: Drama Back Home
+### Arc 3: Drama Back Home
 book|summary
 ---|---
-7|"Where are my parents, nadi?"<details><summary>spoiler</summary>Phoenix returns to political upheaval. Tabini-aiji has been dethroned by Murini of the Kadagidi. Bren and Grandma go to Uncle Tatiseigi for help. Chapter 9, dinner with Uncle, rocks. Tabini and Damiri meet them there. In Bren's absence his mother died and Barb married Toby.</details>
+7|"Where are my parents, nadi?" Another favorite dinner scene.<details><summary>spoiler</summary>Phoenix returns to political upheaval. Tabini-aiji has been dethroned by Murini of the Kadagidi. Bren and Grandma go to Uncle Tatiseigi for help. Chapter 9, dinner with Uncle, rocks. Tabini and Damiri meet them there. In Bren's absence his mother died and Barb married Toby.</details>
 8|<details><summary>spoiler</summary>Allies to Tabini-aiji rally to him in Taiben (Uncle's estate) demonstrating their man'chi. Banichi and crew blow up would-be Assassins Guild usurpers. Tabini and allies storm the capitol via bus, train, car, and plane. Murini flees in advance. Bren is vindicated by report of his actions in space and his seeming evident man'chi to Tabini.</details>
 9|The first time (aside from the book 1 novellas) that we get a narrative perspective other than Bren's.<details><summary>spoiler</summary>Cajeiri has stronger feelings for his ship-board human "friends" than for his Taibeni bodyguards. Amid the upheaval of the coup and anti-coup Cajeiri is abducted by a rival of Ilisidi's (Caiti), who intends to offer him to Murini. She and Bren return to the neighborhood of Malguri to pursue him. Cajeiri escapes and Caiti and Murini are both killed in the ensuing turmoil.</details>
 
-## Arc 4: At Home on the Coast?
+### Arc 4: At Home on the Coast?
 book|summary
 ---|---
-10|<details><summary>spoiler</summary>Bren visits his seaside estate of Najida, Cajeiri train hops to visit. Bren and Cajeiri visit the neighboring Lord Baiji (Lord Geigi's nephew) and barely escape an assassination by the The Marid in the south, who courted the neighbor as an ally during the coup. The neighbor was part of a plot by Machigi to kill Bren, overtake the region, and move against Tabini. Cajeiri gains two Guild guards.</details>
+10|There's no action in the whole first half of this book and it's strangely lovely.<details><summary>spoiler</summary>Bren visits his seaside estate of Najida, Cajeiri train hops to visit. Bren and Cajeiri visit the neighboring Lord Baiji (Lord Geigi's nephew) and barely escape an assassination by the The Marid in the south, who courted the neighbor as an ally during the coup. The neighbor was part of a plot by Machigi to kill Bren, overtake the region, and move against Tabini. Cajeiri gains two Guild guards.</details>
 10 - epilogue|<details><summary>spoiler</summary>At a meeting in Najida Village, Grandma tells the Edi and the Gan, the aboriginal peoples of Mospheira, that they should petition Tabini to create provinces / houses for them.</details> 
 11|<details><summary>spoiler</summary>Lord Geigi comes down from the station to fix the estate his nephew screwed up. Cajeiri's two new guild bodyguards don't display man'chi to him, but it turns out they felt they had failed in trying to earn his acceptance, which is backwards from how it normally works. Barb is kidnapped by Machigi. Some unknown force uses unsanctioned tactics (mining a road, kidnapping a child) in Machigi's name to try to outrage the guild against him. Learning this, Grandma changes Bren's mission from rescuing Barb into making an ally of Machigi. (preferring stability in the Marid to chaos)</details>
 12|<details><summary>spoiler</summary>It turns out Bren & crew stumbled into the middle of an official Assassins Guild operation to route out the rebel guild members that felt to the Marid following Murini's fall. Machigi decides to test how serious Ilisidi's allyship is sending his forces to enter a firefight between the Edi and the rebel guild. Cajeiri's guild bodyguards return to him, chastened and understanding each other better.</summary>
 
-## Arc 5
+### Arc 5
 
 book|summary
 ---|---
-13|<details><summary>spoiler</summary>Tabini credits lack of info from the guild in prior arcs to a faction of Younger Guild attempting to gain power over the Elder Guild. He questions whether Bren belongs to him or Ilisidi. Algini warns Bren that the head of the Kadagidi clan is really being driven by his head Guild bodyguard, who probably orchestrated the whole coup as a test run. Damiri believes Ilisidi has, in a way, taken Cajeiri from her, and her family's squabbles (Atageini vs Ajuri) have driven a wedge between her and Tabini. Tabini allows Cajeiri more leeway, allowing him to invite his human space station friends to his big ninth birthday party and allowing him to keep his secret pet. In a big mess of the secret pet getting out, it's revealed that Damiri's father has planted spies in her staff, and they are all expelled. Damiri, despite tensions, decides to remain with Tabini. The treaty between Ilisidi and Machigi is signed. In a touching scene, Lord Geigi asks Bren if they would be considered friends.</details>
+13|A lot of drama and some really special scenes.<details><summary>spoiler</summary>Tabini credits lack of info from the guild in prior arcs to a faction of Younger Guild attempting to gain power over the Elder Guild. He questions whether Bren belongs to him or Ilisidi. Algini warns Bren that the head of the Kadagidi clan is really being driven by his head Guild bodyguard, who probably orchestrated the whole coup as a test run. Damiri believes Ilisidi has, in a way, taken Cajeiri from her, and her family's squabbles (Atageini vs Ajuri) have driven a wedge between her and Tabini. Tabini allows Cajeiri more leeway, allowing him to invite his human space station friends to his big ninth birthday party and allowing him to keep his secret pet. In a big mess of the secret pet getting out, it's revealed that Damiri's father has planted spies in her staff, and they are all expelled. Damiri, despite tensions, decides to remain with Tabini. The treaty between Ilisidi and Machigi is signed. In a touching scene, Lord Geigi asks Bren if they would be considered friends.</details>
 14|<details><summary>spoiler</summary>Lord Geigi tells Bren that Cajeri's human associates are all former Reunion dwellers and their lot is embroiled in drama about whether to stay on the station or resurrect the pre-Landing Maudit colonization plan.</details>
 
 ## Cast
 
 name|desc
 --|--
-Bren Cameron|Main and only perspective character for 8 books. Starts out whiny and annoying, but grows. His human nature is sometimes and advantage with atevi and sometimes a disadvantage.
+Bren Cameron|The titular "foreigner". Main character and only perspective character for 8 books. Starts out whiny and annoying, but grows. His human nature is sometimes an advantage with atevi and sometimes a disadvantage.
 Banichi and Jago|Bren's bodyguards. <details><summary>later spoiler</summary>Father and daughter.</details><details><summary>book 3 spoiler</summary>Jago and Bren are lovers.</details>
 Tabini|aiji (something between king and president) of the largest faction of atevi
 Damiri|Tabini's lover/wife/consort, initially for political reasons. Her mother is Atageini clan and her father is Ajuri clan. Tatiseigi is her Atageini uncle.
