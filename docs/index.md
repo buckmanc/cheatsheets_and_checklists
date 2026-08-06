@@ -20,6 +20,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists) or 
     - <a href="cheatsheets/corporate_speak">corporate_speak</a><br>
     - <a href="cheatsheets/days_of_the_week">days_of_the_week</a><br>
     - <a href="cheatsheets/example_vba_macro">example_vba_macro</a> (<a href="cheatsheets/example_vba_macro_simple">simple</a>)<br>
+    - <a href="cheatsheets/http_codes">http_codes</a><br>
     - <a href="cheatsheets/koopalings">koopalings</a><br>
     - <a href="cheatsheets/markdown">markdown</a><br>
     - <a href="cheatsheets/mythical_metal_analogues">mythical_metal_analogues</a><br>
@@ -50,6 +51,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists) or 
             - <a href="cheatsheets/books/tolkien/silmarillion">silmarillion</a><br>
 - checklists<br>
     - <a href="checklists/bucket_list_games">bucket_list_games</a><br>
+    - <a href="checklists/echo_show_5_jailbreak">echo_show_5_jailbreak</a><br>
     - <a href="checklists/linux_new_drive_steps">linux_new_drive_steps</a><br>
     - <a href="checklists/playlist_doodle_requests">playlist_doodle_requests</a><br>
     - <a href="checklists/recipes">recipes</a><br>
