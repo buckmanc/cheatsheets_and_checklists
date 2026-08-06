@@ -19,8 +19,12 @@ The Children of Húrin is also available as a more fleshed out, [standalone book
 
 ## Terms
 
-There's a million terms for varying groups of elves; "the elves who went here" vs. "the elves who didn't", "the elves who went here but didn't go further" vs. "the elves who went further", etc etc etc. I made it thru my first read thru by defining each of these terms as simply "a group of elves".
+There's a million terms for varying groups of elves; "the elves who went here" vs. "the elves who didn't", "the elves who went here but didn't go further" vs. "the elves who went further", etc etc etc. I made it thru my first read thru by mentally defining each of these terms as simply "a group of elves".
 
 ## Audiobook
 
 I've listened to the version [read by Martin Shaw](https://www.audible.com/pd/The-Silmarillion-Audiobook/B016N9U1XW) several times and loved it; his tone and voice are appropriately epic for the material. But I'm sure the [Andy Serkis version](https://www.audible.com/pd/The-Silmarillion-Audiobook/B0C5MPMQYX) is also very good.
+
+## Timeline
+
+TODO; ages, pivotal events, etc
