@@ -53,6 +53,7 @@ Check out the [repo](https://github.com/buckmanc/cheatsheets_and_checklists) or 
     - <a href="checklists/bucket_list_games">bucket_list_games</a><br>
     - <a href="checklists/echo_show_5_jailbreak">echo_show_5_jailbreak</a><br>
     - <a href="checklists/linux_new_drive_steps">linux_new_drive_steps</a><br>
+    - <a href="checklists/pi_music">pi_music</a><br>
     - <a href="checklists/playlist_doodle_requests">playlist_doodle_requests</a><br>
     - <a href="checklists/recipes">recipes</a><br>
     - <a href="checklists/ssh">ssh</a><br>
