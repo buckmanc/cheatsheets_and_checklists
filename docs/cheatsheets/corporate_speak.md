@@ -40,3 +40,5 @@ process / workflow|workstream
 easy goals|low-hanging fruit
 attempt a task too large|boil the ocean
 finalize the plan|baselining
+call out so-and-so's failures|throw so-and-so under the bus
+budget cuts|belt tightening
