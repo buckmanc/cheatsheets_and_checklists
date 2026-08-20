@@ -42,3 +42,5 @@ attempt a task too large|boil the ocean
 finalize the plan|baselining
 call out so-and-so's failures|throw so-and-so under the bus
 budget cuts|belt tightening
+dealing with random issues that pop up|putting out fires
+status update|pulse check
