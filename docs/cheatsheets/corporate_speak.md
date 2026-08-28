@@ -12,7 +12,7 @@ new|net new
 result|end result
 benefit|value add (noun)
 follow up|circle back
-go into detail|drill down / double click / deep dive
+go into detail|drill down / double click / deep dive / zoom in
 thing we're good at|core competency
 employee|associate
 worker|individual contributor
@@ -44,3 +44,6 @@ call out so-and-so's failures|throw so-and-so under the bus
 budget cuts|belt tightening
 dealing with random issues that pop up|putting out fires
 status update|pulse check
+daily team meeting|huddle
+effective|impactful
+share info about x|be able to speak to x
